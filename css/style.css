@@ -1,0 +1,12 @@
+body {
+  border-top-color: #c6e1ec;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.strapline {
+  text-align: center;
+}
