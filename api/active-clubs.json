@@ -1,0 +1,6970 @@
+{
+  "clubs": [
+    {
+      "name": "Beacon Rise Primary",
+      "location": {
+        "city": "Kingswood",
+        "lat": 51.4545913,
+        "lng": -2.509813
+      },
+      "activated_at": "2012-10-11T16:23:39+01:00"
+    },
+    {
+      "name": "All Souls CE Primary School",
+      "location": {
+        "city": "Folkestone",
+        "lat": 51.0891575,
+        "lng": 1.142103
+      },
+      "activated_at": "2012-10-11T16:23:39+01:00"
+    },
+    {
+      "name": "Hereford Cathedral Junior School",
+      "location": {
+        "city": "Hereford",
+        "lat": 52.0536875,
+        "lng": -2.7129775
+      },
+      "activated_at": "2012-10-11T16:23:40+01:00"
+    },
+    {
+      "name": "South Farnborough Junior School",
+      "location": {
+        "city": "Farnborough",
+        "lat": 51.2827405,
+        "lng": -0.7391804
+      },
+      "activated_at": "2012-10-11T16:23:40+01:00"
+    },
+    {
+      "name": "St Paul's CE Primary School",
+      "location": {
+        "city": "Hereford",
+        "lat": 52.0563521,
+        "lng": -2.6820421
+      },
+      "activated_at": "2012-10-11T16:23:40+01:00"
+    },
+    {
+      "name": "Sullivan Upper School",
+      "location": {
+        "city": "Holywood",
+        "lat": 54.633332,
+        "lng": -5.8369393
+      },
+      "activated_at": "2012-10-11T16:23:41+01:00"
+    },
+    {
+      "name": "Fairley House School",
+      "location": {
+        "city": "LONDON",
+        "lat": 51.4902895,
+        "lng": -0.1313783
+      },
+      "activated_at": "2012-10-11T16:23:41+01:00"
+    },
+    {
+      "name": "Lent Rise Combined School",
+      "location": {
+        "city": "Burnham",
+        "lat": 51.5263802,
+        "lng": -0.6659078
+      },
+      "activated_at": "2012-10-11T16:23:41+01:00"
+    },
+    {
+      "name": "Summerfields Primary School",
+      "location": {
+        "city": "Newport",
+        "lat": 50.7061824,
+        "lng": -1.2802416
+      },
+      "activated_at": "2012-10-11T16:23:42+01:00"
+    },
+    {
+      "name": "Richmond Church of England School",
+      "location": {
+        "city": "Richmond",
+        "lat": 54.4083144,
+        "lng": -1.7306631
+      },
+      "activated_at": "2012-10-11T16:23:42+01:00"
+    },
+    {
+      "name": "New Pasture Lane School",
+      "location": {
+        "city": "Brildington",
+        "lat": 53.8609547,
+        "lng": -0.382741
+      },
+      "activated_at": "2012-10-11T16:23:43+01:00"
+    },
+    {
+      "name": "Bilton Junior School",
+      "location": {
+        "city": "Rugby",
+        "lat": 52.3517588,
+        "lng": -1.281793
+      },
+      "activated_at": "2012-10-11T16:23:43+01:00"
+    },
+    {
+      "name": "Harpur Mount Primary School",
+      "location": {
+        "city": "Manchester",
+        "lat": 53.511801,
+        "lng": -2.2179179
+      },
+      "activated_at": "2012-10-11T16:23:43+01:00"
+    },
+    {
+      "name": "Ysgol Greenhill School",
+      "location": {
+        "city": "Tenby",
+        "lat": 51.6744422,
+        "lng": -4.7142203
+      },
+      "activated_at": "2012-10-11T16:23:44+01:00"
+    },
+    {
+      "name": "Hawes Side Primary School",
+      "location": {
+        "city": "Blackpool",
+        "lat": 53.7915918,
+        "lng": -3.0320925
+      },
+      "activated_at": "2012-10-11T16:23:44+01:00"
+    },
+    {
+      "name": "Red House School",
+      "location": {
+        "city": "Stockton-on-Tees",
+        "lat": 54.5931996,
+        "lng": -1.3132436
+      },
+      "activated_at": "2012-10-11T16:23:44+01:00"
+    },
+    {
+      "name": "Mytchett Primary",
+      "location": {
+        "city": "Camberley",
+        "lat": 51.2946136,
+        "lng": -0.7295039
+      },
+      "activated_at": "2012-10-11T16:23:45+01:00"
+    },
+    {
+      "name": "Morelands Primary School",
+      "location": {
+        "city": "Waterlooville",
+        "lat": 50.8585038,
+        "lng": -1.0307534
+      },
+      "activated_at": "2012-10-11T16:23:45+01:00"
+    },
+    {
+      "name": "Skidby CE Primary",
+      "location": {
+        "city": "SKIDBY",
+        "lat": 53.7880281,
+        "lng": -0.4627827
+      },
+      "activated_at": "2012-10-11T16:23:45+01:00"
+    },
+    {
+      "name": "Westbrook Old Hall",
+      "location": {
+        "city": "Warrington",
+        "lat": 53.4014703,
+        "lng": -2.622797
+      },
+      "activated_at": "2012-10-11T16:23:46+01:00"
+    },
+    {
+      "name": "Tyssen Community Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.569152,
+        "lng": -0.0674258
+      },
+      "activated_at": "2012-10-11T16:23:46+01:00"
+    },
+    {
+      "name": "Manor Lodge School",
+      "location": {
+        "city": "Shenley",
+        "lat": 51.7061149,
+        "lng": -0.261933
+      },
+      "activated_at": "2012-10-11T16:23:47+01:00"
+    },
+    {
+      "name": "Woodbridge Primary School",
+      "location": {
+        "city": "Woodbridge",
+        "lat": 52.0979942,
+        "lng": 1.3202157
+      },
+      "activated_at": "2012-10-11T16:23:47+01:00"
+    },
+    {
+      "name": "Grange Primary School",
+      "location": {
+        "city": "Harrow",
+        "lat": 51.571013,
+        "lng": -0.359154
+      },
+      "activated_at": "2012-10-11T16:23:47+01:00"
+    },
+    {
+      "name": "Stanley Road Primary School",
+      "location": {
+        "city": "Worcester",
+        "lat": 52.1903437,
+        "lng": -2.2107768
+      },
+      "activated_at": "2012-10-11T16:23:48+01:00"
+    },
+    {
+      "name": "Fleetvile Junior School",
+      "location": {
+        "city": "Saint Albans",
+        "lat": 51.7519611,
+        "lng": -0.3147341
+      },
+      "activated_at": "2012-10-11T16:23:48+01:00"
+    },
+    {
+      "name": "Soho Parish School",
+      "location": {
+        "city": "London",
+        "lat": 51.5117397,
+        "lng": -0.1343919
+      },
+      "activated_at": "2012-10-11T16:23:48+01:00"
+    },
+    {
+      "name": "Manston St James",
+      "location": {
+        "city": "Leeds",
+        "lat": 53.8117819,
+        "lng": -1.4443984
+      },
+      "activated_at": "2012-10-11T16:23:49+01:00"
+    },
+    {
+      "name": "The Richard Heathcote Community Primary School",
+      "location": {
+        "city": "Stoke on Trent",
+        "lat": 53.037849,
+        "lng": -2.2973034
+      },
+      "activated_at": "2012-10-11T16:23:49+01:00"
+    },
+    {
+      "name": "Clough Hall Technology School",
+      "location": {
+        "city": "Stoke on Trent",
+        "lat": 53.0848538,
+        "lng": -2.2458213
+      },
+      "activated_at": "2012-10-11T16:23:50+01:00"
+    },
+    {
+      "name": "Pembrokeshire College",
+      "location": {
+        "city": "Haverfordwest",
+        "lat": 51.7923012,
+        "lng": -4.9813541
+      },
+      "activated_at": "2012-10-11T16:23:50+01:00"
+    },
+    {
+      "name": "Sacred Heart Catholic Primary",
+      "location": {
+        "city": "Hastings",
+        "lat": 50.8634137,
+        "lng": 0.5979663
+      },
+      "activated_at": "2012-10-11T16:23:50+01:00"
+    },
+    {
+      "name": "Porchester Junior School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9729234,
+        "lng": -1.1176233
+      },
+      "activated_at": "2012-10-11T16:23:51+01:00"
+    },
+    {
+      "name": "Hawley Primary School",
+      "location": {
+        "city": "Camberley",
+        "lat": 51.3260531,
+        "lng": -0.7753379
+      },
+      "activated_at": "2012-10-11T16:23:51+01:00"
+    },
+    {
+      "name": "Ratby Primary School",
+      "location": {
+        "city": "Ratby",
+        "lat": 52.6492103,
+        "lng": -1.2449445
+      },
+      "activated_at": "2012-10-11T16:23:51+01:00"
+    },
+    {
+      "name": "Holy Trinity Primary School",
+      "location": {
+        "city": "Richmond Upon Thames",
+        "lat": 51.4634143,
+        "lng": -0.2858103
+      },
+      "activated_at": "2012-10-11T16:23:52+01:00"
+    },
+    {
+      "name": "Kinson Primary School",
+      "location": {
+        "city": "Bournemouth",
+        "lat": 50.7682804,
+        "lng": -1.9030401
+      },
+      "activated_at": "2012-10-11T16:23:52+01:00"
+    },
+    {
+      "name": "Belton All Saints Cof E Primary",
+      "location": {
+        "city": "Belton",
+        "lat": 53.5544045,
+        "lng": -0.8163663
+      },
+      "activated_at": "2012-10-11T16:23:52+01:00"
+    },
+    {
+      "name": "Roke Primary School",
+      "location": {
+        "city": "Croydon",
+        "lat": 51.3266689,
+        "lng": -0.1056843
+      },
+      "activated_at": "2012-10-11T16:23:53+01:00"
+    },
+    {
+      "name": "Queen Eleanor Primary School",
+      "location": {
+        "city": "Milton Keynes",
+        "lat": 52.0526294,
+        "lng": -0.8390533
+      },
+      "activated_at": "2012-10-11T16:23:53+01:00"
+    },
+    {
+      "name": "Fressingfield CEVCP School",
+      "location": {
+        "city": "Fressingfield",
+        "lat": 52.3464144,
+        "lng": 1.3156393
+      },
+      "activated_at": "2012-10-11T16:23:54+01:00"
+    },
+    {
+      "name": "St Peter's C of E Junior School, Ruddington",
+      "location": {
+        "city": "Ruddington",
+        "lat": 52.897987,
+        "lng": -1.1434961
+      },
+      "activated_at": "2012-10-11T16:23:54+01:00"
+    },
+    {
+      "name": "Collis Primary",
+      "location": {
+        "city": "London",
+        "lat": 51.4221623,
+        "lng": -0.3260015
+      },
+      "activated_at": "2012-10-11T16:23:54+01:00"
+    },
+    {
+      "name": "Bushfield School",
+      "location": {
+        "city": "mk12 4ad",
+        "lat": 52.0558214,
+        "lng": -0.8139845
+      },
+      "activated_at": "2012-10-11T16:23:55+01:00"
+    },
+    {
+      "name": "Cliffedale Primary School",
+      "location": {
+        "city": "Grantham",
+        "lat": 52.926522,
+        "lng": -0.6443372
+      },
+      "activated_at": "2012-10-11T16:23:55+01:00"
+    },
+    {
+      "name": "St Kenelm's Church of England (VC) School",
+      "location": {
+        "city": "WITNEY,",
+        "lat": 51.7936367,
+        "lng": -1.5489151
+      },
+      "activated_at": "2012-10-11T16:23:55+01:00"
+    },
+    {
+      "name": "Snowsfields Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5015101,
+        "lng": -0.083876
+      },
+      "activated_at": "2012-10-11T16:23:56+01:00"
+    },
+    {
+      "name": "St Marys's RC Primary School",
+      "location": {
+        "city": "Grantham",
+        "lat": 52.9151303,
+        "lng": -0.6301031
+      },
+      "activated_at": "2012-10-11T16:23:56+01:00"
+    },
+    {
+      "name": "Home School @ Go Wild Adventrues",
+      "location": {
+        "city": "St Clears",
+        "lat": 51.8437605,
+        "lng": -4.4861836
+      },
+      "activated_at": "2012-10-11T16:23:56+01:00"
+    },
+    {
+      "name": "Oldershaw Academy",
+      "location": {
+        "city": "Wallasey",
+        "lat": 53.4226016,
+        "lng": -3.050204
+      },
+      "activated_at": "2012-10-11T16:23:57+01:00"
+    },
+    {
+      "name": "Seton Community Primary School",
+      "location": {
+        "city": "Saltburn",
+        "lat": 54.5529683,
+        "lng": -0.7905781
+      },
+      "activated_at": "2012-10-11T16:23:57+01:00"
+    },
+    {
+      "name": "St Nicholas CE VA Primary School",
+      "location": {
+        "city": "Blandford Forum",
+        "lat": 50.9110055,
+        "lng": -2.2372265
+      },
+      "activated_at": "2012-10-11T16:23:58+01:00"
+    },
+    {
+      "name": "Asterdale Primary",
+      "location": {
+        "city": "Derby",
+        "lat": 52.9118115,
+        "lng": -1.392913
+      },
+      "activated_at": "2012-10-11T16:23:58+01:00"
+    },
+    {
+      "name": "Bishop Childs C/W Primary School",
+      "location": {
+        "city": "Cardiff",
+        "lat": 51.5271407,
+        "lng": -3.1018278
+      },
+      "activated_at": "2012-10-11T16:23:58+01:00"
+    },
+    {
+      "name": "west hill primary school",
+      "location": {
+        "city": "Ottery St Mary",
+        "lat": 50.7366765,
+        "lng": -3.3213756
+      },
+      "activated_at": "2012-10-11T16:23:59+01:00"
+    },
+    {
+      "name": "Cavendish Close Junior School",
+      "location": {
+        "city": "Derby",
+        "lat": 52.9328026,
+        "lng": -1.4293669
+      },
+      "activated_at": "2012-10-11T16:23:59+01:00"
+    },
+    {
+      "name": "Fairfield Endowed Junior School",
+      "location": {
+        "city": "Buxton",
+        "lat": 53.2536169,
+        "lng": -1.9106894
+      },
+      "activated_at": "2012-10-11T16:23:59+01:00"
+    },
+    {
+      "name": "Fox Hill Primary School",
+      "location": {
+        "city": "Bracknell",
+        "lat": 51.4036891,
+        "lng": -0.752132
+      },
+      "activated_at": "2012-10-11T16:24:00+01:00"
+    },
+    {
+      "name": "Newtown Primary School",
+      "location": {
+        "city": "New Mills",
+        "lat": 53.3586199,
+        "lng": -2.0088405
+      },
+      "activated_at": "2012-10-11T16:24:00+01:00"
+    },
+    {
+      "name": "Bishop Ellis Primary School",
+      "location": {
+        "city": "Thurmaston",
+        "lat": 52.6842189,
+        "lng": -1.0879336
+      },
+      "activated_at": "2012-10-11T16:24:00+01:00"
+    },
+    {
+      "name": "Church Lane Primary School",
+      "location": {
+        "city": "Sleaford",
+        "lat": 53.0013178,
+        "lng": -0.4098788
+      },
+      "activated_at": "2012-10-11T16:24:01+01:00"
+    },
+    {
+      "name": "Lingfield Primary",
+      "location": {
+        "city": "Middlesbrough",
+        "lat": 54.5251442,
+        "lng": -1.1997106
+      },
+      "activated_at": "2012-10-11T16:24:01+01:00"
+    },
+    {
+      "name": "Cambridge International School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.1863181,
+        "lng": 0.1653636
+      },
+      "activated_at": "2012-10-11T16:24:02+01:00"
+    },
+    {
+      "name": "Hill View Junior School",
+      "location": {
+        "city": "Sunderland",
+        "lat": 54.8879196,
+        "lng": -1.3799984
+      },
+      "activated_at": "2012-10-11T16:24:02+01:00"
+    },
+    {
+      "name": "Highley Primary School",
+      "location": {
+        "city": "Bridgnorth",
+        "lat": 52.4527715,
+        "lng": -2.3898606
+      },
+      "activated_at": "2012-10-11T16:24:03+01:00"
+    },
+    {
+      "name": "Caldecott Primary School",
+      "location": {
+        "city": "Abingdon",
+        "lat": 51.665359,
+        "lng": -1.2947763
+      },
+      "activated_at": "2012-10-11T16:24:03+01:00"
+    },
+    {
+      "name": "Read St John's Primary School",
+      "location": {
+        "city": "Nr Burnley",
+        "lat": 53.8068615,
+        "lng": -2.3548216
+      },
+      "activated_at": "2012-10-11T16:24:03+01:00"
+    },
+    {
+      "name": "Round Hill Primary",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.93095,
+        "lng": -1.223048
+      },
+      "activated_at": "2012-10-11T16:24:04+01:00"
+    },
+    {
+      "name": "Barugh Green",
+      "location": {
+        "city": "Barnsley",
+        "lat": 53.5674202,
+        "lng": -1.5331721
+      },
+      "activated_at": "2012-10-11T16:24:04+01:00"
+    },
+    {
+      "name": "West Hove Junior School",
+      "location": {
+        "city": "Hove",
+        "lat": 50.8342956,
+        "lng": -0.1913441
+      },
+      "activated_at": "2012-10-11T16:24:04+01:00"
+    },
+    {
+      "name": "Tarporley CE Primary",
+      "location": {
+        "city": "Tarporley",
+        "lat": 53.1588279,
+        "lng": -2.6669265
+      },
+      "activated_at": "2012-10-11T16:24:05+01:00"
+    },
+    {
+      "name": "Benjamin Adlard Primary School",
+      "location": {
+        "city": "Gainsborough",
+        "lat": 53.3899671,
+        "lng": -0.7690841
+      },
+      "activated_at": "2012-10-11T16:24:05+01:00"
+    },
+    {
+      "name": "Collis School",
+      "location": {
+        "city": "Teddington",
+        "lat": 51.4221623,
+        "lng": -0.3260015
+      },
+      "activated_at": "2012-10-11T16:24:06+01:00"
+    },
+    {
+      "name": "Langham Primary School",
+      "location": {
+        "city": "Langham",
+        "lat": 51.9472502,
+        "lng": 0.9470983
+      },
+      "activated_at": "2012-10-11T16:24:06+01:00"
+    },
+    {
+      "name": "Gilthill Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9991195,
+        "lng": -1.2732317
+      },
+      "activated_at": "2012-10-11T16:24:06+01:00"
+    },
+    {
+      "name": "Chestnut Street Primary School",
+      "location": {
+        "city": "Sleaford",
+        "lat": 53.0441458,
+        "lng": -0.3818251
+      },
+      "activated_at": "2012-10-11T16:24:07+01:00"
+    },
+    {
+      "name": "Beacon Hill Primary School",
+      "location": {
+        "city": "Martlesham",
+        "lat": 52.0725569,
+        "lng": 1.2720732
+      },
+      "activated_at": "2012-10-11T16:24:07+01:00"
+    },
+    {
+      "name": "Little Mead Primary",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.5046944,
+        "lng": -2.6057806
+      },
+      "activated_at": "2012-10-11T16:24:07+01:00"
+    },
+    {
+      "name": "Clifton Primary School",
+      "location": {
+        "city": "Birmingham",
+        "lat": 52.4566689,
+        "lng": -1.8774133
+      },
+      "activated_at": "2012-10-11T16:24:08+01:00"
+    },
+    {
+      "name": "Crosland Moor Junior School",
+      "location": {
+        "city": "Huddersfield",
+        "lat": 53.6327772,
+        "lng": -1.815136
+      },
+      "activated_at": "2012-10-11T16:24:08+01:00"
+    },
+    {
+      "name": "Hollybush Primary School",
+      "location": {
+        "city": "Hertford",
+        "lat": 51.7976284,
+        "lng": -0.0982215
+      },
+      "activated_at": "2012-10-11T16:24:09+01:00"
+    },
+    {
+      "name": "Stone Church or England Combined School",
+      "location": {
+        "city": "Aylesbury",
+        "lat": 51.8035529,
+        "lng": -0.8573107
+      },
+      "activated_at": "2012-10-11T16:24:09+01:00"
+    },
+    {
+      "name": "Sir Robert Hitcham Primary school",
+      "location": {
+        "city": "Stowmarket",
+        "lat": 52.2085177,
+        "lng": 1.1774737
+      },
+      "activated_at": "2012-10-11T16:24:09+01:00"
+    },
+    {
+      "name": "Forrester High School",
+      "location": {
+        "city": "Edinburgh",
+        "lat": 55.8817661,
+        "lng": -3.3444751
+      },
+      "activated_at": "2012-10-11T16:24:10+01:00"
+    },
+    {
+      "name": "Amhest School",
+      "location": {
+        "city": "Sevenoaks",
+        "lat": 51.364876,
+        "lng": 0.5255573
+      },
+      "activated_at": "2012-10-11T16:24:10+01:00"
+    },
+    {
+      "name": "Crumpsall Lane Primary School",
+      "location": {
+        "city": "Manchester",
+        "lat": 53.5172505,
+        "lng": -2.2530702
+      },
+      "activated_at": "2012-10-11T16:24:11+01:00"
+    },
+    {
+      "name": "Rushton Primary",
+      "location": {
+        "city": "Rushton",
+        "lat": 52.438271,
+        "lng": -0.7619516
+      },
+      "activated_at": "2012-10-11T16:24:11+01:00"
+    },
+    {
+      "name": "Ysgol Llanbedrog",
+      "location": {
+        "city": "Pwllheli",
+        "lat": 52.858804,
+        "lng": -4.4891091
+      },
+      "activated_at": "2012-10-11T16:24:11+01:00"
+    },
+    {
+      "name": "Oakwood Junior School",
+      "location": {
+        "city": "Southampton",
+        "lat": 50.9451556,
+        "lng": -1.436238
+      },
+      "activated_at": "2012-10-11T16:24:12+01:00"
+    },
+    {
+      "name": "Alumwell Junior School",
+      "location": {
+        "city": "Walsall",
+        "lat": 52.5854493,
+        "lng": -2.0069084
+      },
+      "activated_at": "2012-10-11T16:24:12+01:00"
+    },
+    {
+      "name": "Holymead Junior School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.4365858,
+        "lng": -2.5524118
+      },
+      "activated_at": "2012-10-11T16:24:12+01:00"
+    },
+    {
+      "name": "Caroline Chisholm School (Primary)",
+      "location": {
+        "city": "Northampton",
+        "lat": 51.5728114,
+        "lng": -0.1000159
+      },
+      "activated_at": "2012-10-11T16:24:13+01:00"
+    },
+    {
+      "name": "St Lawrence C of E School",
+      "location": {
+        "city": "Southam",
+        "lat": 52.2453744,
+        "lng": -1.318048
+      },
+      "activated_at": "2012-10-11T16:24:13+01:00"
+    },
+    {
+      "name": "Great Tew Primary School",
+      "location": {
+        "city": "Chipping Norton",
+        "lat": 51.9610388,
+        "lng": -1.4249584
+      },
+      "activated_at": "2012-10-11T16:24:13+01:00"
+    },
+    {
+      "name": "Larkman Primary School",
+      "location": {
+        "city": "Norwich",
+        "lat": 52.6356398,
+        "lng": 1.2585744
+      },
+      "activated_at": "2012-10-11T16:24:14+01:00"
+    },
+    {
+      "name": "Bean Primary",
+      "location": {
+        "city": "Dartford",
+        "lat": 51.4252331,
+        "lng": 0.2854254
+      },
+      "activated_at": "2012-10-11T16:24:14+01:00"
+    },
+    {
+      "name": "Dundonald Primary School",
+      "location": {
+        "city": "Wimbledon",
+        "lat": 51.4165643,
+        "lng": -0.2082931
+      },
+      "activated_at": "2012-10-11T16:24:15+01:00"
+    },
+    {
+      "name": "Gloucestershire Home Educators",
+      "location": {
+        "city": "Tibberton",
+        "lat": 51.8895822,
+        "lng": -2.3612371
+      },
+      "activated_at": "2012-10-11T16:24:15+01:00"
+    },
+    {
+      "name": "Hoveton St Johns Community Primary School",
+      "location": {
+        "city": "Norwich",
+        "lat": 52.7122827,
+        "lng": 1.415323
+      },
+      "activated_at": "2012-10-11T16:24:15+01:00"
+    },
+    {
+      "name": "St Martin's East Woodhay (CE Aided) Primary School",
+      "location": {
+        "city": "Newbury",
+        "lat": 51.3487411,
+        "lng": -1.4074664
+      },
+      "activated_at": "2012-10-11T16:24:16+01:00"
+    },
+    {
+      "name": "Johanna Primary Oasis Academy: Waterloo",
+      "location": {
+        "city": "London",
+        "lat": 51.5007068,
+        "lng": -0.1114149
+      },
+      "activated_at": "2012-10-11T16:24:16+01:00"
+    },
+    {
+      "name": "Laughton C.P school",
+      "location": {
+        "city": "Lewes",
+        "lat": 50.8943827,
+        "lng": 0.1338671
+      },
+      "activated_at": "2012-10-11T16:24:16+01:00"
+    },
+    {
+      "name": "Barkston and Syston Church of England Primary School",
+      "location": {
+        "city": "Grantham",
+        "lat": 52.9630708,
+        "lng": -0.6143396
+      },
+      "activated_at": "2012-10-11T16:24:17+01:00"
+    },
+    {
+      "name": "Glenbrook Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9573587,
+        "lng": -1.2337543
+      },
+      "activated_at": "2012-10-11T16:24:17+01:00"
+    },
+    {
+      "name": "Elvington Primary School",
+      "location": {
+        "city": "York",
+        "lat": 53.9531555,
+        "lng": -1.1308649
+      },
+      "activated_at": "2012-10-11T16:24:17+01:00"
+    },
+    {
+      "name": "Hemington Primary School",
+      "location": {
+        "city": "Hemington",
+        "lat": 52.8470609,
+        "lng": -1.3247423
+      },
+      "activated_at": "2012-10-11T16:24:18+01:00"
+    },
+    {
+      "name": "HORBURY BRIDGE CE J&I ACADEMY",
+      "location": {
+        "city": "Horbury",
+        "lat": 53.6584352,
+        "lng": -1.5765188
+      },
+      "activated_at": "2012-10-11T16:24:18+01:00"
+    },
+    {
+      "name": "Kings Worthy Primary School",
+      "location": {
+        "city": "Winchester",
+        "lat": 51.0902721,
+        "lng": -1.2995572
+      },
+      "activated_at": "2012-10-11T16:24:19+01:00"
+    },
+    {
+      "name": "Charles Dickens Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5012834,
+        "lng": -0.096464
+      },
+      "activated_at": "2012-10-11T16:24:19+01:00"
+    },
+    {
+      "name": "West Croft Junior School",
+      "location": {
+        "city": "Bideford",
+        "lat": 51.0126539,
+        "lng": -4.2123131
+      },
+      "activated_at": "2012-10-11T16:24:19+01:00"
+    },
+    {
+      "name": "Langham Primary",
+      "location": {
+        "city": "Colchester",
+        "lat": 51.9472502,
+        "lng": 0.9470983
+      },
+      "activated_at": "2012-10-11T16:24:20+01:00"
+    },
+    {
+      "name": "Prudhoe Castle First School",
+      "location": {
+        "city": "Prudhoe",
+        "lat": 54.9610284,
+        "lng": -1.8652564
+      },
+      "activated_at": "2012-10-11T16:24:20+01:00"
+    },
+    {
+      "name": "Crich Carr Primary School",
+      "location": {
+        "city": "Whatstandwell",
+        "lat": 53.0847651,
+        "lng": -1.4990381
+      },
+      "activated_at": "2012-10-11T16:24:20+01:00"
+    },
+    {
+      "name": "Flora Gardens Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.4948336,
+        "lng": -0.2354786
+      },
+      "activated_at": "2012-10-11T16:24:21+01:00"
+    },
+    {
+      "name": "Dawley Brook Primary School",
+      "location": {
+        "city": "Kingswinford",
+        "lat": 52.5013045,
+        "lng": -2.1722821
+      },
+      "activated_at": "2012-10-11T16:24:21+01:00"
+    },
+    {
+      "name": "Oldfield Park Junior School",
+      "location": {
+        "city": "Bath",
+        "lat": 51.3735454,
+        "lng": -2.3835639
+      },
+      "activated_at": "2012-10-11T16:24:21+01:00"
+    },
+    {
+      "name": "Snowsfields Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5015101,
+        "lng": -0.083876
+      },
+      "activated_at": "2012-10-11T16:24:22+01:00"
+    },
+    {
+      "name": "Sully Primary",
+      "location": {
+        "city": "Penarth",
+        "lat": 51.4052761,
+        "lng": -3.216126
+      },
+      "activated_at": "2012-10-11T16:24:22+01:00"
+    },
+    {
+      "name": "Compton CE Primary School",
+      "location": {
+        "city": "PLYMOUTH",
+        "lat": 50.3930486,
+        "lng": -4.1254348
+      },
+      "activated_at": "2012-10-11T16:24:22+01:00"
+    },
+    {
+      "name": "St Mark's CE Primary School",
+      "location": {
+        "city": "Bude",
+        "lat": 50.9069273,
+        "lng": -4.5182921
+      },
+      "activated_at": "2012-10-11T16:24:23+01:00"
+    },
+    {
+      "name": "The Greetland Academy",
+      "location": {
+        "city": "Halifax",
+        "lat": 53.6898982,
+        "lng": -1.8709603
+      },
+      "activated_at": "2012-10-11T16:24:23+01:00"
+    },
+    {
+      "name": "Euxton St Marys RC Primary School",
+      "location": {
+        "city": "Chorley",
+        "lat": 53.668222,
+        "lng": -2.67587
+      },
+      "activated_at": "2012-10-11T16:24:24+01:00"
+    },
+    {
+      "name": "Hawthorn High School",
+      "location": {
+        "city": "Pobtypridd",
+        "lat": 51.6579573,
+        "lng": -3.3407622
+      },
+      "activated_at": "2012-10-11T16:24:24+01:00"
+    },
+    {
+      "name": "Llanedeyrn Primary School",
+      "location": {
+        "city": "Cardiff",
+        "lat": 51.5083425,
+        "lng": -3.1510578
+      },
+      "activated_at": "2012-10-11T16:24:24+01:00"
+    },
+    {
+      "name": "Harmans Water Primary School",
+      "location": {
+        "city": "Bracknell",
+        "lat": 51.4029782,
+        "lng": -0.7353022
+      },
+      "activated_at": "2012-10-11T16:24:25+01:00"
+    },
+    {
+      "name": "Colmore Junior School",
+      "location": {
+        "city": "Birmingham",
+        "lat": 52.4271039,
+        "lng": -1.8999372
+      },
+      "activated_at": "2012-10-11T16:24:25+01:00"
+    },
+    {
+      "name": "Riverside CP school",
+      "location": {
+        "city": "Tadcaster",
+        "lat": 53.885291,
+        "lng": -1.2691518
+      },
+      "activated_at": "2012-10-11T16:24:25+01:00"
+    },
+    {
+      "name": "St Mary's Swineshead",
+      "location": {
+        "city": "Boston",
+        "lat": 52.9456966,
+        "lng": -0.1560711
+      },
+      "activated_at": "2012-10-11T16:24:26+01:00"
+    },
+    {
+      "name": "Queens Park Primary School",
+      "location": {
+        "city": "Brighton",
+        "lat": 50.8230153,
+        "lng": -0.1256586
+      },
+      "activated_at": "2012-10-11T16:24:26+01:00"
+    },
+    {
+      "name": "Red Maids' Junior School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.4884675,
+        "lng": -2.6155753
+      },
+      "activated_at": "2012-10-11T16:24:26+01:00"
+    },
+    {
+      "name": "Gloucester House, The Tavistock Children's  Day Unit",
+      "location": {
+        "city": "London",
+        "lat": 51.5503629,
+        "lng": -0.1744391
+      },
+      "activated_at": "2012-10-11T16:24:27+01:00"
+    },
+    {
+      "name": "Stubbins Primary School",
+      "location": {
+        "city": "Bury",
+        "lat": 53.6608068,
+        "lng": -2.3121903
+      },
+      "activated_at": "2012-10-11T16:24:27+01:00"
+    },
+    {
+      "name": "Hotwells Primary School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.4511398,
+        "lng": -2.6213474
+      },
+      "activated_at": "2012-10-11T16:24:28+01:00"
+    },
+    {
+      "name": "tollerton",
+      "location": {
+        "city": "tollerton",
+        "lat": 52.9016804,
+        "lng": -1.0959823
+      },
+      "activated_at": "2012-10-11T16:24:28+01:00"
+    },
+    {
+      "name": "Rendcomb College Juniors",
+      "location": {
+        "city": "Nr Cirencester",
+        "lat": 51.7873777,
+        "lng": -1.9764523
+      },
+      "activated_at": "2012-10-11T16:24:28+01:00"
+    },
+    {
+      "name": "Blackfield Primary School",
+      "location": {
+        "city": "Southampton",
+        "lat": 50.8260207,
+        "lng": -1.3477439
+      },
+      "activated_at": "2012-10-11T16:24:29+01:00"
+    },
+    {
+      "name": "Hawthornden Primary School",
+      "location": {
+        "city": "Bonnyrigg",
+        "lat": 55.8704503,
+        "lng": -3.1204404
+      },
+      "activated_at": "2012-10-11T16:24:29+01:00"
+    },
+    {
+      "name": "Steyning Grammar School (and St Andrews Primary)",
+      "location": {
+        "city": "Steyning",
+        "lat": 50.8933524,
+        "lng": -0.3293616
+      },
+      "activated_at": "2012-10-11T16:24:29+01:00"
+    },
+    {
+      "name": "Hamsey Community Primary School",
+      "location": {
+        "city": "Lewes",
+        "lat": 50.9047364,
+        "lng": -0.0076958
+      },
+      "activated_at": "2012-10-11T16:24:30+01:00"
+    },
+    {
+      "name": "Bradshaw Commmunity Primary School",
+      "location": {
+        "city": "Warrington",
+        "lat": 53.3786519,
+        "lng": -2.542852
+      },
+      "activated_at": "2012-10-11T16:24:30+01:00"
+    },
+    {
+      "name": "Malton Community Primary School",
+      "location": {
+        "city": "Malton",
+        "lat": 54.1419534,
+        "lng": -0.7874752
+      },
+      "activated_at": "2012-10-11T16:24:30+01:00"
+    },
+    {
+      "name": "The Unicorn School",
+      "location": {
+        "city": "Abingdon",
+        "lat": 51.6699014,
+        "lng": -1.2965712
+      },
+      "activated_at": "2012-10-11T16:24:31+01:00"
+    },
+    {
+      "name": "Rhiwbeina Primary School",
+      "location": {
+        "city": "Cardiff",
+        "lat": 51.5242514,
+        "lng": -3.2158774
+      },
+      "activated_at": "2012-10-11T16:24:31+01:00"
+    },
+    {
+      "name": "new waltham academy",
+      "location": {
+        "city": "grimsby",
+        "lat": 53.5264723,
+        "lng": -0.0625795
+      },
+      "activated_at": "2012-10-11T16:24:32+01:00"
+    },
+    {
+      "name": "Holy Cross Catholic Primary school",
+      "location": {
+        "city": "Birmingham",
+        "lat": 52.5565092,
+        "lng": -1.7921922
+      },
+      "activated_at": "2012-10-11T16:24:32+01:00"
+    },
+    {
+      "name": "Picklenash Junior School",
+      "location": {
+        "city": "Newent",
+        "lat": 51.9334103,
+        "lng": -2.4112736
+      },
+      "activated_at": "2012-10-11T16:24:32+01:00"
+    },
+    {
+      "name": "Oakmere Primary School",
+      "location": {
+        "city": "Potters Bar",
+        "lat": 51.6945951,
+        "lng": -0.1654867
+      },
+      "activated_at": "2012-10-11T16:24:33+01:00"
+    },
+    {
+      "name": "Meadowbrook Primary School",
+      "location": {
+        "city": "Bradley Stoke",
+        "lat": 51.5332313,
+        "lng": -2.5477426
+      },
+      "activated_at": "2012-10-11T16:24:33+01:00"
+    },
+    {
+      "name": "Wantage C of E Primary School",
+      "location": {
+        "city": "Wantage",
+        "lat": 51.5853656,
+        "lng": -1.4257707
+      },
+      "activated_at": "2012-10-11T16:24:33+01:00"
+    },
+    {
+      "name": "Trafalgar Junior School",
+      "location": {
+        "city": "Twickenham",
+        "lat": 51.4425261,
+        "lng": -0.3485391
+      },
+      "activated_at": "2012-10-11T16:24:34+01:00"
+    },
+    {
+      "name": "Mellor Primary",
+      "location": {
+        "city": "Stockport",
+        "lat": 53.394461,
+        "lng": -2.0366982
+      },
+      "activated_at": "2012-10-11T16:24:35+01:00"
+    },
+    {
+      "name": "Stockwell Primary School",
+      "location": {
+        "city": "Hull",
+        "lat": 53.7525223,
+        "lng": -0.2553477
+      },
+      "activated_at": "2012-10-11T16:24:35+01:00"
+    },
+    {
+      "name": "Al rowad International School (Cambridge accredited)",
+      "location": {
+        "city": "Riyadh",
+        "lat": 51.5064487,
+        "lng": -0.1008467
+      },
+      "activated_at": "2012-10-11T16:24:35+01:00"
+    },
+    {
+      "name": "Quay Primary School",
+      "location": {
+        "city": "Bridlington",
+        "lat": 54.0864148,
+        "lng": -0.199447
+      },
+      "activated_at": "2012-10-11T16:24:36+01:00"
+    },
+    {
+      "name": "Aslacton Primary",
+      "location": {
+        "city": "Norwich",
+        "lat": 52.4750731,
+        "lng": 1.1764346
+      },
+      "activated_at": "2012-10-11T16:24:36+01:00"
+    },
+    {
+      "name": "St Annes CE VC Primary School",
+      "location": {
+        "city": "Stoke on Trent",
+        "lat": 53.1114711,
+        "lng": -2.2177387
+      },
+      "activated_at": "2012-10-11T16:24:36+01:00"
+    },
+    {
+      "name": "St Teresa's RC Primary School",
+      "location": {
+        "city": "london",
+        "lat": 51.3896983,
+        "lng": -0.181689
+      },
+      "activated_at": "2012-10-11T16:24:37+01:00"
+    },
+    {
+      "name": "Westdene Primary",
+      "location": {
+        "city": "Brighton",
+        "lat": 50.86004,
+        "lng": -0.1617587
+      },
+      "activated_at": "2012-10-11T16:24:37+01:00"
+    },
+    {
+      "name": "Holywell CE MIddle School",
+      "location": {
+        "city": "Cranfield",
+        "lat": 52.071051,
+        "lng": -0.6050758
+      },
+      "activated_at": "2012-10-11T16:24:37+01:00"
+    },
+    {
+      "name": "Rosehearty School",
+      "location": {
+        "city": "Fraserburgh",
+        "lat": 57.694985,
+        "lng": -2.1186188
+      },
+      "activated_at": "2012-10-11T16:24:38+01:00"
+    },
+    {
+      "name": "Bishop Road Primary School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.4795564,
+        "lng": -2.5929914
+      },
+      "activated_at": "2012-10-11T16:24:38+01:00"
+    },
+    {
+      "name": "Shewsbury International School",
+      "location": {
+        "city": "Bangkok",
+        "lat": 51.389552,
+        "lng": -0.0667474
+      },
+      "activated_at": "2012-10-11T16:24:39+01:00"
+    },
+    {
+      "name": "Bishop Road Primary School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.4795564,
+        "lng": -2.5929914
+      },
+      "activated_at": "2012-10-11T16:24:39+01:00"
+    },
+    {
+      "name": "Heavers Farm Primary School",
+      "location": {
+        "city": "South Norwood",
+        "lat": 51.3945137,
+        "lng": -0.0826721
+      },
+      "activated_at": "2012-10-11T16:24:39+01:00"
+    },
+    {
+      "name": "Sidestrand Hall School",
+      "location": {
+        "city": "Norwich",
+        "lat": 52.9084485,
+        "lng": 1.3578553
+      },
+      "activated_at": "2012-10-11T16:24:40+01:00"
+    },
+    {
+      "name": "Byers Green Primary School",
+      "location": {
+        "city": "Spennymoor",
+        "lat": 54.7020726,
+        "lng": -1.6578074
+      },
+      "activated_at": "2012-10-11T16:24:40+01:00"
+    },
+    {
+      "name": "Victoria Park Primary School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.4369021,
+        "lng": -2.5890148
+      },
+      "activated_at": "2012-10-11T16:24:40+01:00"
+    },
+    {
+      "name": "North Marston Primary",
+      "location": {
+        "city": "Buckingham",
+        "lat": 51.8976371,
+        "lng": -0.8730347
+      },
+      "activated_at": "2012-10-11T16:24:41+01:00"
+    },
+    {
+      "name": "Outwood Primary School",
+      "location": {
+        "city": "Cheadle",
+        "lat": 53.3621401,
+        "lng": -2.2189859
+      },
+      "activated_at": "2012-10-11T16:24:41+01:00"
+    },
+    {
+      "name": "Ursuline Catholic Primary School",
+      "location": {
+        "city": "Liverpool",
+        "lat": 53.4874133,
+        "lng": -3.0469367
+      },
+      "activated_at": "2012-10-11T16:24:42+01:00"
+    },
+    {
+      "name": "Oakdale Junior School",
+      "location": {
+        "city": "South Woodford",
+        "lat": 51.592624,
+        "lng": 0.0325531
+      },
+      "activated_at": "2012-10-11T16:24:42+01:00"
+    },
+    {
+      "name": "Burley Oaks Primary School",
+      "location": {
+        "city": "Burley in Wharfedale",
+        "lat": 53.9114103,
+        "lng": -1.7442037
+      },
+      "activated_at": "2012-10-11T16:24:43+01:00"
+    },
+    {
+      "name": "godfrey ermen primary school",
+      "location": {
+        "city": "Manchester",
+        "lat": 53.477013,
+        "lng": -2.3601379
+      },
+      "activated_at": "2012-10-11T16:24:43+01:00"
+    },
+    {
+      "name": "Simmondley Primary School",
+      "location": {
+        "city": "Glossop",
+        "lat": 53.4395403,
+        "lng": -1.9690408
+      },
+      "activated_at": "2012-10-11T16:24:43+01:00"
+    },
+    {
+      "name": "St Giles On the Heath Primary School",
+      "location": {
+        "city": "Launceston",
+        "lat": 50.690013,
+        "lng": -4.3212248
+      },
+      "activated_at": "2012-10-11T16:24:44+01:00"
+    },
+    {
+      "name": "Abbey Meadows Community Primary School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.2081163,
+        "lng": 0.1608616
+      },
+      "activated_at": "2012-10-11T16:24:44+01:00"
+    },
+    {
+      "name": "Catcott Primary School",
+      "location": {
+        "city": "Nr Bridgwater",
+        "lat": 51.1503019,
+        "lng": -2.8690863
+      },
+      "activated_at": "2012-10-11T16:24:45+01:00"
+    },
+    {
+      "name": "Oak Lodge Primary School",
+      "location": {
+        "city": "Bromley",
+        "lat": 51.3806315,
+        "lng": -0.0249082
+      },
+      "activated_at": "2012-10-11T16:24:45+01:00"
+    },
+    {
+      "name": "St Margarets School",
+      "location": {
+        "city": "Tintinhul",
+        "lat": 50.971746,
+        "lng": -2.7129845
+      },
+      "activated_at": "2012-10-11T16:24:46+01:00"
+    },
+    {
+      "name": "lough View Integrated Primary School",
+      "location": {
+        "city": "Belfast",
+        "lat": 54.5677705,
+        "lng": -5.8757131
+      },
+      "activated_at": "2012-10-11T16:24:47+01:00"
+    },
+    {
+      "name": "Christ Church CE Primary School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.4572365,
+        "lng": -2.6161624
+      },
+      "activated_at": "2012-10-11T16:24:47+01:00"
+    },
+    {
+      "name": "Old Park Primary School",
+      "location": {
+        "city": "Wednesbury",
+        "lat": 52.5608688,
+        "lng": -2.0244287
+      },
+      "activated_at": "2012-10-11T16:24:47+01:00"
+    },
+    {
+      "name": "Beechwood Primary School",
+      "location": {
+        "city": "Reading",
+        "lat": 51.452531,
+        "lng": -0.9029376
+      },
+      "activated_at": "2012-10-11T16:24:48+01:00"
+    },
+    {
+      "name": "Neston Primary School",
+      "location": {
+        "city": "Corsham",
+        "lat": 51.4147685,
+        "lng": -2.2014058
+      },
+      "activated_at": "2012-10-11T16:24:48+01:00"
+    },
+    {
+      "name": "Catcott primary school",
+      "location": {
+        "city": "Bridgwater",
+        "lat": 51.0408712,
+        "lng": -2.8257023
+      },
+      "activated_at": "2012-10-11T16:24:49+01:00"
+    },
+    {
+      "name": "High View School",
+      "location": {
+        "city": "Plymouth",
+        "lat": 50.3880743,
+        "lng": -4.1103983
+      },
+      "activated_at": "2012-10-11T16:24:49+01:00"
+    },
+    {
+      "name": "Santa Maria College",
+      "location": {
+        "city": "Perth",
+        "lat": 51.389552,
+        "lng": -0.0667474
+      },
+      "activated_at": "2012-10-11T16:24:50+01:00"
+    },
+    {
+      "name": "Hatfield Peverel St. Andrew's Junior School",
+      "location": {
+        "city": "Hatfield Peverel",
+        "lat": 51.7719898,
+        "lng": 0.6036897
+      },
+      "activated_at": "2012-10-11T16:24:50+01:00"
+    },
+    {
+      "name": "Holbrook Primary School",
+      "location": {
+        "city": "Horsham",
+        "lat": 51.0850275,
+        "lng": -0.3160122
+      },
+      "activated_at": "2012-10-11T16:24:50+01:00"
+    },
+    {
+      "name": "Manor Primary School",
+      "location": {
+        "city": "Didcot",
+        "lat": 51.60802,
+        "lng": -1.2510723
+      },
+      "activated_at": "2012-10-11T16:24:51+01:00"
+    },
+    {
+      "name": "Queensbridge Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5392869,
+        "lng": -0.0717484
+      },
+      "activated_at": "2012-10-11T16:24:51+01:00"
+    },
+    {
+      "name": "North London Collegiate School",
+      "location": {
+        "city": "London",
+        "lat": 51.6142209,
+        "lng": -0.2948386
+      },
+      "activated_at": "2012-10-11T16:24:52+01:00"
+    },
+    {
+      "name": "Blessed Thomas Holford",
+      "location": {
+        "city": "Cheshire",
+        "lat": 53.3861212,
+        "lng": -2.3416436
+      },
+      "activated_at": "2012-10-11T16:24:52+01:00"
+    },
+    {
+      "name": "Townley Grammar School",
+      "location": {
+        "city": "Kent",
+        "lat": 51.4502322,
+        "lng": 0.1397513
+      },
+      "activated_at": "2012-10-11T16:24:52+01:00"
+    },
+    {
+      "name": "Norton St. Nicholas CofE (VA) Primary",
+      "location": {
+        "city": "Letchworth Garden City",
+        "lat": 51.9929525,
+        "lng": -0.210035
+      },
+      "activated_at": "2012-10-11T16:24:53+01:00"
+    },
+    {
+      "name": "Brockington College",
+      "location": {
+        "city": "Leicester",
+        "lat": 52.5865675,
+        "lng": -1.2036301
+      },
+      "activated_at": "2012-10-11T16:24:53+01:00"
+    },
+    {
+      "name": "Mezunizunska",
+      "location": {
+        "city": "Lviv",
+        "lat": 55.9458482,
+        "lng": -3.2196677
+      },
+      "activated_at": "2012-10-11T16:24:53+01:00"
+    },
+    {
+      "name": "St James Church of England Primary School",
+      "location": {
+        "city": "Cheltenham",
+        "lat": 51.8858561,
+        "lng": -2.0938844
+      },
+      "activated_at": "2012-10-11T16:24:54+01:00"
+    },
+    {
+      "name": "Hunwick Primary School",
+      "location": {
+        "city": "Crook",
+        "lat": 54.6885543,
+        "lng": -1.7047995
+      },
+      "activated_at": "2012-10-11T16:24:54+01:00"
+    },
+    {
+      "name": "St John's Church of England Primary School",
+      "location": {
+        "city": "Stockport",
+        "lat": 53.4142271,
+        "lng": -2.2045162
+      },
+      "activated_at": "2012-10-11T16:24:55+01:00"
+    },
+    {
+      "name": "Bengeo Primary",
+      "location": {
+        "city": "Hertford",
+        "lat": 51.8205337,
+        "lng": -0.1068512
+      },
+      "activated_at": "2012-10-11T16:24:55+01:00"
+    },
+    {
+      "name": "Bishop Gilpin Church of England Primary School",
+      "location": {
+        "city": "Wimbledon",
+        "lat": 51.4273164,
+        "lng": -0.2069232
+      },
+      "activated_at": "2012-10-11T16:24:55+01:00"
+    },
+    {
+      "name": "Barcombe CE Primary School",
+      "location": {
+        "city": "Lewes",
+        "lat": 50.9254322,
+        "lng": 0.0194137
+      },
+      "activated_at": "2012-10-11T16:24:56+01:00"
+    },
+    {
+      "name": "Pokesdown Primary",
+      "location": {
+        "city": "Bournemouth",
+        "lat": 50.7276284,
+        "lng": -1.8220829
+      },
+      "activated_at": "2012-10-11T16:24:56+01:00"
+    },
+    {
+      "name": "St Marks Hadlow Down",
+      "location": {
+        "city": "Hadlow Down",
+        "lat": 51.0019678,
+        "lng": 0.1765575
+      },
+      "activated_at": "2012-10-11T16:24:56+01:00"
+    },
+    {
+      "name": "Guildhall Feoffment Community Primary School",
+      "location": {
+        "city": "Bury St. Edmunds",
+        "lat": 52.2424231,
+        "lng": 0.7159841
+      },
+      "activated_at": "2012-10-11T16:24:57+01:00"
+    },
+    {
+      "name": "St Edwards Junior School",
+      "location": {
+        "city": "Cheltenham",
+        "lat": 51.8914298,
+        "lng": -2.0512912
+      },
+      "activated_at": "2012-10-11T16:24:57+01:00"
+    },
+    {
+      "name": "Sheen Mount",
+      "location": {
+        "city": "London",
+        "lat": 51.4610977,
+        "lng": -0.2756188
+      },
+      "activated_at": "2012-10-11T16:24:57+01:00"
+    },
+    {
+      "name": "Highwood Primary School",
+      "location": {
+        "city": "Bushey",
+        "lat": 51.6659471,
+        "lng": -0.3749873
+      },
+      "activated_at": "2012-10-11T16:24:58+01:00"
+    },
+    {
+      "name": "Kenilworth School",
+      "location": {
+        "city": "warwick",
+        "lat": 52.3323951,
+        "lng": -1.3467531
+      },
+      "activated_at": "2012-10-11T16:24:58+01:00"
+    },
+    {
+      "name": "Ambleside CE Primary School",
+      "location": {
+        "city": "Ambleside",
+        "lat": 54.4312612,
+        "lng": -2.9649571
+      },
+      "activated_at": "2012-10-11T16:24:59+01:00"
+    },
+    {
+      "name": "Lympne ce primary school",
+      "location": {
+        "city": "Lympne",
+        "lat": 51.0764137,
+        "lng": 1.0282812
+      },
+      "activated_at": "2012-10-11T16:24:59+01:00"
+    },
+    {
+      "name": "Woodland View Primary School",
+      "location": {
+        "city": "Northamptonshire",
+        "lat": 52.1899671,
+        "lng": -0.882921
+      },
+      "activated_at": "2012-10-11T16:24:59+01:00"
+    },
+    {
+      "name": "Fawbert & Barnard's Primary School",
+      "location": {
+        "city": "Harlow",
+        "lat": 51.7812358,
+        "lng": 0.1348202
+      },
+      "activated_at": "2012-10-11T16:25:00+01:00"
+    },
+    {
+      "name": "Etruscan Primary",
+      "location": {
+        "city": "Stoke on Trent",
+        "lat": 53.0215334,
+        "lng": -2.1928958
+      },
+      "activated_at": "2012-10-11T16:25:00+01:00"
+    },
+    {
+      "name": "Ruislip Gardens Primary School",
+      "location": {
+        "city": "Ruislip",
+        "lat": 51.5623146,
+        "lng": -0.4192099
+      },
+      "activated_at": "2012-10-11T16:25:00+01:00"
+    },
+    {
+      "name": "South Grove Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5780695,
+        "lng": -0.0277905
+      },
+      "activated_at": "2012-10-11T16:25:01+01:00"
+    },
+    {
+      "name": "Braniel Primary School",
+      "location": {
+        "city": "Belfast",
+        "lat": 54.5777097,
+        "lng": -5.8616641
+      },
+      "activated_at": "2012-10-11T16:25:01+01:00"
+    },
+    {
+      "name": "Beechwood Park School",
+      "location": {
+        "city": "St.Albans",
+        "lat": 51.819161,
+        "lng": -0.4847985
+      },
+      "activated_at": "2012-10-11T16:25:01+01:00"
+    },
+    {
+      "name": "Loose Junior School",
+      "location": {
+        "city": "Maidstone",
+        "lat": 51.2437237,
+        "lng": 0.520905
+      },
+      "activated_at": "2012-10-11T16:25:02+01:00"
+    },
+    {
+      "name": "Teachers Prep",
+      "location": {
+        "city": "London",
+        "lat": 51.6948258,
+        "lng": -0.2879909
+      },
+      "activated_at": "2012-10-11T16:25:02+01:00"
+    },
+    {
+      "name": "Saint Aidan's Primary School",
+      "location": {
+        "city": "Ilford",
+        "lat": 51.5667299,
+        "lng": 0.0906304
+      },
+      "activated_at": "2012-10-11T16:25:03+01:00"
+    },
+    {
+      "name": "Greatmoor junior school",
+      "location": {
+        "city": "Stockport",
+        "lat": 53.3882111,
+        "lng": -2.1383184
+      },
+      "activated_at": "2012-10-11T16:25:03+01:00"
+    },
+    {
+      "name": "Nightingale Primary School",
+      "location": {
+        "city": "South Woodford",
+        "lat": 51.5851799,
+        "lng": 0.0329715
+      },
+      "activated_at": "2012-10-11T16:25:03+01:00"
+    },
+    {
+      "name": "Potterspury Lodge School",
+      "location": {
+        "city": "Nr Towcester",
+        "lat": 52.0957799,
+        "lng": -0.9119161
+      },
+      "activated_at": "2012-10-11T16:25:04+01:00"
+    },
+    {
+      "name": "Norwich Road School",
+      "location": {
+        "city": "Thetford",
+        "lat": 52.4159498,
+        "lng": 0.7504645
+      },
+      "activated_at": "2012-10-11T16:25:04+01:00"
+    },
+    {
+      "name": "Bookwell Primary School",
+      "location": {
+        "city": "Egremont",
+        "lat": 54.4796773,
+        "lng": -3.531334
+      },
+      "activated_at": "2012-10-11T16:25:04+01:00"
+    },
+    {
+      "name": "New Haw Junior School",
+      "location": {
+        "city": "New Haw",
+        "lat": 51.3508484,
+        "lng": -0.5059686
+      },
+      "activated_at": "2012-10-11T16:25:05+01:00"
+    },
+    {
+      "name": "The Heys Primary School",
+      "location": {
+        "city": "Ashton-under-Lyne",
+        "lat": 53.4908825,
+        "lng": -2.0854943
+      },
+      "activated_at": "2012-10-11T16:25:05+01:00"
+    },
+    {
+      "name": "Cargilfield Preparatory School",
+      "location": {
+        "city": "Edinburgh",
+        "lat": 55.9696998,
+        "lng": -3.3001293
+      },
+      "activated_at": "2012-10-11T16:25:06+01:00"
+    },
+    {
+      "name": "Yateley Manor School",
+      "location": {
+        "city": "Yateley",
+        "lat": 51.341561,
+        "lng": -0.8250454
+      },
+      "activated_at": "2012-10-11T16:25:06+01:00"
+    },
+    {
+      "name": "Naseby CE Primary School",
+      "location": {
+        "city": "Naseby",
+        "lat": 52.3955087,
+        "lng": -0.9894921
+      },
+      "activated_at": "2012-10-11T16:25:07+01:00"
+    },
+    {
+      "name": "Bromstone Primary School, Broadstairs Kent",
+      "location": {
+        "city": "Broadstairs",
+        "lat": 51.3564924,
+        "lng": 1.4159645
+      },
+      "activated_at": "2012-10-11T16:25:07+01:00"
+    },
+    {
+      "name": "Bathwick St. Mary CofE Primary School",
+      "location": {
+        "city": "Bath",
+        "lat": 51.389074,
+        "lng": -2.3460552
+      },
+      "activated_at": "2012-10-11T16:25:08+01:00"
+    },
+    {
+      "name": "Abraham Moss",
+      "location": {
+        "city": "Manchester",
+        "lat": 53.5124145,
+        "lng": -2.2356395
+      },
+      "activated_at": "2012-10-11T16:25:09+01:00"
+    },
+    {
+      "name": "Unicorn School",
+      "location": {
+        "city": "Richmond",
+        "lat": 51.4754538,
+        "lng": -0.291263
+      },
+      "activated_at": "2012-10-11T16:25:09+01:00"
+    },
+    {
+      "name": "Rice Lane Junior School",
+      "location": {
+        "city": "Liverpool",
+        "lat": 53.4590827,
+        "lng": -2.9633421
+      },
+      "activated_at": "2012-10-11T16:25:09+01:00"
+    },
+    {
+      "name": "Berkeley Infant School",
+      "location": {
+        "city": "Scunthorpe",
+        "lat": 53.5936133,
+        "lng": -0.6780616
+      },
+      "activated_at": "2012-10-11T16:25:10+01:00"
+    },
+    {
+      "name": "Fakenham Junior School",
+      "location": {
+        "city": "Fakenham",
+        "lat": 52.8308907,
+        "lng": 0.8505709
+      },
+      "activated_at": "2012-10-11T16:25:10+01:00"
+    },
+    {
+      "name": "Wyche CE Primary School",
+      "location": {
+        "city": "Malvern",
+        "lat": 52.0969539,
+        "lng": -2.3337739
+      },
+      "activated_at": "2012-10-11T16:25:10+01:00"
+    },
+    {
+      "name": "Greenwich Free School",
+      "location": {
+        "city": "London",
+        "lat": 51.4719588,
+        "lng": 0.0527583
+      },
+      "activated_at": "2012-10-11T16:25:11+01:00"
+    },
+    {
+      "name": "The Grove Primary School",
+      "location": {
+        "city": "Totnes",
+        "lat": 50.4305135,
+        "lng": -3.6873473
+      },
+      "activated_at": "2012-10-11T16:25:11+01:00"
+    },
+    {
+      "name": "St Nicholas Chantry, Clevedon",
+      "location": {
+        "city": "Clevedon",
+        "lat": 51.4340767,
+        "lng": -2.8500207
+      },
+      "activated_at": "2012-10-11T16:25:12+01:00"
+    },
+    {
+      "name": "Wingrave CofE Combined",
+      "location": {
+        "city": "Wingrave",
+        "lat": 51.8663928,
+        "lng": -0.7459931
+      },
+      "activated_at": "2012-10-11T16:25:12+01:00"
+    },
+    {
+      "name": "St Joseph's Catholic Primary School",
+      "location": {
+        "city": "Castleford",
+        "lat": 53.7250227,
+        "lng": -1.3469541
+      },
+      "activated_at": "2012-10-11T16:25:12+01:00"
+    },
+    {
+      "name": "Westward Prep",
+      "location": {
+        "city": "Walton-on-Thames",
+        "lat": 51.3794153,
+        "lng": -0.4121549
+      },
+      "activated_at": "2012-10-11T16:25:13+01:00"
+    },
+    {
+      "name": "Oldfield Park Junior School",
+      "location": {
+        "city": "Bath",
+        "lat": 51.3735454,
+        "lng": -2.3835639
+      },
+      "activated_at": "2012-10-11T16:25:13+01:00"
+    },
+    {
+      "name": "Rickshaw middle high",
+      "location": {
+        "city": "Little rock",
+        "lat": 51.389552,
+        "lng": -0.0667474
+      },
+      "activated_at": "2012-10-11T16:25:13+01:00"
+    },
+    {
+      "name": "Home Ed Group",
+      "location": {
+        "city": "Exeter",
+        "lat": 50.7172721,
+        "lng": -3.5490114
+      },
+      "activated_at": "2012-10-11T16:25:14+01:00"
+    },
+    {
+      "name": "Flowery Field Primary School",
+      "location": {
+        "city": "hyde",
+        "lat": 53.46064,
+        "lng": -2.0803126
+      },
+      "activated_at": "2012-10-11T16:25:14+01:00"
+    },
+    {
+      "name": "Box CE VC Primary School",
+      "location": {
+        "city": "Corsham",
+        "lat": 51.4160109,
+        "lng": -2.251726
+      },
+      "activated_at": "2012-10-11T16:25:14+01:00"
+    },
+    {
+      "name": "Cronton CE Primary School",
+      "location": {
+        "city": "Widnes",
+        "lat": 53.391348,
+        "lng": -2.7637867
+      },
+      "activated_at": "2012-10-11T16:25:15+01:00"
+    },
+    {
+      "name": "King Athelstan Primary School",
+      "location": {
+        "city": "Kingston upon Thames",
+        "lat": 51.4056673,
+        "lng": -0.2946131
+      },
+      "activated_at": "2012-10-11T16:25:15+01:00"
+    },
+    {
+      "name": "Hackthorn C of E Primary School",
+      "location": {
+        "city": "Lincoln",
+        "lat": 53.3295066,
+        "lng": -0.5054743
+      },
+      "activated_at": "2012-10-11T16:25:15+01:00"
+    },
+    {
+      "name": "Christ Church C of E Primary School",
+      "location": {
+        "city": "Wirral",
+        "lat": 53.3982514,
+        "lng": -3.1106812
+      },
+      "activated_at": "2012-10-11T16:25:16+01:00"
+    },
+    {
+      "name": "Clyst St. Mary Primary School",
+      "location": {
+        "city": "Exeter",
+        "lat": 50.7094228,
+        "lng": -3.4539284
+      },
+      "activated_at": "2012-10-11T16:25:16+01:00"
+    },
+    {
+      "name": "Elm Park Primary",
+      "location": {
+        "city": "Hornchurch",
+        "lat": 51.5496902,
+        "lng": 0.2035545
+      },
+      "activated_at": "2012-10-11T16:25:17+01:00"
+    },
+    {
+      "name": "American School in London",
+      "location": {
+        "city": "London",
+        "lat": 51.5348451,
+        "lng": -0.1769489
+      },
+      "activated_at": "2012-10-11T16:25:17+01:00"
+    },
+    {
+      "name": "West End Primary School",
+      "location": {
+        "city": "Leeds",
+        "lat": 53.8401142,
+        "lng": -1.6529236
+      },
+      "activated_at": "2012-10-11T16:25:17+01:00"
+    },
+    {
+      "name": "Curry Mallet Primary School",
+      "location": {
+        "city": "Taunton",
+        "lat": 50.9884213,
+        "lng": -2.9532826
+      },
+      "activated_at": "2012-10-11T16:25:18+01:00"
+    },
+    {
+      "name": "Barn Kids (Before and After School Club)",
+      "location": {
+        "city": "Great Dunmow",
+        "lat": 51.9536236,
+        "lng": 0.3512057
+      },
+      "activated_at": "2012-10-11T16:25:18+01:00"
+    },
+    {
+      "name": "Ysgol Abererch",
+      "location": {
+        "city": "Pwllheli",
+        "lat": 52.9032851,
+        "lng": -4.3853328
+      },
+      "activated_at": "2012-10-11T16:25:18+01:00"
+    },
+    {
+      "name": "Perrymount Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.4361701,
+        "lng": -0.0468578
+      },
+      "activated_at": "2012-10-11T16:25:19+01:00"
+    },
+    {
+      "name": "Ravenstone Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.4416892,
+        "lng": -0.152659
+      },
+      "activated_at": "2012-10-11T16:25:19+01:00"
+    },
+    {
+      "name": "Sydenham High Junior School",
+      "location": {
+        "city": "London",
+        "lat": 51.4272539,
+        "lng": -0.0628459
+      },
+      "activated_at": "2012-10-11T16:25:20+01:00"
+    },
+    {
+      "name": "Seascale Primary School",
+      "location": {
+        "city": "Seascale",
+        "lat": 54.4009966,
+        "lng": -3.4771934
+      },
+      "activated_at": "2012-10-11T16:25:20+01:00"
+    },
+    {
+      "name": "dixie grammar junior school",
+      "location": {
+        "city": "wellsborough",
+        "lat": 52.6196051,
+        "lng": -1.4662381
+      },
+      "activated_at": "2012-10-11T20:15:18+01:00"
+    },
+    {
+      "name": "St. Patrick's Primary School",
+      "location": {
+        "city": "Holywood",
+        "lat": 54.6377888,
+        "lng": -5.8370214
+      },
+      "activated_at": "2012-10-12T20:58:53+01:00"
+    },
+    {
+      "name": "GLPA",
+      "location": {
+        "city": "Leeds",
+        "lat": 53.7891885,
+        "lng": -1.3669052
+      },
+      "activated_at": "2012-10-14T11:14:09+01:00"
+    },
+    {
+      "name": "Green Lane",
+      "location": {
+        "city": "Leeds",
+        "lat": 53.7908381,
+        "lng": -1.3678215
+      },
+      "activated_at": "2012-10-14T15:07:41+01:00"
+    },
+    {
+      "name": "Lakeside Primary School",
+      "location": {
+        "city": "Cardiff",
+        "lat": 51.5132043,
+        "lng": -3.1677098
+      },
+      "activated_at": "2012-10-14T20:30:20+01:00"
+    },
+    {
+      "name": "Crockham Hill CE Primary School",
+      "location": {
+        "city": "Edenbridge",
+        "lat": 51.237118,
+        "lng": 0.0654663
+      },
+      "activated_at": "2012-10-14T21:51:41+01:00"
+    },
+    {
+      "name": "Bradwell Village School",
+      "location": {
+        "city": "Milton Keynes",
+        "lat": 52.0493856,
+        "lng": -0.7830952
+      },
+      "activated_at": "2012-10-15T10:10:18+01:00"
+    },
+    {
+      "name": "All Saints Catholic Primary School",
+      "location": {
+        "city": "Liverpool",
+        "lat": 53.4558743,
+        "lng": -2.9972149
+      },
+      "activated_at": "2012-10-15T18:25:02+01:00"
+    },
+    {
+      "name": "Parkside Primary School",
+      "location": {
+        "city": "Chingford",
+        "lat": 51.6240454,
+        "lng": -0.0142829
+      },
+      "activated_at": "2012-10-15T19:26:32+01:00"
+    },
+    {
+      "name": "William Tyndale Primary School.",
+      "location": {
+        "city": "LONDON",
+        "lat": 51.5420795,
+        "lng": -0.101266
+      },
+      "activated_at": "2012-10-16T09:30:21+01:00"
+    },
+    {
+      "name": "St Teresa's RC Primary School, Irlam",
+      "location": {
+        "city": "Irlam",
+        "lat": 53.4379253,
+        "lng": -2.4322583
+      },
+      "activated_at": "2012-10-16T15:31:25+01:00"
+    },
+    {
+      "name": "Broadoak primary school",
+      "location": {
+        "city": "M27 0ep",
+        "lat": 53.5022905,
+        "lng": -2.3624779
+      },
+      "activated_at": "2012-10-16T15:36:17+01:00"
+    },
+    {
+      "name": "Central Newcastle High School Juniors",
+      "location": {
+        "city": "Newcastle ",
+        "lat": 54.9838318,
+        "lng": -1.6066793
+      },
+      "activated_at": "2012-10-16T18:40:25+01:00"
+    },
+    {
+      "name": "Troon County Primary School",
+      "location": {
+        "city": "Camborne",
+        "lat": 50.194352,
+        "lng": -5.2757155
+      },
+      "activated_at": "2012-10-16T19:17:07+01:00"
+    },
+    {
+      "name": "St Margaret's Preparatory School Calne",
+      "location": {
+        "city": "Calne",
+        "lat": 51.440181,
+        "lng": -2.0087418
+      },
+      "activated_at": "2012-10-17T08:18:12+01:00"
+    },
+    {
+      "name": "stockbridge primary school",
+      "location": {
+        "city": "stockbridge ",
+        "lat": 51.1149274,
+        "lng": -1.4864775
+      },
+      "activated_at": "2012-10-17T18:25:15+01:00"
+    },
+    {
+      "name": "St Swithun's School",
+      "location": {
+        "city": "Winchester",
+        "lat": 51.0638251,
+        "lng": -1.2890107
+      },
+      "activated_at": "2012-10-18T09:23:07+01:00"
+    },
+    {
+      "name": "Box Primary School",
+      "location": {
+        "city": "Box",
+        "lat": 51.4160109,
+        "lng": -2.251726
+      },
+      "activated_at": "2012-10-18T14:29:53+01:00"
+    },
+    {
+      "name": "Hawthorn Park Lower School",
+      "location": {
+        "city": "Dunstable",
+        "lat": 51.9105164,
+        "lng": -0.5059177
+      },
+      "activated_at": "2012-10-18T19:01:46+01:00"
+    },
+    {
+      "name": "Combe C of E Primary School",
+      "location": {
+        "city": "Witney",
+        "lat": 51.8395069,
+        "lng": -1.4030664
+      },
+      "activated_at": "2012-10-19T10:33:09+01:00"
+    },
+    {
+      "name": "Knutsford Primary School",
+      "location": {
+        "city": "Watford",
+        "lat": 51.671116,
+        "lng": -0.3872684
+      },
+      "activated_at": "2012-10-19T16:11:41+01:00"
+    },
+    {
+      "name": "Moulsecoomb Primary School",
+      "location": {
+        "city": "Brighton",
+        "lat": 50.8494667,
+        "lng": -0.1107047
+      },
+      "activated_at": "2012-10-21T09:36:45+01:00"
+    },
+    {
+      "name": "SS Aidan and Oswald RC Primary School ",
+      "location": {
+        "city": "Oldham",
+        "lat": 53.563288,
+        "lng": -2.1219505
+      },
+      "activated_at": "2012-10-21T20:44:43+01:00"
+    },
+    {
+      "name": "Henry Whipple Primary",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9964132,
+        "lng": -1.1714091
+      },
+      "activated_at": "2012-10-22T08:28:11+01:00"
+    },
+    {
+      "name": "Thornhill Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5403328,
+        "lng": -0.1094864
+      },
+      "activated_at": "2012-10-22T09:32:25+01:00"
+    },
+    {
+      "name": "Ovingham Middle School",
+      "location": {
+        "city": "Prudhoe",
+        "lat": 54.9568358,
+        "lng": -1.9350079
+      },
+      "activated_at": "2012-10-22T14:48:51+01:00"
+    },
+    {
+      "name": "The Queen's School - Lower School",
+      "location": {
+        "city": "Chester",
+        "lat": 53.2038359,
+        "lng": -2.8946214
+      },
+      "activated_at": "2012-10-22T16:16:21+01:00"
+    },
+    {
+      "name": "St Antonys Catholic Primary School",
+      "location": {
+        "city": "Woodford Green",
+        "lat": 51.6161693,
+        "lng": 0.0240712
+      },
+      "activated_at": "2012-10-23T11:55:28+01:00"
+    },
+    {
+      "name": "john stainer primary school",
+      "location": {
+        "city": "london",
+        "lat": 51.4642061,
+        "lng": -0.0407373
+      },
+      "activated_at": "2012-10-23T15:46:44+01:00"
+    },
+    {
+      "name": "Hutton Rudby County Primary",
+      "location": {
+        "city": "Hutton Rudby",
+        "lat": 54.4481569,
+        "lng": -1.2822688
+      },
+      "activated_at": "2012-10-23T16:41:39+01:00"
+    },
+    {
+      "name": "Newton Flotman Church of England Primary School",
+      "location": {
+        "city": "Norwich",
+        "lat": 52.5392066,
+        "lng": 1.2603466
+      },
+      "activated_at": "2012-10-23T20:58:01+01:00"
+    },
+    {
+      "name": "Witton Middle School",
+      "location": {
+        "city": " Droitwich Spa",
+        "lat": 52.2604795,
+        "lng": -2.1577202
+      },
+      "activated_at": "2012-10-23T21:45:42+01:00"
+    },
+    {
+      "name": "Reay Primary",
+      "location": {
+        "city": "London",
+        "lat": 51.4775027,
+        "lng": -0.1151241
+      },
+      "activated_at": "2012-10-24T13:03:17+01:00"
+    },
+    {
+      "name": "Rise Park Junior School",
+      "location": {
+        "city": "Romford",
+        "lat": 51.5962335,
+        "lng": 0.1791958
+      },
+      "activated_at": "2012-10-25T09:38:44+01:00"
+    },
+    {
+      "name": "The Colleton Primary School",
+      "location": {
+        "city": "Twyford",
+        "lat": 51.4718118,
+        "lng": -0.8583763999999999
+      },
+      "activated_at": "2012-10-27T20:58:38+01:00"
+    },
+    {
+      "name": "Stafford Leys Community Primary School",
+      "location": {
+        "city": "Leicester",
+        "lat": 52.6225231,
+        "lng": -1.220542
+      },
+      "activated_at": "2012-10-29T01:05:03+00:00"
+    },
+    {
+      "name": "Nottingham Academy Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9566685,
+        "lng": -1.1149472
+      },
+      "activated_at": "2012-10-29T12:15:02+00:00"
+    },
+    {
+      "name": "St. Stephens Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.4797895,
+        "lng": -0.1225762
+      },
+      "activated_at": "2012-10-29T13:53:20+00:00"
+    },
+    {
+      "name": "The Junior King's School",
+      "location": {
+        "city": "Canterbury",
+        "lat": 51.2992571,
+        "lng": 1.1199802
+      },
+      "activated_at": "2012-10-29T15:18:50+00:00"
+    },
+    {
+      "name": "Stirling Primary School",
+      "location": {
+        "city": "Doncaster",
+        "lat": 53.5160019,
+        "lng": -1.133922
+      },
+      "activated_at": "2012-10-29T15:24:04+00:00"
+    },
+    {
+      "name": "Markland Hilll Primary School",
+      "location": {
+        "city": "Bolton",
+        "lat": 53.585394,
+        "lng": -2.4784147
+      },
+      "activated_at": "2012-10-29T16:10:20+00:00"
+    },
+    {
+      "name": "Furze Platt Junior School",
+      "location": {
+        "city": "Maidenhead",
+        "lat": 51.5311509,
+        "lng": -0.741226
+      },
+      "activated_at": "2012-10-31T09:18:19+00:00"
+    },
+    {
+      "name": "Walter Halls Primary & Early Years School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9791388,
+        "lng": -1.1327777
+      },
+      "activated_at": "2012-10-31T18:53:29+00:00"
+    },
+    {
+      "name": "Darrick Wood Junior School",
+      "location": {
+        "city": "Orpington",
+        "lat": 51.3655417,
+        "lng": 0.0632524
+      },
+      "activated_at": "2012-11-01T09:18:53+00:00"
+    },
+    {
+      "name": "St Peters Catholic Primary",
+      "location": {
+        "city": "Leamington Spa",
+        "lat": 52.2892694,
+        "lng": -1.5379487
+      },
+      "activated_at": "2012-11-01T12:16:26+00:00"
+    },
+    {
+      "name": "Exwick Heights Primary School",
+      "location": {
+        "city": "Exeter",
+        "lat": 50.7292966,
+        "lng": -3.5577539
+      },
+      "activated_at": "2012-11-01T15:38:18+00:00"
+    },
+    {
+      "name": "St Saviour's C of E Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5241572,
+        "lng": -0.188245
+      },
+      "activated_at": "2012-11-04T21:38:19+00:00"
+    },
+    {
+      "name": "St Thomas Moorside Primary School",
+      "location": {
+        "city": "Oldham",
+        "lat": 53.5671921,
+        "lng": -2.0744451
+      },
+      "activated_at": "2012-11-05T09:42:43+00:00"
+    },
+    {
+      "name": "Barrow Hill Junior School",
+      "location": {
+        "city": "LONDON",
+        "lat": 51.5327985,
+        "lng": -0.1691007
+      },
+      "activated_at": "2012-11-05T20:32:04+00:00"
+    },
+    {
+      "name": "Rosehill Westonbirt",
+      "location": {
+        "city": "Tetbury",
+        "lat": 51.6052761,
+        "lng": -2.19822
+      },
+      "activated_at": "2012-11-06T09:53:39+00:00"
+    },
+    {
+      "name": "Tupton Hall School",
+      "location": {
+        "city": "Chesterfield",
+        "lat": 53.1822641,
+        "lng": -1.409513
+      },
+      "activated_at": "2012-11-07T11:08:07+00:00"
+    },
+    {
+      "name": "Davison",
+      "location": {
+        "city": "Worthing",
+        "lat": 50.819509,
+        "lng": -0.3559483
+      },
+      "activated_at": "2012-11-07T19:47:35+00:00"
+    },
+    {
+      "name": "Blackheath Primary School",
+      "location": {
+        "city": "Rowley Regis",
+        "lat": 52.4795605,
+        "lng": -2.0380029
+      },
+      "activated_at": "2012-11-08T20:58:15+00:00"
+    },
+    {
+      "name": "Forestdale Primary School",
+      "location": {
+        "city": "Croydon",
+        "lat": 51.348518,
+        "lng": -0.0409658
+      },
+      "activated_at": "2012-11-08T22:35:09+00:00"
+    },
+    {
+      "name": "Primrose Hill School",
+      "location": {
+        "city": "London",
+        "lat": 51.5391726,
+        "lng": -0.1518002
+      },
+      "activated_at": "2012-11-11T13:43:04+00:00"
+    },
+    {
+      "name": "Scargill Junior School",
+      "location": {
+        "city": null,
+        "lat": 51.5394738,
+        "lng": 0.1930239
+      },
+      "activated_at": "2012-11-11T19:09:36+00:00"
+    },
+    {
+      "name": "Acomb Primary School",
+      "location": {
+        "city": "York",
+        "lat": 53.955015,
+        "lng": -1.1147183
+      },
+      "activated_at": "2012-11-11T21:32:07+00:00"
+    },
+    {
+      "name": "New Sathorn International School",
+      "location": {
+        "city": "Yannawa",
+        "lat": 52.4559915,
+        "lng": -1.8568814
+      },
+      "activated_at": "2012-11-12T01:44:45+00:00"
+    },
+    {
+      "name": "Ellel St John's",
+      "location": {
+        "city": "Galgate",
+        "lat": 53.9925485,
+        "lng": -2.7879901
+      },
+      "activated_at": "2012-11-12T12:49:46+00:00"
+    },
+    {
+      "name": "Stamford Park Junior School",
+      "location": {
+        "city": "Altrincham",
+        "lat": 53.382538,
+        "lng": -2.3405024
+      },
+      "activated_at": "2012-11-12T16:13:38+00:00"
+    },
+    {
+      "name": "Heath Mount School",
+      "location": {
+        "city": "Birmingham",
+        "lat": 52.4604308,
+        "lng": -1.8907811
+      },
+      "activated_at": "2012-11-12T22:29:04+00:00"
+    },
+    {
+      "name": "Cantrell Primary School",
+      "location": {
+        "city": "Bulwell",
+        "lat": 53.0010408,
+        "lng": -1.1880694
+      },
+      "activated_at": "2012-11-13T14:04:47+00:00"
+    },
+    {
+      "name": "Bishop Henderson C of E Primary",
+      "location": {
+        "city": "Taunton",
+        "lat": 51.0060447,
+        "lng": -3.1215597
+      },
+      "activated_at": "2012-11-13T15:41:19+00:00"
+    },
+    {
+      "name": "Heath Mount Primary School",
+      "location": {
+        "city": "Birmingham",
+        "lat": 52.4580931,
+        "lng": -1.8904631
+      },
+      "activated_at": "2012-11-13T23:37:20+00:00"
+    },
+    {
+      "name": "Millbank Academy",
+      "location": {
+        "city": "London",
+        "lat": 51.491417,
+        "lng": -0.1304679
+      },
+      "activated_at": "2012-11-14T12:59:40+00:00"
+    },
+    {
+      "name": "Mill Hill Primary School",
+      "location": {
+        "city": "Sunderland",
+        "lat": 54.8660143,
+        "lng": -1.405949
+      },
+      "activated_at": "2012-11-14T18:20:18+00:00"
+    },
+    {
+      "name": "Lever Edge Primary Academy",
+      "location": {
+        "city": "Bolton",
+        "lat": 53.5584391,
+        "lng": -2.4382267
+      },
+      "activated_at": "2012-11-15T13:29:52+00:00"
+    },
+    {
+      "name": "Ben Jonson Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5210388,
+        "lng": -0.0379962
+      },
+      "activated_at": "2012-11-15T23:03:04+00:00"
+    },
+    {
+      "name": "Monteney Primary School",
+      "location": {
+        "city": "Sheffield",
+        "lat": 53.4365141,
+        "lng": -1.4670954
+      },
+      "activated_at": "2012-11-16T11:52:50+00:00"
+    },
+    {
+      "name": "Headley park School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.417587,
+        "lng": -2.6102938
+      },
+      "activated_at": "2012-11-18T13:00:33+00:00"
+    },
+    {
+      "name": "Swiss Gardens Primary School",
+      "location": {
+        "city": "Shoreham-by-Sea",
+        "lat": 50.8355797,
+        "lng": -0.2792191
+      },
+      "activated_at": "2012-11-19T18:19:36+00:00"
+    },
+    {
+      "name": "St John the Baptist Primary School",
+      "location": {
+        "city": "Waltham Chase",
+        "lat": 50.9280112,
+        "lng": -1.1984372
+      },
+      "activated_at": "2012-11-19T18:20:02+00:00"
+    },
+    {
+      "name": "Colden Common Primary School",
+      "location": {
+        "city": "Eastleigh",
+        "lat": 50.9943463,
+        "lng": -1.3231593
+      },
+      "activated_at": "2012-11-19T19:23:46+00:00"
+    },
+    {
+      "name": "Honilands Primary School",
+      "location": {
+        "city": "Enfield",
+        "lat": 51.6782159,
+        "lng": -0.0496955
+      },
+      "activated_at": "2012-11-20T00:38:48+00:00"
+    },
+    {
+      "name": "Bentley Primary School",
+      "location": {
+        "city": "Farnham",
+        "lat": 51.1930959,
+        "lng": -0.8750346
+      },
+      "activated_at": "2012-11-20T08:15:04+00:00"
+    },
+    {
+      "name": "Dr South’s CE (Aided) Primary School",
+      "location": {
+        "city": "Islip",
+        "lat": 51.8249451,
+        "lng": -1.2386015
+      },
+      "activated_at": "2012-11-20T09:28:08+00:00"
+    },
+    {
+      "name": "Langrish Primary",
+      "location": {
+        "city": "Petersfield",
+        "lat": 51.0063132,
+        "lng": -0.9726171
+      },
+      "activated_at": "2012-11-20T12:17:58+00:00"
+    },
+    {
+      "name": "Uphall Primary",
+      "location": {
+        "city": "Ilford",
+        "lat": 51.5479756,
+        "lng": 0.0721306
+      },
+      "activated_at": "2012-11-20T13:24:59+00:00"
+    },
+    {
+      "name": "Drake Primary School",
+      "location": {
+        "city": "Plymouth",
+        "lat": 50.3884815,
+        "lng": -4.1792537
+      },
+      "activated_at": "2012-11-20T14:27:39+00:00"
+    },
+    {
+      "name": "Oakfield Junior School",
+      "location": {
+        "city": "Fetcham",
+        "lat": 51.2903271,
+        "lng": -0.3561276
+      },
+      "activated_at": "2012-11-20T20:59:57+00:00"
+    },
+    {
+      "name": "St. Bride's Primary School",
+      "location": {
+        "city": "Belfast",
+        "lat": 54.5780324,
+        "lng": -5.9429202
+      },
+      "activated_at": "2012-11-22T13:13:20+00:00"
+    },
+    {
+      "name": "Broughton Central Primary School",
+      "location": {
+        "city": "By Biggar",
+        "lat": 55.6104419,
+        "lng": -3.4094888
+      },
+      "activated_at": "2012-11-22T14:23:09+00:00"
+    },
+    {
+      "name": "Lord Deramore's Primary School",
+      "location": {
+        "city": "York",
+        "lat": 53.9454945,
+        "lng": -1.042915
+      },
+      "activated_at": "2012-11-22T17:08:29+00:00"
+    },
+    {
+      "name": "Wanstead Church School",
+      "location": {
+        "city": "Wanstead",
+        "lat": 51.578563,
+        "lng": 0.0235112
+      },
+      "activated_at": "2012-11-22T17:31:02+00:00"
+    },
+    {
+      "name": "Kings Copse Primary School",
+      "location": {
+        "city": "Southampton",
+        "lat": 50.9060904,
+        "lng": -1.2966063
+      },
+      "activated_at": "2012-11-22T21:07:05+00:00"
+    },
+    {
+      "name": "Paddock Wood Primary School",
+      "location": {
+        "city": "Paddock Wood",
+        "lat": 51.1786002,
+        "lng": 0.386727
+      },
+      "activated_at": "2012-11-23T14:28:01+00:00"
+    },
+    {
+      "name": "Church Hill Junior School",
+      "location": {
+        "city": "Leicester",
+        "lat": 52.6769298,
+        "lng": -1.092848
+      },
+      "activated_at": "2012-11-23T14:49:23+00:00"
+    },
+    {
+      "name": "Gilmorton Chandler CE VA Primary School",
+      "location": {
+        "city": "Gilmorton",
+        "lat": 52.4867051,
+        "lng": -1.1619021
+      },
+      "activated_at": "2012-11-23T16:22:27+00:00"
+    },
+    {
+      "name": "St Clement's CoE Primary School",
+      "location": {
+        "city": "Higher Openshaw",
+        "lat": 53.4704653,
+        "lng": -2.1597219
+      },
+      "activated_at": "2012-11-24T12:14:21+00:00"
+    },
+    {
+      "name": "Ling Bob JI&N School",
+      "location": {
+        "city": "Halifax",
+        "lat": 53.7277641,
+        "lng": -1.8979747
+      },
+      "activated_at": "2012-11-25T18:47:18+00:00"
+    },
+    {
+      "name": "Berridge Junior School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9656578,
+        "lng": -1.1775209
+      },
+      "activated_at": "2012-11-26T11:43:54+00:00"
+    },
+    {
+      "name": "Curry Rivel Primary School",
+      "location": {
+        "city": "Langport",
+        "lat": 51.0232069,
+        "lng": -2.8699721
+      },
+      "activated_at": "2012-11-26T17:33:07+00:00"
+    },
+    {
+      "name": "Western Primary School",
+      "location": {
+        "city": "Winchester",
+        "lat": 51.0657326,
+        "lng": -1.3334647
+      },
+      "activated_at": "2012-11-27T10:24:46+00:00"
+    },
+    {
+      "name": "Newick CE Primary School",
+      "location": {
+        "city": "Newick",
+        "lat": 50.9703844,
+        "lng": 0.0150814
+      },
+      "activated_at": "2012-11-27T15:46:57+00:00"
+    },
+    {
+      "name": "Cheriton Primary School",
+      "location": {
+        "city": "Alresford",
+        "lat": 51.0531872,
+        "lng": -1.1689996
+      },
+      "activated_at": "2012-11-27T19:29:21+00:00"
+    },
+    {
+      "name": "Coton C of E Primary School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.2086301,
+        "lng": 0.0551072
+      },
+      "activated_at": "2012-11-27T21:14:32+00:00"
+    },
+    {
+      "name": "Kirton Lindsay Primary School",
+      "location": {
+        "city": "Gainsborough ",
+        "lat": 53.4720676,
+        "lng": -0.5934014
+      },
+      "activated_at": "2012-11-28T08:53:24+00:00"
+    },
+    {
+      "name": "Causton Junior School",
+      "location": {
+        "city": "Felixstowe",
+        "lat": 52.0102441,
+        "lng": 1.2526406
+      },
+      "activated_at": "2012-11-28T15:31:27+00:00"
+    },
+    {
+      "name": "Horizon Community College",
+      "location": {
+        "city": "Barnsley",
+        "lat": 53.5520765,
+        "lng": -1.5039986
+      },
+      "activated_at": "2012-11-29T09:26:02+00:00"
+    },
+    {
+      "name": "Ludworth Primary School",
+      "location": {
+        "city": "Stockport",
+        "lat": 53.4027331,
+        "lng": -2.0534457
+      },
+      "activated_at": "2012-11-29T10:27:55+00:00"
+    },
+    {
+      "name": "Atwood Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.3291406,
+        "lng": -0.0741752
+      },
+      "activated_at": "2012-11-29T12:53:43+00:00"
+    },
+    {
+      "name": "Waverley School",
+      "location": {
+        "city": "Wokingham",
+        "lat": 51.4148873,
+        "lng": -0.8201614
+      },
+      "activated_at": "2012-11-29T15:01:26+00:00"
+    },
+    {
+      "name": "Abbey Hill Primary School",
+      "location": {
+        "city": "Kirkby in Ashfield",
+        "lat": 53.1004091,
+        "lng": -1.2356216
+      },
+      "activated_at": "2012-11-29T21:26:59+00:00"
+    },
+    {
+      "name": "Rackham Church of England Primary School",
+      "location": {
+        "city": "Ely",
+        "lat": 52.3869023,
+        "lng": 0.2055737
+      },
+      "activated_at": "2012-11-30T11:05:44+00:00"
+    },
+    {
+      "name": "DOBCROFT JUNIOR SCHOOL",
+      "location": {
+        "city": "SHEFFIELD",
+        "lat": 53.3468588,
+        "lng": -1.5084854
+      },
+      "activated_at": "2012-12-01T21:51:07+00:00"
+    },
+    {
+      "name": "Woking Library",
+      "location": {
+        "city": "Woking",
+        "lat": 51.3202736,
+        "lng": -0.5590269
+      },
+      "activated_at": "2012-12-02T12:08:56+00:00"
+    },
+    {
+      "name": "WILBURY PRIMARY SCHOOL",
+      "location": {
+        "city": "EDMONTON",
+        "lat": 51.6128736,
+        "lng": -0.0849961
+      },
+      "activated_at": "2012-12-02T17:28:57+00:00"
+    },
+    {
+      "name": "Newton Primary School",
+      "location": {
+        "city": "Chester",
+        "lat": 53.2044151,
+        "lng": -2.8796169
+      },
+      "activated_at": "2012-12-03T12:55:42+00:00"
+    },
+    {
+      "name": "Oakdale Learning Centre",
+      "location": {
+        "city": "Mansfield",
+        "lat": 53.1501769,
+        "lng": -1.2113523
+      },
+      "activated_at": "2012-12-03T13:34:05+00:00"
+    },
+    {
+      "name": "Towcester Church of England Primary School",
+      "location": {
+        "city": "Towcester",
+        "lat": 52.1286802,
+        "lng": -0.9858527
+      },
+      "activated_at": "2012-12-03T14:14:18+00:00"
+    },
+    {
+      "name": "Brinsley Primary School",
+      "location": {
+        "city": "Brinsley",
+        "lat": 53.0414606,
+        "lng": -1.3127905
+      },
+      "activated_at": "2012-12-04T08:15:06+00:00"
+    },
+    {
+      "name": "Rolls Crescent Primary School ",
+      "location": {
+        "city": "Hulme",
+        "lat": 53.4646585,
+        "lng": -2.2533444
+      },
+      "activated_at": "2012-12-04T19:47:36+00:00"
+    },
+    {
+      "name": "Fulbourn Primary School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.180911,
+        "lng": 0.2201745
+      },
+      "activated_at": "2012-12-05T08:53:07+00:00"
+    },
+    {
+      "name": "St Stephens School",
+      "location": {
+        "city": "West Ham",
+        "lat": 51.5376496,
+        "lng": 0.0378752
+      },
+      "activated_at": "2012-12-05T09:10:25+00:00"
+    },
+    {
+      "name": "St Marys C of E Primary School",
+      "location": {
+        "city": "Bath",
+        "lat": 51.329074,
+        "lng": -2.4716908
+      },
+      "activated_at": "2012-12-05T13:17:06+00:00"
+    },
+    {
+      "name": "Burford Primary School",
+      "location": {
+        "city": "Burford",
+        "lat": 51.8072366,
+        "lng": -1.6332796
+      },
+      "activated_at": "2012-12-06T09:30:47+00:00"
+    },
+    {
+      "name": "Bringhurst Primary School",
+      "location": {
+        "city": "Market Harborough",
+        "lat": 52.5243864,
+        "lng": -0.7572179
+      },
+      "activated_at": "2012-12-06T10:39:08+00:00"
+    },
+    {
+      "name": "Auchenlodment Primary School",
+      "location": {
+        "city": "Johnstone",
+        "lat": 55.82677,
+        "lng": -4.5014663
+      },
+      "activated_at": "2012-12-06T11:34:35+00:00"
+    },
+    {
+      "name": "International Community School",
+      "location": {
+        "city": "London",
+        "lat": 51.5240625,
+        "lng": -0.1510571
+      },
+      "activated_at": "2012-12-06T16:36:01+00:00"
+    },
+    {
+      "name": "Southover CEP",
+      "location": {
+        "city": "Lewes",
+        "lat": 50.869099,
+        "lng": 0.0036325
+      },
+      "activated_at": "2012-12-06T17:22:14+00:00"
+    },
+    {
+      "name": "Bewick Bridge Primary School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.1901259,
+        "lng": 0.1822131
+      },
+      "activated_at": "2012-12-07T09:52:02+00:00"
+    },
+    {
+      "name": "Star Primary School",
+      "location": {
+        "city": "Canning Town",
+        "lat": 51.5214606,
+        "lng": 0.0072269
+      },
+      "activated_at": "2012-12-07T09:53:09+00:00"
+    },
+    {
+      "name": "Huish Primary School",
+      "location": {
+        "city": "Yeovil",
+        "lat": 50.9433411,
+        "lng": -2.6396451
+      },
+      "activated_at": "2012-12-07T11:49:27+00:00"
+    },
+    {
+      "name": "St Marks CE Primary School",
+      "location": {
+        "city": "TUNBRIDGE WELLS",
+        "lat": 51.1171761,
+        "lng": 0.2645443
+      },
+      "activated_at": "2012-12-07T14:54:14+00:00"
+    },
+    {
+      "name": "Bickley Primary School",
+      "location": {
+        "city": "Bromley",
+        "lat": 51.4023888,
+        "lng": 0.0311664
+      },
+      "activated_at": "2012-12-09T20:12:53+00:00"
+    },
+    {
+      "name": "Swanmore C of E Primary School",
+      "location": {
+        "city": "Southampton",
+        "lat": 50.9450834,
+        "lng": -1.1822014
+      },
+      "activated_at": "2012-12-10T10:32:27+00:00"
+    },
+    {
+      "name": "Belleville Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.4568867,
+        "lng": -0.1646837
+      },
+      "activated_at": "2012-12-10T14:15:39+00:00"
+    },
+    {
+      "name": "Yerbury Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5600401,
+        "lng": -0.1316801
+      },
+      "activated_at": "2012-12-10T19:00:53+00:00"
+    },
+    {
+      "name": "Magdalen College Lower School",
+      "location": {
+        "city": "Oxford",
+        "lat": 51.7484634,
+        "lng": -1.2451893
+      },
+      "activated_at": "2012-12-11T08:57:34+00:00"
+    },
+    {
+      "name": "Frith Manor Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.6148587,
+        "lng": -0.2019829
+      },
+      "activated_at": "2012-12-11T13:05:35+00:00"
+    },
+    {
+      "name": "St Michael's C of E Primary School",
+      "location": {
+        "city": "Easthampstead",
+        "lat": 51.388226,
+        "lng": -0.7532856
+      },
+      "activated_at": "2012-12-11T17:43:44+00:00"
+    },
+    {
+      "name": "St Mary's C.E. Primary School",
+      "location": {
+        "city": "Byfleet",
+        "lat": 51.3348891,
+        "lng": -0.4768148
+      },
+      "activated_at": "2012-12-11T20:52:48+00:00"
+    },
+    {
+      "name": "Bidston Avenue Primary School",
+      "location": {
+        "city": "Claughton",
+        "lat": 53.3954157,
+        "lng": -3.0617459
+      },
+      "activated_at": "2012-12-11T22:22:18+00:00"
+    },
+    {
+      "name": "Bradfield Dungworth Primary School",
+      "location": {
+        "city": "sheffield",
+        "lat": 53.4071127,
+        "lng": -1.5773475
+      },
+      "activated_at": "2012-12-11T22:36:35+00:00"
+    },
+    {
+      "name": "Warminster Prep School",
+      "location": {
+        "city": "Warminster",
+        "lat": 51.2047139,
+        "lng": -2.1893939
+      },
+      "activated_at": "2012-12-11T22:49:44+00:00"
+    },
+    {
+      "name": "The Grange Primary School",
+      "location": {
+        "city": "Liverpool",
+        "lat": 53.4936857,
+        "lng": -2.9793054
+      },
+      "activated_at": "2012-12-12T10:52:34+00:00"
+    },
+    {
+      "name": "RL Hughes Primary School",
+      "location": {
+        "city": "Wigan",
+        "lat": 53.4898972,
+        "lng": -2.645449
+      },
+      "activated_at": "2012-12-12T15:22:33+00:00"
+    },
+    {
+      "name": "Crossdale Drive Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.8788243,
+        "lng": -1.0895183
+      },
+      "activated_at": "2012-12-12T15:23:01+00:00"
+    },
+    {
+      "name": "Conway Primary",
+      "location": {
+        "city": "Greenwich",
+        "lat": 51.4878566,
+        "lng": 0.0894978
+      },
+      "activated_at": "2012-12-12T15:39:46+00:00"
+    },
+    {
+      "name": "St John the Baptist C of E Primary School",
+      "location": {
+        "city": "Findon",
+        "lat": 50.868981,
+        "lng": -0.4085266
+      },
+      "activated_at": "2012-12-12T19:02:00+00:00"
+    },
+    {
+      "name": "Droxford Junior School",
+      "location": {
+        "city": "Droxford ",
+        "lat": 50.9606928,
+        "lng": -1.1394097
+      },
+      "activated_at": "2012-12-13T10:43:00+00:00"
+    },
+    {
+      "name": "Loddon Primary School",
+      "location": {
+        "city": "Reading",
+        "lat": 51.4340684,
+        "lng": -0.9113784
+      },
+      "activated_at": "2012-12-13T13:36:04+00:00"
+    },
+    {
+      "name": "Burley Woodhead C E Primary School",
+      "location": {
+        "city": "Ilkley",
+        "lat": 53.906867,
+        "lng": -1.7463472
+      },
+      "activated_at": "2012-12-13T15:18:49+00:00"
+    },
+    {
+      "name": "Old Palace of John Whitgift School",
+      "location": {
+        "city": "Croydon",
+        "lat": 51.3727829,
+        "lng": -0.1045142
+      },
+      "activated_at": "2012-12-13T16:20:19+00:00"
+    },
+    {
+      "name": "Top Valley Academy",
+      "location": {
+        "city": "Nottingham",
+        "lat": 53.008672,
+        "lng": -1.1748854
+      },
+      "activated_at": "2012-12-13T16:58:44+00:00"
+    },
+    {
+      "name": "Wetherby Prep School",
+      "location": {
+        "city": "London",
+        "lat": 51.5166317,
+        "lng": -0.1611589
+      },
+      "activated_at": "2012-12-14T08:57:15+00:00"
+    },
+    {
+      "name": "Waterbeach Community Primary School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.2694983,
+        "lng": 0.190448
+      },
+      "activated_at": "2012-12-14T17:18:14+00:00"
+    },
+    {
+      "name": "St Peter's Catholic Primary School",
+      "location": {
+        "city": "Warrington",
+        "lat": 53.4017232,
+        "lng": -2.5354751
+      },
+      "activated_at": "2012-12-16T13:14:18+00:00"
+    },
+    {
+      "name": "Ysgol Gynradd RHostryfan",
+      "location": {
+        "city": "Caernarfon",
+        "lat": 53.0975273,
+        "lng": -4.2471132
+      },
+      "activated_at": "2012-12-17T11:24:08+00:00"
+    },
+    {
+      "name": "Christow Communiy Primary School",
+      "location": {
+        "city": "Exeter",
+        "lat": 50.6541713,
+        "lng": -3.6545644
+      },
+      "activated_at": "2012-12-17T13:06:59+00:00"
+    },
+    {
+      "name": "Church Vale",
+      "location": {
+        "city": "Mansfield",
+        "lat": 53.2157116,
+        "lng": -1.1605955
+      },
+      "activated_at": "2012-12-18T07:58:19+00:00"
+    },
+    {
+      "name": "Holy Trinity C of E Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5910321,
+        "lng": -0.1690268
+      },
+      "activated_at": "2012-12-18T19:19:43+00:00"
+    },
+    {
+      "name": "Ilford County High School",
+      "location": {
+        "city": "Ilford",
+        "lat": 51.5919089,
+        "lng": 0.0769881
+      },
+      "activated_at": "2012-12-19T11:24:38+00:00"
+    },
+    {
+      "name": "Holy Cross CEVA Primary School",
+      "location": {
+        "city": "Oldham",
+        "lat": 53.5464464,
+        "lng": -2.1101154
+      },
+      "activated_at": "2012-12-19T20:22:00+00:00"
+    },
+    {
+      "name": "Hilden Oaks school",
+      "location": {
+        "city": "Tonbridge",
+        "lat": 51.2044061,
+        "lng": 0.2737025
+      },
+      "activated_at": "2012-12-19T21:07:18+00:00"
+    },
+    {
+      "name": "West Bridgford Junior School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9258504,
+        "lng": -1.1243968
+      },
+      "activated_at": "2012-12-22T14:03:22+00:00"
+    },
+    {
+      "name": "Minehead Middle School",
+      "location": {
+        "city": "Minehead",
+        "lat": 51.2005004,
+        "lng": -3.471729
+      },
+      "activated_at": "2012-12-23T13:41:08+00:00"
+    },
+    {
+      "name": "Bethany School",
+      "location": {
+        "city": "Goudhurst",
+        "lat": 51.1362498,
+        "lng": 0.4846813
+      },
+      "activated_at": "2012-12-30T14:25:51+00:00"
+    },
+    {
+      "name": "Saxon Primary School",
+      "location": {
+        "city": "Shepperton",
+        "lat": 51.3985214,
+        "lng": -0.4632162
+      },
+      "activated_at": "2013-01-03T10:40:33+00:00"
+    },
+    {
+      "name": "Little Common School",
+      "location": {
+        "city": "Bexhill-on-Sea",
+        "lat": 50.8442965,
+        "lng": 0.4355942
+      },
+      "activated_at": "2013-01-03T19:02:49+00:00"
+    },
+    {
+      "name": "Arnold View Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 53.0004059,
+        "lng": -1.1239326
+      },
+      "activated_at": "2013-01-04T15:27:09+00:00"
+    },
+    {
+      "name": "Sinclair house school",
+      "location": {
+        "city": "London ",
+        "lat": 51.4779142,
+        "lng": -0.2108439
+      },
+      "activated_at": "2013-01-04T21:09:41+00:00"
+    },
+    {
+      "name": "Swainswick CofE Primary School",
+      "location": {
+        "city": "Bath",
+        "lat": 51.4136701,
+        "lng": -2.3507561
+      },
+      "activated_at": "2013-01-05T14:44:01+00:00"
+    },
+    {
+      "name": "Bunny C of E Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.8611174,
+        "lng": -1.1356072
+      },
+      "activated_at": "2013-01-06T08:50:34+00:00"
+    },
+    {
+      "name": "Gargrave CE Primary School",
+      "location": {
+        "city": "Gargrave",
+        "lat": 53.9838499,
+        "lng": -2.1079747
+      },
+      "activated_at": "2013-01-06T15:53:23+00:00"
+    },
+    {
+      "name": "Blesses Robert Widmerpool",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.8976313,
+        "lng": -1.1784077
+      },
+      "activated_at": "2013-01-06T20:26:15+00:00"
+    },
+    {
+      "name": "Hazelwood Schools",
+      "location": {
+        "city": "London",
+        "lat": 51.617764,
+        "lng": -0.1020667
+      },
+      "activated_at": "2013-01-07T09:40:40+00:00"
+    },
+    {
+      "name": "Over Primary School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.3140954,
+        "lng": 0.0174869
+      },
+      "activated_at": "2013-01-07T09:59:43+00:00"
+    },
+    {
+      "name": "Avenue Primary School",
+      "location": {
+        "city": "Belmont",
+        "lat": 51.3461239,
+        "lng": -0.2029287
+      },
+      "activated_at": "2013-01-07T14:54:22+00:00"
+    },
+    {
+      "name": "Westfield Independent day school for Girls",
+      "location": {
+        "city": "Gosforth",
+        "lat": 54.9981498,
+        "lng": -1.6276107
+      },
+      "activated_at": "2013-01-07T15:54:23+00:00"
+    },
+    {
+      "name": "Heycroft Primary School",
+      "location": {
+        "city": "Leigh-on-Sea",
+        "lat": 51.5692147,
+        "lng": 0.6634759
+      },
+      "activated_at": "2013-01-07T19:17:41+00:00"
+    },
+    {
+      "name": "Hawthorns Primary School",
+      "location": {
+        "city": "Wokingham",
+        "lat": 51.4171297,
+        "lng": -0.8651442
+      },
+      "activated_at": "2013-01-07T19:18:40+00:00"
+    },
+    {
+      "name": "Sharjah English School",
+      "location": {
+        "city": "Sharjah",
+        "lat": null,
+        "lng": null
+      },
+      "activated_at": "2013-01-07T19:21:13+00:00"
+    },
+    {
+      "name": "The John Harrox Primary School",
+      "location": {
+        "city": "Spalding",
+        "lat": 52.7964422,
+        "lng": -0.0661993
+      },
+      "activated_at": "2013-01-07T21:48:03+00:00"
+    },
+    {
+      "name": "Binstead Primary School",
+      "location": {
+        "city": "Binstead",
+        "lat": 50.7245221,
+        "lng": -1.1876466
+      },
+      "activated_at": "2013-01-08T09:00:42+00:00"
+    },
+    {
+      "name": "Bentley New Village Primary School",
+      "location": {
+        "city": "Doncaster",
+        "lat": 53.5520895,
+        "lng": -1.1411552
+      },
+      "activated_at": "2013-01-08T14:02:13+00:00"
+    },
+    {
+      "name": "North East Leeds City Learning Centre",
+      "location": {
+        "city": "Leeds",
+        "lat": 53.8418705,
+        "lng": -1.523029
+      },
+      "activated_at": "2013-01-08T15:35:55+00:00"
+    },
+    {
+      "name": "Stanford Junior School",
+      "location": {
+        "city": "Brighton",
+        "lat": 50.8362693,
+        "lng": -0.148036
+      },
+      "activated_at": "2013-01-08T20:21:21+00:00"
+    },
+    {
+      "name": "Rosary Catholic Primary School",
+      "location": {
+        "city": "Stroud",
+        "lat": 51.7462986,
+        "lng": -2.2208682
+      },
+      "activated_at": "2013-01-08T21:08:46+00:00"
+    },
+    {
+      "name": "Newnham Croft Primary School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.1952791,
+        "lng": 0.1110156
+      },
+      "activated_at": "2013-01-09T10:30:30+00:00"
+    },
+    {
+      "name": "St Marys Primary School",
+      "location": {
+        "city": "Rathfriland",
+        "lat": 54.2331079,
+        "lng": -6.0313959
+      },
+      "activated_at": "2013-01-09T12:48:45+00:00"
+    },
+    {
+      "name": "Cunningham Hill Junior School",
+      "location": {
+        "city": "St Albans",
+        "lat": 51.7441712,
+        "lng": -0.3139087
+      },
+      "activated_at": "2013-01-09T13:20:22+00:00"
+    },
+    {
+      "name": "Alderman White",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9267753,
+        "lng": -1.2405718
+      },
+      "activated_at": "2013-01-09T14:04:49+00:00"
+    },
+    {
+      "name": "Richard Whittington",
+      "location": {
+        "city": "Bishops Stortford",
+        "lat": 51.8564715,
+        "lng": 0.1552546
+      },
+      "activated_at": "2013-01-09T15:43:08+00:00"
+    },
+    {
+      "name": "scout road academy",
+      "location": {
+        "city": "hebden bridge",
+        "lat": 53.7272839,
+        "lng": -1.97741
+      },
+      "activated_at": "2013-01-09T21:35:07+00:00"
+    },
+    {
+      "name": "Alfriston",
+      "location": {
+        "city": "Alfriston",
+        "lat": 50.7727735,
+        "lng": 0.1258228
+      },
+      "activated_at": "2013-01-09T22:03:08+00:00"
+    },
+    {
+      "name": "Rangefield Primary School",
+      "location": {
+        "city": "Downham",
+        "lat": 51.4244088,
+        "lng": 0.0036761
+      },
+      "activated_at": "2013-01-10T08:59:21+00:00"
+    },
+    {
+      "name": "Water Street CP School",
+      "location": {
+        "city": "Skipton",
+        "lat": 53.9626322,
+        "lng": -2.0190006
+      },
+      "activated_at": "2013-01-10T15:53:44+00:00"
+    },
+    {
+      "name": "Dundee Central Library",
+      "location": {
+        "city": "Dundee",
+        "lat": 56.4638925,
+        "lng": -2.9694461
+      },
+      "activated_at": "2013-01-11T10:55:36+00:00"
+    },
+    {
+      "name": "Bedwas Junior School",
+      "location": {
+        "city": "Bedwas",
+        "lat": 51.5912709,
+        "lng": -3.1989433
+      },
+      "activated_at": "2013-01-11T11:23:47+00:00"
+    },
+    {
+      "name": "Forster Park",
+      "location": {
+        "city": "Catford",
+        "lat": 51.4362068,
+        "lng": -0.0175487
+      },
+      "activated_at": "2013-01-11T14:04:32+00:00"
+    },
+    {
+      "name": "Ysgol Cymerau",
+      "location": {
+        "city": "Pwllheli",
+        "lat": 52.8816663,
+        "lng": -4.4188216
+      },
+      "activated_at": "2013-01-11T14:27:33+00:00"
+    },
+    {
+      "name": "Ysgol Pentreuchaf",
+      "location": {
+        "city": "Pwllheli",
+        "lat": 52.9280719,
+        "lng": -4.4508109
+      },
+      "activated_at": "2013-01-11T14:34:44+00:00"
+    },
+    {
+      "name": "Christ Church CEVC Primary School",
+      "location": {
+        "city": "Skipton",
+        "lat": 53.9576528,
+        "lng": -2.0204156
+      },
+      "activated_at": "2013-01-11T15:55:25+00:00"
+    },
+    {
+      "name": "st Bartholomews",
+      "location": {
+        "city": "brighton and hove",
+        "lat": 50.8303782,
+        "lng": -0.1372779
+      },
+      "activated_at": "2013-01-11T16:16:23+00:00"
+    },
+    {
+      "name": "Bristol Grammar Junior School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.458268,
+        "lng": -2.6045754
+      },
+      "activated_at": "2013-01-11T16:47:30+00:00"
+    },
+    {
+      "name": "bellerbys college",
+      "location": {
+        "city": "brighton",
+        "lat": 50.8320919,
+        "lng": -0.140973
+      },
+      "activated_at": "2013-01-11T17:11:22+00:00"
+    },
+    {
+      "name": "St. Joseph's Primary",
+      "location": {
+        "city": "Bracknell-Forest",
+        "lat": 51.4143746,
+        "lng": -0.7406391
+      },
+      "activated_at": "2013-01-12T09:55:46+00:00"
+    },
+    {
+      "name": "Mawdesley St. Peter’s Church of England Primary School",
+      "location": {
+        "city": "Ormskirk",
+        "lat": 53.6290611,
+        "lng": -2.769405
+      },
+      "activated_at": "2013-01-13T10:57:16+00:00"
+    },
+    {
+      "name": "winnersh primary school",
+      "location": {
+        "city": "winnersh",
+        "lat": 51.4348522,
+        "lng": -0.8715962
+      },
+      "activated_at": "2013-01-14T12:05:26+00:00"
+    },
+    {
+      "name": "Conisbrough Balby Street School",
+      "location": {
+        "city": "Doncaster",
+        "lat": 53.4889274,
+        "lng": -1.2395681
+      },
+      "activated_at": "2013-01-14T12:26:10+00:00"
+    },
+    {
+      "name": "Quarry Mount Primary School",
+      "location": {
+        "city": "Leeds",
+        "lat": 53.8156054,
+        "lng": -1.5552529
+      },
+      "activated_at": "2013-01-15T18:52:20+00:00"
+    },
+    {
+      "name": "Greenford CE Primary",
+      "location": {
+        "city": "Maiden Newton",
+        "lat": 50.7788699,
+        "lng": -2.5770607
+      },
+      "activated_at": "2013-01-16T19:15:20+00:00"
+    },
+    {
+      "name": "Holbrook School",
+      "location": {
+        "city": "Trowbridge",
+        "lat": 51.3092934,
+        "lng": -2.2080446
+      },
+      "activated_at": "2013-01-16T20:55:38+00:00"
+    },
+    {
+      "name": "Harrington Junior School",
+      "location": {
+        "city": "Long Eaton",
+        "lat": 52.9010445,
+        "lng": -1.2880451
+      },
+      "activated_at": "2013-01-17T10:15:17+00:00"
+    },
+    {
+      "name": "Daybrook Learning Centre",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.997263,
+        "lng": -1.1404159
+      },
+      "activated_at": "2013-01-17T10:20:16+00:00"
+    },
+    {
+      "name": "Wallands CP School",
+      "location": {
+        "city": "Lewes",
+        "lat": 50.8787777,
+        "lng": -0.0043395
+      },
+      "activated_at": "2013-01-17T20:20:22+00:00"
+    },
+    {
+      "name": "Guru Nanak Sikh Academy",
+      "location": {
+        "city": "Hayes",
+        "lat": 51.5086436,
+        "lng": -0.3982424
+      },
+      "activated_at": "2013-01-18T09:41:57+00:00"
+    },
+    {
+      "name": "Thomas'",
+      "location": {
+        "city": "London",
+        "lat": 51.4984079,
+        "lng": -0.1874078
+      },
+      "activated_at": "2013-01-18T12:01:41+00:00"
+    },
+    {
+      "name": "Wakatipu High School",
+      "location": {
+        "city": "Queenstown",
+        "lat": 57.1482317,
+        "lng": -2.0966478
+      },
+      "activated_at": "2013-01-19T06:16:17+00:00"
+    },
+    {
+      "name": "Mathilda Marks Kennedy School",
+      "location": {
+        "city": "London",
+        "lat": 51.6159246,
+        "lng": -0.2559484
+      },
+      "activated_at": "2013-01-19T13:55:57+00:00"
+    },
+    {
+      "name": "Redbridge Primary School",
+      "location": {
+        "city": "Ilford",
+        "lat": 51.5811477,
+        "lng": 0.051772
+      },
+      "activated_at": "2013-01-20T15:56:57+00:00"
+    },
+    {
+      "name": "stoke park junior school",
+      "location": {
+        "city": "eastleigh",
+        "lat": 50.9678995,
+        "lng": -1.3278016
+      },
+      "activated_at": "2013-01-21T00:14:25+00:00"
+    },
+    {
+      "name": "Lawdale Junior School",
+      "location": {
+        "city": "London ",
+        "lat": 51.5285056,
+        "lng": -0.0625158
+      },
+      "activated_at": "2013-01-21T10:08:58+00:00"
+    },
+    {
+      "name": "Great Chesterford C of E Primary academy ",
+      "location": {
+        "city": "great chesterford ",
+        "lat": 52.0635973,
+        "lng": 0.1967705
+      },
+      "activated_at": "2013-01-21T11:59:48+00:00"
+    },
+    {
+      "name": "Great Hollands Primary School",
+      "location": {
+        "city": "Bracknell",
+        "lat": 51.4008348,
+        "lng": -0.7722063
+      },
+      "activated_at": "2013-01-21T21:15:10+00:00"
+    },
+    {
+      "name": "Bassetlaw Learning Centre",
+      "location": {
+        "city": "Worksop",
+        "lat": 53.3007022,
+        "lng": -1.1181158
+      },
+      "activated_at": "2013-01-22T14:01:50+00:00"
+    },
+    {
+      "name": "St Marys RC Primary School",
+      "location": {
+        "city": "Chorley",
+        "lat": 53.6517894,
+        "lng": -2.65025
+      },
+      "activated_at": "2013-01-22T18:29:14+00:00"
+    },
+    {
+      "name": "Kilskeery Independent Christian School",
+      "location": {
+        "city": "Kilskeery",
+        "lat": 54.4466018,
+        "lng": -7.551076
+      },
+      "activated_at": "2013-01-22T23:07:13+00:00"
+    },
+    {
+      "name": "Gainsborough Primary school",
+      "location": {
+        "city": "London",
+        "lat": 51.5246348,
+        "lng": 0.0056655
+      },
+      "activated_at": "2013-01-23T15:33:25+00:00"
+    },
+    {
+      "name": "Rye St Antony",
+      "location": {
+        "city": "Oxford",
+        "lat": 51.7595493,
+        "lng": -1.2257778
+      },
+      "activated_at": "2013-01-24T08:40:50+00:00"
+    },
+    {
+      "name": "Kirkbymoorside County Primary School",
+      "location": {
+        "city": "York",
+        "lat": 54.2677629,
+        "lng": -0.9386091
+      },
+      "activated_at": "2013-01-24T09:59:46+00:00"
+    },
+    {
+      "name": "Ysgol Pont y gof",
+      "location": {
+        "city": "Pwllheli",
+        "lat": 52.8492316,
+        "lng": -4.586054
+      },
+      "activated_at": "2013-01-24T11:25:27+00:00"
+    },
+    {
+      "name": "Frettenham Primary Partnership School",
+      "location": {
+        "city": "Norwich",
+        "lat": 52.7092272,
+        "lng": 1.3257922
+      },
+      "activated_at": "2013-01-24T11:47:08+00:00"
+    },
+    {
+      "name": "St Herbert's School",
+      "location": {
+        "city": "Keswick",
+        "lat": 54.6019274,
+        "lng": -3.1225844
+      },
+      "activated_at": "2013-01-24T14:08:02+00:00"
+    },
+    {
+      "name": "Carnarvon Primary School",
+      "location": {
+        "city": "Bingham",
+        "lat": 52.9525965,
+        "lng": -0.9362058
+      },
+      "activated_at": "2013-01-25T14:22:19+00:00"
+    },
+    {
+      "name": "Jesse Gray Primary SChool",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9180389,
+        "lng": -1.1305778
+      },
+      "activated_at": "2013-01-25T19:19:38+00:00"
+    },
+    {
+      "name": "North Cadbury Church of England Primary School",
+      "location": {
+        "city": "North Cadbury",
+        "lat": 51.0459937,
+        "lng": -2.5230296
+      },
+      "activated_at": "2013-01-28T12:03:24+00:00"
+    },
+    {
+      "name": "St. Bernadette's Catholic Primary School",
+      "location": {
+        "city": "Milton Keynes",
+        "lat": 52.0332642,
+        "lng": -0.7103672
+      },
+      "activated_at": "2013-01-28T12:07:58+00:00"
+    },
+    {
+      "name": "Greatwood Primary School",
+      "location": {
+        "city": "Skipton",
+        "lat": 53.9535283,
+        "lng": -2.0145925
+      },
+      "activated_at": "2013-01-28T12:41:19+00:00"
+    },
+    {
+      "name": "Heymann Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9175406,
+        "lng": -1.1424263
+      },
+      "activated_at": "2013-01-28T12:58:38+00:00"
+    },
+    {
+      "name": "Stottesdon CE Primary School",
+      "location": {
+        "city": "Cleobury Mortimer",
+        "lat": 52.4417609,
+        "lng": -2.4819012
+      },
+      "activated_at": "2013-01-28T20:45:58+00:00"
+    },
+    {
+      "name": "Chapel Allerton Primary School",
+      "location": {
+        "city": "Leeds",
+        "lat": 53.8280052,
+        "lng": -1.5376348
+      },
+      "activated_at": "2013-01-29T18:31:57+00:00"
+    },
+    {
+      "name": "St Mary's CE Primary School",
+      "location": {
+        "city": "Stockport",
+        "lat": 53.430035,
+        "lng": -2.152963
+      },
+      "activated_at": "2013-01-29T19:12:11+00:00"
+    },
+    {
+      "name": "Selby Community Primary",
+      "location": {
+        "city": "Selby",
+        "lat": 53.7854626,
+        "lng": -1.0801335
+      },
+      "activated_at": "2013-01-29T20:33:00+00:00"
+    },
+    {
+      "name": "Quadring Cowley Brown's Primary School",
+      "location": {
+        "city": "Spalding",
+        "lat": 52.8899343,
+        "lng": -0.1827126
+      },
+      "activated_at": "2013-01-29T21:12:28+00:00"
+    },
+    {
+      "name": "Crickhowell Community Primary School",
+      "location": {
+        "city": "Crickhowell",
+        "lat": 51.8643476,
+        "lng": -3.1398945
+      },
+      "activated_at": "2013-01-29T21:32:04+00:00"
+    },
+    {
+      "name": "Ysgol Tycroes",
+      "location": {
+        "city": "Ammanford",
+        "lat": 51.7767021,
+        "lng": -4.0220058
+      },
+      "activated_at": "2013-01-29T23:23:56+00:00"
+    },
+    {
+      "name": "Morley Memorial Primary School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.1864862,
+        "lng": 0.1448466
+      },
+      "activated_at": "2013-01-30T10:07:54+00:00"
+    },
+    {
+      "name": "Whitehouse Common Primary School",
+      "location": {
+        "city": "Sutton Coldfield",
+        "lat": 52.5708955,
+        "lng": -1.8097855
+      },
+      "activated_at": "2013-01-30T10:40:28+00:00"
+    },
+    {
+      "name": "Farsley Farfield Primary School",
+      "location": {
+        "city": "Leeds",
+        "lat": 53.8093352,
+        "lng": -1.6805428
+      },
+      "activated_at": "2013-01-30T13:05:13+00:00"
+    },
+    {
+      "name": "Newton St Cyres Primary School",
+      "location": {
+        "city": "Newton St Cyres",
+        "lat": 50.7688965,
+        "lng": -3.5842697
+      },
+      "activated_at": "2013-01-30T13:47:53+00:00"
+    },
+    {
+      "name": "St Mark's CE Junior School",
+      "location": {
+        "city": "Salisbury",
+        "lat": 51.0811193,
+        "lng": -1.7895116
+      },
+      "activated_at": "2013-01-30T14:13:30+00:00"
+    },
+    {
+      "name": "Stockton-on-the-Forest Primary School",
+      "location": {
+        "city": "York",
+        "lat": 53.9969303,
+        "lng": -0.9994955
+      },
+      "activated_at": "2013-01-30T16:08:51+00:00"
+    },
+    {
+      "name": "Luton Junior School",
+      "location": {
+        "city": "Chatham",
+        "lat": 51.3713284,
+        "lng": 0.5432413
+      },
+      "activated_at": "2013-01-30T18:49:02+00:00"
+    },
+    {
+      "name": "abbey primary community school",
+      "location": {
+        "city": "Leicester",
+        "lat": 52.6514261,
+        "lng": -1.1264729
+      },
+      "activated_at": "2013-01-30T19:16:49+00:00"
+    },
+    {
+      "name": "Cotgrave Candleby Lane School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9102151,
+        "lng": -1.0391496
+      },
+      "activated_at": "2013-01-31T08:18:43+00:00"
+    },
+    {
+      "name": "Silver Springs Primary Academy",
+      "location": {
+        "city": "Stalybridge",
+        "lat": 53.4925515,
+        "lng": -2.0607336
+      },
+      "activated_at": "2013-01-31T08:21:18+00:00"
+    },
+    {
+      "name": "Windlesham House School",
+      "location": {
+        "city": "Pulborough",
+        "lat": 50.8899447,
+        "lng": -0.4185044
+      },
+      "activated_at": "2013-01-31T13:13:21+00:00"
+    },
+    {
+      "name": "Hampden Gurney",
+      "location": {
+        "city": "London",
+        "lat": 51.5168092,
+        "lng": -0.1644523
+      },
+      "activated_at": "2013-01-31T14:56:27+00:00"
+    },
+    {
+      "name": "Severn Primary School",
+      "location": {
+        "city": "Cardiff",
+        "lat": 51.4828573,
+        "lng": -3.199712
+      },
+      "activated_at": "2013-01-31T16:26:25+00:00"
+    },
+    {
+      "name": "Chesswood middle school",
+      "location": {
+        "city": null,
+        "lat": 50.8193532,
+        "lng": -0.3646991
+      },
+      "activated_at": "2013-01-31T19:20:20+00:00"
+    },
+    {
+      "name": "St James' Primary School",
+      "location": {
+        "city": "Renfrew",
+        "lat": 55.873448,
+        "lng": -4.3961107
+      },
+      "activated_at": "2013-01-31T19:34:52+00:00"
+    },
+    {
+      "name": "St. John Bosco RC VA Primary School",
+      "location": {
+        "city": "Sunderland",
+        "lat": 54.9313733,
+        "lng": -1.4519603
+      },
+      "activated_at": "2013-01-31T21:07:38+00:00"
+    },
+    {
+      "name": "Milford Junior School",
+      "location": {
+        "city": "Yeovil",
+        "lat": 50.9539509,
+        "lng": -2.6332845
+      },
+      "activated_at": "2013-01-31T22:24:41+00:00"
+    },
+    {
+      "name": "All Cannings CE Primary School",
+      "location": {
+        "city": "Devizes",
+        "lat": 51.3541962,
+        "lng": -1.8990403
+      },
+      "activated_at": "2013-02-01T01:00:04+00:00"
+    },
+    {
+      "name": "Whitchurch CE Primary",
+      "location": {
+        "city": "Ross on Wye",
+        "lat": 51.8535755,
+        "lng": -2.6510945
+      },
+      "activated_at": "2013-02-01T08:17:48+00:00"
+    },
+    {
+      "name": "Glory Farm School",
+      "location": {
+        "city": "Bicester",
+        "lat": 51.9068851,
+        "lng": -1.1399693
+      },
+      "activated_at": "2013-02-01T09:52:06+00:00"
+    },
+    {
+      "name": "Cottenham Primary School",
+      "location": {
+        "city": "Cottenham ",
+        "lat": 52.2869361,
+        "lng": 0.119872
+      },
+      "activated_at": "2013-02-01T11:53:23+00:00"
+    },
+    {
+      "name": "Dorchester Middle School",
+      "location": {
+        "city": "Dorchester",
+        "lat": 50.7081861,
+        "lng": -2.448548
+      },
+      "activated_at": "2013-02-01T13:47:29+00:00"
+    },
+    {
+      "name": "Glory Farm Primary School",
+      "location": {
+        "city": "Bicester",
+        "lat": 51.9097234,
+        "lng": -1.1420521
+      },
+      "activated_at": "2013-02-01T15:38:35+00:00"
+    },
+    {
+      "name": "bebington high sports college",
+      "location": {
+        "city": "wirral",
+        "lat": 53.352775,
+        "lng": -3.014878
+      },
+      "activated_at": "2013-02-02T17:47:40+00:00"
+    },
+    {
+      "name": "St Katharines Primary School",
+      "location": {
+        "city": "Bournemouth",
+        "lat": 50.7223374,
+        "lng": -1.7781446
+      },
+      "activated_at": "2013-02-04T09:29:17+00:00"
+    },
+    {
+      "name": "Aldryngton Primary school",
+      "location": {
+        "city": "Reading",
+        "lat": 51.4380388,
+        "lng": -0.9265489
+      },
+      "activated_at": "2013-02-04T09:55:46+00:00"
+    },
+    {
+      "name": "Melton Primary School",
+      "location": {
+        "city": "Woodbridge",
+        "lat": 52.1044468,
+        "lng": 1.330277
+      },
+      "activated_at": "2013-02-04T20:13:46+00:00"
+    },
+    {
+      "name": "Northstead CP School",
+      "location": {
+        "city": "Scarborough",
+        "lat": 54.2901706,
+        "lng": -0.4206355
+      },
+      "activated_at": "2013-02-05T14:34:01+00:00"
+    },
+    {
+      "name": "Copthill School",
+      "location": {
+        "city": "Stamford",
+        "lat": 52.6465826,
+        "lng": -0.4170862
+      },
+      "activated_at": "2013-02-05T14:40:28+00:00"
+    },
+    {
+      "name": "Broadlea Primary School",
+      "location": {
+        "city": "Lake",
+        "lat": 50.6470174,
+        "lng": -1.1781067
+      },
+      "activated_at": "2013-02-06T20:04:48+00:00"
+    },
+    {
+      "name": "Littlegarth School",
+      "location": {
+        "city": "Colchester",
+        "lat": 51.9629156,
+        "lng": 0.8770221
+      },
+      "activated_at": "2013-02-06T21:28:25+00:00"
+    },
+    {
+      "name": "Sidegate Primary School",
+      "location": {
+        "city": "Ipswich",
+        "lat": 52.0659443,
+        "lng": 1.1805571
+      },
+      "activated_at": "2013-02-07T10:41:24+00:00"
+    },
+    {
+      "name": "Woodhouses Voluntary Primary School",
+      "location": {
+        "city": "Manchester",
+        "lat": 53.5049136,
+        "lng": -2.1341003
+      },
+      "activated_at": "2013-02-07T14:07:13+00:00"
+    },
+    {
+      "name": "Clanfield Primary School",
+      "location": {
+        "city": "Bampton",
+        "lat": 51.713672,
+        "lng": -1.5888339
+      },
+      "activated_at": "2013-02-07T17:20:51+00:00"
+    },
+    {
+      "name": "Gresham's Prep School",
+      "location": {
+        "city": "Holt",
+        "lat": 52.9072813,
+        "lng": 1.0954447
+      },
+      "activated_at": "2013-02-07T18:21:34+00:00"
+    },
+    {
+      "name": "Kirton Lindsey Primary School",
+      "location": {
+        "city": "Gainsborough",
+        "lat": 53.4320019,
+        "lng": -0.6578789
+      },
+      "activated_at": "2013-02-07T19:25:34+00:00"
+    },
+    {
+      "name": "Milnthorpe Primary School",
+      "location": {
+        "city": "Carnforth",
+        "lat": 54.2249582,
+        "lng": -2.7706303
+      },
+      "activated_at": "2013-02-07T20:46:05+00:00"
+    },
+    {
+      "name": "Morland Primary School",
+      "location": {
+        "city": "Ipswich",
+        "lat": 52.0310208,
+        "lng": 1.1755338
+      },
+      "activated_at": "2013-02-08T12:42:27+00:00"
+    },
+    {
+      "name": "Gabalfa Primary School",
+      "location": {
+        "city": "Cardiff",
+        "lat": 51.5005311,
+        "lng": -3.2181689
+      },
+      "activated_at": "2013-02-08T14:05:09+00:00"
+    },
+    {
+      "name": "Abbey Primary School",
+      "location": {
+        "city": "Mansfield",
+        "lat": 53.145373,
+        "lng": -1.171426
+      },
+      "activated_at": "2013-02-08T14:44:25+00:00"
+    },
+    {
+      "name": "Netley Abbey Junior School",
+      "location": {
+        "city": "Southampton",
+        "lat": 50.8787146,
+        "lng": -1.3488851
+      },
+      "activated_at": "2013-02-08T15:19:11+00:00"
+    },
+    {
+      "name": "Heron Way Primary School",
+      "location": {
+        "city": "Horsham",
+        "lat": 51.059276,
+        "lng": -0.2995369
+      },
+      "activated_at": "2013-02-09T11:35:14+00:00"
+    },
+    {
+      "name": "Holy Trinity CE(C) Primary School",
+      "location": {
+        "city": "Burton upon Trent",
+        "lat": 52.8114526,
+        "lng": -1.6257787
+      },
+      "activated_at": "2013-02-09T17:31:56+00:00"
+    },
+    {
+      "name": "St John's Church of England Academy",
+      "location": {
+        "city": "Darlington",
+        "lat": 54.5161941,
+        "lng": -1.5327733
+      },
+      "activated_at": "2013-02-10T12:50:51+00:00"
+    },
+    {
+      "name": "Abbey Catholic Primary",
+      "location": {
+        "city": "Birmingham",
+        "lat": 52.5295014,
+        "lng": -1.8367626
+      },
+      "activated_at": "2013-02-10T18:15:27+00:00"
+    },
+    {
+      "name": "St. Saviour's School Ikoyi",
+      "location": {
+        "city": "Lagos",
+        "lat": 51.8240696,
+        "lng": -2.7141045
+      },
+      "activated_at": "2013-02-10T19:51:32+00:00"
+    },
+    {
+      "name": "St Thomas' CE Primary School",
+      "location": {
+        "city": "Warrington",
+        "lat": 53.3713516,
+        "lng": -2.5757497
+      },
+      "activated_at": "2013-02-10T19:53:13+00:00"
+    },
+    {
+      "name": "IQRA Primary School",
+      "location": {
+        "city": "Slough",
+        "lat": 51.5163166,
+        "lng": -0.5814579
+      },
+      "activated_at": "2013-02-10T20:01:02+00:00"
+    },
+    {
+      "name": "Cumnor House School",
+      "location": {
+        "city": "Haywards Heath",
+        "lat": 51.0380931,
+        "lng": 0.0031971
+      },
+      "activated_at": "2013-02-10T21:13:53+00:00"
+    },
+    {
+      "name": "St Nicholas C of E Primary School",
+      "location": {
+        "city": "Ripon",
+        "lat": 54.2061766,
+        "lng": -1.5910393
+      },
+      "activated_at": "2013-02-11T11:24:45+00:00"
+    },
+    {
+      "name": "WHU Inspire",
+      "location": {
+        "city": "London",
+        "lat": 51.5316977,
+        "lng": 0.0383159
+      },
+      "activated_at": "2013-02-11T14:28:21+00:00"
+    },
+    {
+      "name": "Luckington Primary School",
+      "location": {
+        "city": "Chippenham",
+        "lat": 51.554562,
+        "lng": -2.2427551
+      },
+      "activated_at": "2013-02-11T15:24:04+00:00"
+    },
+    {
+      "name": "Chryston Primary School",
+      "location": {
+        "city": "Chryston",
+        "lat": 55.9032399,
+        "lng": -4.1079026
+      },
+      "activated_at": "2013-02-12T12:09:30+00:00"
+    },
+    {
+      "name": "St Mary's Catholic Primary School",
+      "location": {
+        "city": "Stockport",
+        "lat": 53.4029228,
+        "lng": -2.0514004
+      },
+      "activated_at": "2013-02-13T10:11:08+00:00"
+    },
+    {
+      "name": "Low Moor C of E primary school",
+      "location": {
+        "city": "Bradford",
+        "lat": 53.7566929,
+        "lng": -1.7575503
+      },
+      "activated_at": "2013-02-13T10:58:55+00:00"
+    },
+    {
+      "name": "Crookston Castle Primary School",
+      "location": {
+        "city": "Glasgow",
+        "lat": 55.8336527,
+        "lng": -4.3512773
+      },
+      "activated_at": "2013-02-13T13:56:47+00:00"
+    },
+    {
+      "name": "Archbishop Sumner Primary Sch",
+      "location": {
+        "city": "London",
+        "lat": 51.4916009,
+        "lng": -0.1099618
+      },
+      "activated_at": "2013-02-13T17:25:16+00:00"
+    },
+    {
+      "name": "Aldersbrook Primary",
+      "location": {
+        "city": "Wanstead",
+        "lat": 51.5643839,
+        "lng": 0.0368917
+      },
+      "activated_at": "2013-02-13T23:17:26+00:00"
+    },
+    {
+      "name": "Purley Oaks Primary School",
+      "location": {
+        "city": "South Croydon",
+        "lat": 51.3523614,
+        "lng": -0.0957062
+      },
+      "activated_at": "2013-02-14T07:59:03+00:00"
+    },
+    {
+      "name": "Loxford School of Science & Technology",
+      "location": {
+        "city": "Ilford",
+        "lat": 51.5600302,
+        "lng": 0.0626949
+      },
+      "activated_at": "2013-02-14T12:07:30+00:00"
+    },
+    {
+      "name": "whitchurch community primary",
+      "location": {
+        "city": "tavistock",
+        "lat": 50.5363685,
+        "lng": -4.1369103
+      },
+      "activated_at": "2013-02-14T20:17:41+00:00"
+    },
+    {
+      "name": "Queen's Drive Primary School",
+      "location": {
+        "city": "Preston",
+        "lat": 53.7853491,
+        "lng": -2.7174106
+      },
+      "activated_at": "2013-02-14T20:26:11+00:00"
+    },
+    {
+      "name": "Latchmere School",
+      "location": {
+        "city": "Kingston upon Thames",
+        "lat": 51.4221393,
+        "lng": -0.2963157
+      },
+      "activated_at": "2013-02-15T10:13:09+00:00"
+    },
+    {
+      "name": "Russell Scott Primary",
+      "location": {
+        "city": "Denton",
+        "lat": 53.460439,
+        "lng": -2.1168203
+      },
+      "activated_at": "2013-02-15T11:01:42+00:00"
+    },
+    {
+      "name": "Sandford St Martin’s C.E. (V.A.) Primary School",
+      "location": {
+        "city": "Wareham",
+        "lat": 50.7091798,
+        "lng": -2.0975551
+      },
+      "activated_at": "2013-02-15T14:05:04+00:00"
+    },
+    {
+      "name": "White's Wood Lane Community Junior School",
+      "location": {
+        "city": "Gainsborough",
+        "lat": 53.3999254,
+        "lng": -0.7602386
+      },
+      "activated_at": "2013-02-15T16:38:44+00:00"
+    },
+    {
+      "name": "St. Andrew's CE Primary School",
+      "location": {
+        "city": "Uxbridge",
+        "lat": 51.5426122,
+        "lng": -0.4748792
+      },
+      "activated_at": "2013-02-17T18:41:27+00:00"
+    },
+    {
+      "name": "Cirencester Deer Park School",
+      "location": {
+        "city": "Cirencester",
+        "lat": 51.7123938,
+        "lng": -1.9879683
+      },
+      "activated_at": "2013-02-18T09:23:03+00:00"
+    },
+    {
+      "name": "Castle Primary School",
+      "location": {
+        "city": "Stoke-Sub-Hamdon",
+        "lat": 50.9549304,
+        "lng": -2.7488611
+      },
+      "activated_at": "2013-02-18T15:50:25+00:00"
+    },
+    {
+      "name": "Denbury Primary School",
+      "location": {
+        "city": "Denbury",
+        "lat": 50.5077393,
+        "lng": -3.6613709
+      },
+      "activated_at": "2013-02-19T11:37:43+00:00"
+    },
+    {
+      "name": "Worthington Primary School",
+      "location": {
+        "city": "Sale",
+        "lat": 53.4206266,
+        "lng": -2.295154
+      },
+      "activated_at": "2013-02-20T14:08:42+00:00"
+    },
+    {
+      "name": "Falconer's Hill Junior School",
+      "location": {
+        "city": "Daventry",
+        "lat": 52.2645516,
+        "lng": -1.1642057
+      },
+      "activated_at": "2013-02-21T12:57:18+00:00"
+    },
+    {
+      "name": "Legsby",
+      "location": {
+        "city": "Market Rasen",
+        "lat": 53.3549322,
+        "lng": -0.2944976
+      },
+      "activated_at": "2013-02-21T13:50:34+00:00"
+    },
+    {
+      "name": "St Patrick's PS",
+      "location": {
+        "city": "Derrygonnelly",
+        "lat": 54.4271161,
+        "lng": -7.8277345
+      },
+      "activated_at": "2013-02-21T18:37:27+00:00"
+    },
+    {
+      "name": "Cotterill Home School",
+      "location": {
+        "city": "Louth",
+        "lat": 53.3725946,
+        "lng": 0.0132442
+      },
+      "activated_at": "2013-02-22T08:25:49+00:00"
+    },
+    {
+      "name": "Lawn Primary School",
+      "location": {
+        "city": "Swindon",
+        "lat": 51.5465951,
+        "lng": -1.760868
+      },
+      "activated_at": "2013-02-22T16:06:05+00:00"
+    },
+    {
+      "name": "Whirley Primary School",
+      "location": {
+        "city": "Macclesfield",
+        "lat": 53.2648868,
+        "lng": -2.1725217
+      },
+      "activated_at": "2013-02-23T15:47:16+00:00"
+    },
+    {
+      "name": "Kesteven and Grantham Girls' School",
+      "location": {
+        "city": "Grantham",
+        "lat": 52.913183,
+        "lng": -0.6343138
+      },
+      "activated_at": "2013-02-24T10:07:36+00:00"
+    },
+    {
+      "name": "The Granville School",
+      "location": {
+        "city": "Sevenoaks",
+        "lat": 51.2801799,
+        "lng": 0.1817974
+      },
+      "activated_at": "2013-02-24T11:22:09+00:00"
+    },
+    {
+      "name": "Galley Hill Primary School & Nursery",
+      "location": {
+        "city": "Hemel Hempstead",
+        "lat": 51.7637846,
+        "lng": -0.489986
+      },
+      "activated_at": "2013-02-24T11:43:13+00:00"
+    },
+    {
+      "name": "Bromley High School",
+      "location": {
+        "city": "Bickley",
+        "lat": 51.3952995,
+        "lng": 0.0571016
+      },
+      "activated_at": "2013-02-24T19:33:50+00:00"
+    },
+    {
+      "name": "Welbourne Primary",
+      "location": {
+        "city": "Peterborough",
+        "lat": 52.6182977,
+        "lng": -0.2679781
+      },
+      "activated_at": "2013-02-24T23:41:17+00:00"
+    },
+    {
+      "name": "Willington School",
+      "location": {
+        "city": "Wimbledon",
+        "lat": 51.4244831,
+        "lng": -0.205121
+      },
+      "activated_at": "2013-02-25T10:48:15+00:00"
+    },
+    {
+      "name": "St Bonaventure's Primary",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.465586,
+        "lng": -2.5977911
+      },
+      "activated_at": "2013-02-25T21:38:50+00:00"
+    },
+    {
+      "name": "Kehelland School",
+      "location": {
+        "city": "Camborne",
+        "lat": 50.2188562,
+        "lng": -5.3298194
+      },
+      "activated_at": "2013-02-26T14:03:08+00:00"
+    },
+    {
+      "name": "Bangkok Patana School",
+      "location": {
+        "city": "Bangna",
+        "lat": 51.2504884,
+        "lng": -0.1884896
+      },
+      "activated_at": "2013-02-27T05:27:23+00:00"
+    },
+    {
+      "name": "Springmead",
+      "location": {
+        "city": "Welwyn Garden City",
+        "lat": 51.8037431,
+        "lng": -0.1777102
+      },
+      "activated_at": "2013-02-27T09:07:26+00:00"
+    },
+    {
+      "name": "Woodside Primary School",
+      "location": {
+        "city": "Croydon",
+        "lat": 51.3848492,
+        "lng": -0.0746112
+      },
+      "activated_at": "2013-02-27T11:37:14+00:00"
+    },
+    {
+      "name": "Newcastle City Learning Centre",
+      "location": {
+        "city": "Newcastle upon Tyne",
+        "lat": 54.9773019,
+        "lng": -1.6615191
+      },
+      "activated_at": "2013-02-27T12:33:53+00:00"
+    },
+    {
+      "name": "Ysgol Tudweiliog",
+      "location": {
+        "city": "Pwllheli",
+        "lat": 52.8987994,
+        "lng": -4.6223145
+      },
+      "activated_at": "2013-02-27T14:52:09+00:00"
+    },
+    {
+      "name": "Ysgol Llangybi",
+      "location": {
+        "city": "Pwllheli",
+        "lat": 52.9423408,
+        "lng": -4.3503013
+      },
+      "activated_at": "2013-02-27T14:54:43+00:00"
+    },
+    {
+      "name": "Blakehill Primary School",
+      "location": {
+        "city": "Bradford",
+        "lat": 53.8291093,
+        "lng": -1.7363031
+      },
+      "activated_at": "2013-02-27T17:45:07+00:00"
+    },
+    {
+      "name": "Bishopsgate School",
+      "location": {
+        "city": "Egham",
+        "lat": 51.4394211,
+        "lng": -0.5833663
+      },
+      "activated_at": "2013-02-27T21:01:32+00:00"
+    },
+    {
+      "name": "Slaithwaite CofE J&I School",
+      "location": {
+        "city": "Huddersfield",
+        "lat": 53.6229662,
+        "lng": -1.8921341
+      },
+      "activated_at": "2013-02-28T11:34:34+00:00"
+    },
+    {
+      "name": "Merton Park Primary",
+      "location": {
+        "city": "London",
+        "lat": 51.4097677,
+        "lng": -0.2013692
+      },
+      "activated_at": "2013-02-28T12:41:39+00:00"
+    },
+    {
+      "name": "Smallwood CofE Primary School",
+      "location": {
+        "city": "Smallwood Village",
+        "lat": 53.1388216,
+        "lng": -2.2906908
+      },
+      "activated_at": "2013-02-28T12:43:58+00:00"
+    },
+    {
+      "name": "Park Hill Primary School",
+      "location": {
+        "city": "WEDNESBURY",
+        "lat": 52.5578417,
+        "lng": -1.9962985
+      },
+      "activated_at": "2013-02-28T15:42:55+00:00"
+    },
+    {
+      "name": "AKS",
+      "location": {
+        "city": "Lytham St Annes",
+        "lat": 53.7408415,
+        "lng": -3.0101219
+      },
+      "activated_at": "2013-02-28T16:36:41+00:00"
+    },
+    {
+      "name": "claremont",
+      "location": {
+        "city": "manchester",
+        "lat": 53.4532265,
+        "lng": -2.2351458
+      },
+      "activated_at": "2013-02-28T18:38:46+00:00"
+    },
+    {
+      "name": "St. David's Primary School",
+      "location": {
+        "city": "Cwmbran",
+        "lat": 51.6630397,
+        "lng": -3.0193695
+      },
+      "activated_at": "2013-02-28T19:32:08+00:00"
+    },
+    {
+      "name": "Irchester Community Primary School",
+      "location": {
+        "city": "Wellingborough",
+        "lat": 52.2824095,
+        "lng": -0.6464733
+      },
+      "activated_at": "2013-03-01T08:14:06+00:00"
+    },
+    {
+      "name": "AKS Lytham",
+      "location": {
+        "city": "Lytham St Annes",
+        "lat": 53.7578445,
+        "lng": -3.0305517
+      },
+      "activated_at": "2013-03-01T10:36:27+00:00"
+    },
+    {
+      "name": "St Aidans Catholic School",
+      "location": {
+        "city": "Sunderland",
+        "lat": 54.8930125,
+        "lng": -1.3883862
+      },
+      "activated_at": "2013-03-01T15:17:02+00:00"
+    },
+    {
+      "name": "Lowton West Primary School",
+      "location": {
+        "city": "Warrington",
+        "lat": 53.4762194,
+        "lng": -2.5800467
+      },
+      "activated_at": "2013-03-01T16:40:31+00:00"
+    },
+    {
+      "name": "Brunswick House Primary School",
+      "location": {
+        "city": "Maidstone",
+        "lat": 51.2779839,
+        "lng": 0.5094591
+      },
+      "activated_at": "2013-03-02T20:17:34+00:00"
+    },
+    {
+      "name": "Elvetham Heath Primary School",
+      "location": {
+        "city": "Fleet",
+        "lat": 51.2918118,
+        "lng": -0.8563753
+      },
+      "activated_at": "2013-03-03T19:57:18+00:00"
+    },
+    {
+      "name": "the mulberry primary school",
+      "location": {
+        "city": "london",
+        "lat": 51.5953874,
+        "lng": -0.0660525
+      },
+      "activated_at": "2013-03-03T23:40:10+00:00"
+    },
+    {
+      "name": "Alexandra Park School",
+      "location": {
+        "city": "London",
+        "lat": 51.6020647,
+        "lng": -0.1369591
+      },
+      "activated_at": "2013-03-04T14:58:44+00:00"
+    },
+    {
+      "name": "Edinbarnet Primary School",
+      "location": {
+        "city": "Clydebank",
+        "lat": 55.9297831,
+        "lng": -4.3956498
+      },
+      "activated_at": "2013-03-04T15:42:47+00:00"
+    },
+    {
+      "name": "Terra Nova Preparatory School",
+      "location": {
+        "city": "Crewe",
+        "lat": 53.2276358,
+        "lng": -2.3070957
+      },
+      "activated_at": "2013-03-04T16:30:38+00:00"
+    },
+    {
+      "name": "st aidans catholic school",
+      "location": {
+        "city": "sunderland",
+        "lat": 54.8843185,
+        "lng": -1.3717299
+      },
+      "activated_at": "2013-03-04T17:55:25+00:00"
+    },
+    {
+      "name": "Fleet Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5534614,
+        "lng": -0.1609434
+      },
+      "activated_at": "2013-03-04T21:13:11+00:00"
+    },
+    {
+      "name": "Moss Side Primary School",
+      "location": {
+        "city": "Leyland",
+        "lat": 53.694351,
+        "lng": -2.7294923
+      },
+      "activated_at": "2013-03-05T20:26:30+00:00"
+    },
+    {
+      "name": "Trinity C of E / Methodist primary",
+      "location": {
+        "city": "Skelmersdale",
+        "lat": 53.5517898,
+        "lng": -2.7950655
+      },
+      "activated_at": "2013-03-06T00:16:18+00:00"
+    },
+    {
+      "name": "Bosvigo School",
+      "location": {
+        "city": "Truro",
+        "lat": 50.2620717,
+        "lng": -5.0595204
+      },
+      "activated_at": "2013-03-06T11:22:04+00:00"
+    },
+    {
+      "name": "Tarbolton Primary",
+      "location": {
+        "city": "Tarbolton",
+        "lat": 55.5115374,
+        "lng": -4.4853672
+      },
+      "activated_at": "2013-03-06T11:59:54+00:00"
+    },
+    {
+      "name": "Rendlesham Community Primary  ",
+      "location": {
+        "city": "Woodbridge",
+        "lat": 52.1298179,
+        "lng": 1.4142313
+      },
+      "activated_at": "2013-03-07T10:10:54+00:00"
+    },
+    {
+      "name": "Ashcombe Primary School",
+      "location": {
+        "city": "Weston super Mare",
+        "lat": 51.34813,
+        "lng": -2.9597533
+      },
+      "activated_at": "2013-03-07T17:11:26+00:00"
+    },
+    {
+      "name": "New Brighton Primary School",
+      "location": {
+        "city": "New Brighton",
+        "lat": 53.4338555,
+        "lng": -3.0399598
+      },
+      "activated_at": "2013-03-08T10:06:44+00:00"
+    },
+    {
+      "name": "Cherry Orchard",
+      "location": {
+        "city": "London",
+        "lat": 51.4758257,
+        "lng": 0.0336639
+      },
+      "activated_at": "2013-03-08T10:24:08+00:00"
+    },
+    {
+      "name": "Meriden CE Primary ",
+      "location": {
+        "city": "Coventry",
+        "lat": 52.4395254,
+        "lng": -1.6455623
+      },
+      "activated_at": "2013-03-08T12:19:16+00:00"
+    },
+    {
+      "name": "Sparsholt C of E Primary School",
+      "location": {
+        "city": "Winchester",
+        "lat": 51.078796,
+        "lng": -1.378772
+      },
+      "activated_at": "2013-03-08T13:21:29+00:00"
+    },
+    {
+      "name": "St Paul's C.E. (VA) Primary School",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.1968423,
+        "lng": 0.1266151
+      },
+      "activated_at": "2013-03-08T14:23:40+00:00"
+    },
+    {
+      "name": "Stepgates Community School",
+      "location": {
+        "city": "Chertsey",
+        "lat": 51.388243,
+        "lng": -0.4978813
+      },
+      "activated_at": "2013-03-08T16:36:29+00:00"
+    },
+    {
+      "name": "Haselworth Primary School",
+      "location": {
+        "city": "Gosport",
+        "lat": 50.7915639,
+        "lng": -1.137595
+      },
+      "activated_at": "2013-03-08T17:11:45+00:00"
+    },
+    {
+      "name": "Keston Primary School",
+      "location": {
+        "city": "Old Coulsdon",
+        "lat": 51.3046044,
+        "lng": -0.1126042
+      },
+      "activated_at": "2013-03-09T09:22:45+00:00"
+    },
+    {
+      "name": "Malin Bridge Primary School",
+      "location": {
+        "city": "SHEFFIELD",
+        "lat": 53.4015954,
+        "lng": -1.5117656
+      },
+      "activated_at": "2013-03-09T20:44:48+00:00"
+    },
+    {
+      "name": "Milstead and Frinsted C of E Primary School",
+      "location": {
+        "city": "Sittingbourne",
+        "lat": 51.2899729,
+        "lng": 0.7280925
+      },
+      "activated_at": "2013-03-10T21:23:49+00:00"
+    },
+    {
+      "name": "St Andrew's C. E. Primary School",
+      "location": {
+        "city": "Hove",
+        "lat": 50.830581,
+        "lng": -0.1745749
+      },
+      "activated_at": "2013-03-11T09:26:23+00:00"
+    },
+    {
+      "name": "Wattenden Primary School",
+      "location": {
+        "city": "Purley",
+        "lat": 51.3161061,
+        "lng": -0.1153896
+      },
+      "activated_at": "2013-03-11T10:01:36+00:00"
+    },
+    {
+      "name": "Kensington Prep School",
+      "location": {
+        "city": "London",
+        "lat": 51.4770448,
+        "lng": -0.2027993
+      },
+      "activated_at": "2013-03-11T11:05:23+00:00"
+    },
+    {
+      "name": "St Margaret Clitherow ",
+      "location": {
+        "city": "Bracknell",
+        "lat": 51.3907547,
+        "lng": -0.7653617
+      },
+      "activated_at": "2013-03-11T13:11:39+00:00"
+    },
+    {
+      "name": "St Mary's School Horsham",
+      "location": {
+        "city": "Horsham",
+        "lat": 51.05936209999999,
+        "lng": -0.3300506
+      },
+      "activated_at": "2013-03-11T23:55:28+00:00"
+    },
+    {
+      "name": "William Davies Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.5776852,
+        "lng": -0.1115738
+      },
+      "activated_at": "2013-03-12T09:50:50+00:00"
+    },
+    {
+      "name": "Holyhead Primary School ",
+      "location": {
+        "city": "Wednsebury",
+        "lat": 52.5545327,
+        "lng": -2.0295488
+      },
+      "activated_at": "2013-03-12T11:56:24+00:00"
+    },
+    {
+      "name": "Prae Wood Primary School",
+      "location": {
+        "city": "St Albans",
+        "lat": 51.7456098,
+        "lng": -0.3590066
+      },
+      "activated_at": "2013-03-12T15:58:20+00:00"
+    },
+    {
+      "name": "Malden Manor Primary School",
+      "location": {
+        "city": "New Malden",
+        "lat": 51.3861168,
+        "lng": -0.2596979
+      },
+      "activated_at": "2013-03-13T10:41:32+00:00"
+    },
+    {
+      "name": "Carmountside Primary Academy",
+      "location": {
+        "city": "Abbey Hulton",
+        "lat": 53.0411782,
+        "lng": -2.1388436
+      },
+      "activated_at": "2013-03-13T20:17:03+00:00"
+    },
+    {
+      "name": "ST PETERS COFE PRIMARY SCHOOL",
+      "location": {
+        "city": "London",
+        "lat": 51.4920535,
+        "lng": -0.2407718
+      },
+      "activated_at": "2013-03-14T02:31:44+00:00"
+    },
+    {
+      "name": "Bede Academy",
+      "location": {
+        "city": "Blyth",
+        "lat": 55.110632,
+        "lng": -1.5068364
+      },
+      "activated_at": "2013-03-14T13:41:37+00:00"
+    },
+    {
+      "name": "test",
+      "location": {
+        "city": "Liverpool",
+        "lat": 53.3954046,
+        "lng": -2.977814
+      },
+      "activated_at": "2013-03-15T22:38:16+00:00"
+    },
+    {
+      "name": "Roseacre Junior School",
+      "location": {
+        "city": "Maidstone",
+        "lat": 51.2729286,
+        "lng": 0.5695899
+      },
+      "activated_at": "2013-03-17T13:55:28+00:00"
+    },
+    {
+      "name": "Ridgeway Primary School",
+      "location": {
+        "city": "South Croydon",
+        "lat": 51.3450627,
+        "lng": -0.0837891
+      },
+      "activated_at": "2013-03-17T17:29:22+00:00"
+    },
+    {
+      "name": "Christ Church C of E Primary School Battersea",
+      "location": {
+        "city": "London",
+        "lat": 51.4670833,
+        "lng": -0.1669237
+      },
+      "activated_at": "2013-03-18T09:21:09+00:00"
+    },
+    {
+      "name": "Corporation Road School",
+      "location": {
+        "city": "Darlington",
+        "lat": 54.5316189,
+        "lng": -1.5575228
+      },
+      "activated_at": "2013-03-18T11:45:05+00:00"
+    },
+    {
+      "name": "Colonel Frank Seely School",
+      "location": {
+        "city": "Calverton",
+        "lat": 53.0417317,
+        "lng": -1.0870451
+      },
+      "activated_at": "2013-03-18T11:56:11+00:00"
+    },
+    {
+      "name": "Lauriston School",
+      "location": {
+        "city": "London",
+        "lat": 51.5368623,
+        "lng": -0.0469481
+      },
+      "activated_at": "2013-03-18T12:20:57+00:00"
+    },
+    {
+      "name": "King HArold Business & Enterprise Academy",
+      "location": {
+        "city": "Waltham Abbey",
+        "lat": 51.6895238,
+        "lng": 0.0150295
+      },
+      "activated_at": "2013-03-18T17:14:09+00:00"
+    },
+    {
+      "name": "Columbia School",
+      "location": {
+        "city": "London",
+        "lat": 51.529413,
+        "lng": -0.0695561
+      },
+      "activated_at": "2013-03-18T20:36:41+00:00"
+    },
+    {
+      "name": "Preston Street Primary",
+      "location": {
+        "city": "Edinburgh",
+        "lat": 55.9399376,
+        "lng": -3.1760469
+      },
+      "activated_at": "2013-03-18T21:40:35+00:00"
+    },
+    {
+      "name": "Preston Park Primary ",
+      "location": {
+        "city": "London ",
+        "lat": 51.571969,
+        "lng": -0.3005904
+      },
+      "activated_at": "2013-03-18T23:01:40+00:00"
+    },
+    {
+      "name": "Brabyns Prep School",
+      "location": {
+        "city": "Marple",
+        "lat": 53.3977786,
+        "lng": -2.0573045
+      },
+      "activated_at": "2013-03-18T23:11:00+00:00"
+    },
+    {
+      "name": "discovery clc",
+      "location": {
+        "city": "wirral",
+        "lat": 53.3802927,
+        "lng": -3.0731859
+      },
+      "activated_at": "2013-03-19T09:46:07+00:00"
+    },
+    {
+      "name": "King's Somborne Primary School",
+      "location": {
+        "city": "Kings Somborne",
+        "lat": 51.0792195,
+        "lng": -1.4823903
+      },
+      "activated_at": "2013-03-19T13:40:56+00:00"
+    },
+    {
+      "name": "Bramcote Hills Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9445426,
+        "lng": -1.2468683
+      },
+      "activated_at": "2013-03-19T15:35:18+00:00"
+    },
+    {
+      "name": "The Fulbridge Academy",
+      "location": {
+        "city": "Peterborough",
+        "lat": 52.5967136,
+        "lng": -0.2534887
+      },
+      "activated_at": "2013-03-19T17:55:42+00:00"
+    },
+    {
+      "name": "Hayes Park School",
+      "location": {
+        "city": "Hayes",
+        "lat": 51.5286718,
+        "lng": -0.4209808
+      },
+      "activated_at": "2013-03-19T20:05:38+00:00"
+    },
+    {
+      "name": "Highfield Prep",
+      "location": {
+        "city": "Maidenhead",
+        "lat": 51.5212988,
+        "lng": -0.7277415
+      },
+      "activated_at": "2013-03-20T08:00:50+00:00"
+    },
+    {
+      "name": "Moorlands Junior School",
+      "location": {
+        "city": "Sale",
+        "lat": 53.4254096,
+        "lng": -2.3018838
+      },
+      "activated_at": "2013-03-20T17:18:05+00:00"
+    },
+    {
+      "name": "Welton Primary School",
+      "location": {
+        "city": "Radstock",
+        "lat": 51.2900221,
+        "lng": -2.474015
+      },
+      "activated_at": "2013-03-20T20:03:27+00:00"
+    },
+    {
+      "name": "Bentley St. Paul's C of E Primary School",
+      "location": {
+        "city": "Brentwood",
+        "lat": 51.6480082,
+        "lng": 0.273384
+      },
+      "activated_at": "2013-03-20T20:49:50+00:00"
+    },
+    {
+      "name": "Nursteed Community Primary School",
+      "location": {
+        "city": "Devizes",
+        "lat": 51.3505318,
+        "lng": -1.9729553
+      },
+      "activated_at": "2013-03-20T22:18:34+00:00"
+    },
+    {
+      "name": "Escola Sant Julia",
+      "location": {
+        "city": "L'Arboc, 43720",
+        "lat": null,
+        "lng": null
+      },
+      "activated_at": "2013-03-21T07:22:13+00:00"
+    },
+    {
+      "name": "Orleans Primary",
+      "location": {
+        "city": "Twickenham",
+        "lat": 51.4530065,
+        "lng": -0.3203542
+      },
+      "activated_at": "2013-03-21T09:56:47+00:00"
+    },
+    {
+      "name": "Docking Primary School",
+      "location": {
+        "city": "Docking",
+        "lat": 52.9010245,
+        "lng": 0.6246884
+      },
+      "activated_at": "2013-03-21T12:07:49+00:00"
+    },
+    {
+      "name": "Greenfield School",
+      "location": {
+        "city": "Woking",
+        "lat": 51.3104921,
+        "lng": -0.5635946
+      },
+      "activated_at": "2013-03-21T16:35:22+00:00"
+    },
+    {
+      "name": "De Berken",
+      "location": {
+        "city": "Dilbeek",
+        "lat": 51.5188622,
+        "lng": -0.1439282
+      },
+      "activated_at": "2013-03-21T19:17:04+00:00"
+    },
+    {
+      "name": "Wreningham VC Primary School",
+      "location": {
+        "city": "Wreningham",
+        "lat": 52.5410769,
+        "lng": 1.1790916
+      },
+      "activated_at": "2013-03-21T22:10:54+00:00"
+    },
+    {
+      "name": "Moordown St John's Primary School",
+      "location": {
+        "city": "Bournemouth",
+        "lat": 50.7550653,
+        "lng": -1.8785141
+      },
+      "activated_at": "2013-03-22T09:31:34+00:00"
+    },
+    {
+      "name": "St. Gabriel's R.C. Primary School",
+      "location": {
+        "city": "Newport",
+        "lat": 51.5949681,
+        "lng": -2.944795
+      },
+      "activated_at": "2013-03-22T14:55:03+00:00"
+    },
+    {
+      "name": "Howard Junior School",
+      "location": {
+        "city": "King's Lynn",
+        "lat": 52.7501285,
+        "lng": 0.4241763
+      },
+      "activated_at": "2013-03-22T19:11:20+00:00"
+    },
+    {
+      "name": "Arnold Hill Academy",
+      "location": {
+        "city": "Arnold",
+        "lat": 52.9974863,
+        "lng": -1.1168993
+      },
+      "activated_at": "2013-03-23T11:46:07+00:00"
+    },
+    {
+      "name": "Manor ce academy",
+      "location": {
+        "city": "York",
+        "lat": 53.9759032,
+        "lng": -1.1369631
+      },
+      "activated_at": "2013-03-23T12:46:26+00:00"
+    },
+    {
+      "name": "St Giles Church Aided Primary School",
+      "location": {
+        "city": "Matlock",
+        "lat": 53.1294833,
+        "lng": -1.5525905
+      },
+      "activated_at": "2013-03-25T16:24:16+00:00"
+    },
+    {
+      "name": "Chrishall Holy Trinity and St Nicholas C of E Primary School",
+      "location": {
+        "city": "Royston",
+        "lat": 52.0639148,
+        "lng": -0.0478776
+      },
+      "activated_at": "2013-03-26T09:02:10+00:00"
+    },
+    {
+      "name": "Prescot Primary School",
+      "location": {
+        "city": "Prescot",
+        "lat": 53.4286594,
+        "lng": -2.7942551
+      },
+      "activated_at": "2013-03-26T16:04:59+00:00"
+    },
+    {
+      "name": "St Whites Primary School",
+      "location": {
+        "city": "Cinderford",
+        "lat": 51.8131871,
+        "lng": -2.5014743
+      },
+      "activated_at": "2013-03-26T20:32:55+00:00"
+    },
+    {
+      "name": "West Coker Primary School",
+      "location": {
+        "city": "Yeovil",
+        "lat": 50.91897,
+        "lng": -2.6904255
+      },
+      "activated_at": "2013-03-27T09:36:21+00:00"
+    },
+    {
+      "name": "Longthorpe Primary School",
+      "location": {
+        "city": "Peterborough",
+        "lat": 52.5754855,
+        "lng": -0.282328
+      },
+      "activated_at": "2013-03-27T13:48:59+00:00"
+    },
+    {
+      "name": "Groombridge St Thomas Primary School",
+      "location": {
+        "city": "Groombridge",
+        "lat": 51.1098157,
+        "lng": 0.1843927
+      },
+      "activated_at": "2013-03-27T19:13:55+00:00"
+    },
+    {
+      "name": "Martins Wood Primary School",
+      "location": {
+        "city": "Stevenage",
+        "lat": 51.9195057,
+        "lng": -0.173637
+      },
+      "activated_at": "2013-03-28T09:28:39+00:00"
+    },
+    {
+      "name": "Dundee Contemporary Arts Community & Education Programme",
+      "location": {
+        "city": "Dundee",
+        "lat": 56.4572565,
+        "lng": -2.9747291
+      },
+      "activated_at": "2013-03-28T10:11:38+00:00"
+    },
+    {
+      "name": "Long Lane Primary School",
+      "location": {
+        "city": "Reading",
+        "lat": 51.4777014,
+        "lng": -1.0527958
+      },
+      "activated_at": "2013-03-28T19:27:35+00:00"
+    },
+    {
+      "name": "The Orchards Community Middle School",
+      "location": {
+        "city": "Worthing",
+        "lat": 50.821627,
+        "lng": -0.4174202
+      },
+      "activated_at": "2013-03-28T21:03:34+00:00"
+    },
+    {
+      "name": "Didsbury C of E Primary School",
+      "location": {
+        "city": "Manchester",
+        "lat": 53.4158964,
+        "lng": -2.2309375
+      },
+      "activated_at": "2013-03-29T13:14:42+00:00"
+    },
+    {
+      "name": "AYAH",
+      "location": {
+        "city": "HULL",
+        "lat": 53.7322205,
+        "lng": -0.3959487
+      },
+      "activated_at": "2013-03-29T16:33:48+00:00"
+    },
+    {
+      "name": "Lyppard Grange Primary School",
+      "location": {
+        "city": "Worcester",
+        "lat": 52.2000717,
+        "lng": -2.1778729
+      },
+      "activated_at": "2013-03-29T16:45:22+00:00"
+    },
+    {
+      "name": "Canary Wharf College",
+      "location": {
+        "city": "London",
+        "lat": 51.4891096,
+        "lng": -0.0136406
+      },
+      "activated_at": "2013-03-29T23:03:04+00:00"
+    },
+    {
+      "name": "Pontlliw Primary School",
+      "location": {
+        "city": "Swansea",
+        "lat": 51.6932164,
+        "lng": -4.010497
+      },
+      "activated_at": "2013-04-01T00:31:13+01:00"
+    },
+    {
+      "name": "De Beauvoir Primary",
+      "location": {
+        "city": "London",
+        "lat": 51.5457123,
+        "lng": -0.079712
+      },
+      "activated_at": "2013-04-02T17:09:26+01:00"
+    },
+    {
+      "name": "The Nettleham Church of England Voluntary Aided Junior School",
+      "location": {
+        "city": "Lincoln",
+        "lat": 53.26482310000001,
+        "lng": -0.4866485
+      },
+      "activated_at": "2013-04-02T17:52:46+01:00"
+    },
+    {
+      "name": "St John of Jerusalem Primary School",
+      "location": {
+        "city": null,
+        "lat": 51.5400811,
+        "lng": -0.0501559
+      },
+      "activated_at": "2013-05-13T11:19:56+01:00"
+    },
+    {
+      "name": "Billesdon Parochial Primary School",
+      "location": {
+        "city": "Leicester",
+        "lat": 52.6101644,
+        "lng": -0.948498
+      },
+      "activated_at": "2013-04-09T13:38:13+01:00"
+    },
+    {
+      "name": "Betty Layward School",
+      "location": {
+        "city": null,
+        "lat": 51.5578873,
+        "lng": -0.084609
+      },
+      "activated_at": "2013-04-08T16:26:21+01:00"
+    },
+    {
+      "name": "The Greenwich Free School",
+      "location": {
+        "city": null,
+        "lat": 51.4719588,
+        "lng": 0.0527583
+      },
+      "activated_at": "2013-04-15T14:47:04+01:00"
+    },
+    {
+      "name": "Canada Hill Community Primary School",
+      "location": {
+        "city": "Newton Abbot",
+        "lat": 50.5212633,
+        "lng": -3.6270412
+      },
+      "activated_at": "2013-04-27T12:40:17+01:00"
+    },
+    {
+      "name": "Adlington St Paul's Church of England Primary School",
+      "location": {
+        "city": "Chorley",
+        "lat": 53.6156045,
+        "lng": -2.5999456
+      },
+      "activated_at": "2013-04-16T12:17:35+01:00"
+    },
+    {
+      "name": "Russell Hall Primary School",
+      "location": {
+        "city": "Bradford",
+        "lat": 53.7662258,
+        "lng": -1.851266
+      },
+      "activated_at": "2013-04-12T10:38:41+01:00"
+    },
+    {
+      "name": "Cudworth Churchfield Primary School",
+      "location": {
+        "city": "Barnsley",
+        "lat": 53.5752706,
+        "lng": -1.4135755
+      },
+      "activated_at": "2013-05-09T07:53:13+01:00"
+    },
+    {
+      "name": "St Mary Redcliffe Church of England Primary School",
+      "location": {
+        "city": "Bristol",
+        "lat": 51.4417751,
+        "lng": -2.5903437
+      },
+      "activated_at": "2013-04-12T11:34:44+01:00"
+    },
+    {
+      "name": "fox primary school",
+      "location": {
+        "city": null,
+        "lat": 51.5074986,
+        "lng": -0.1967018
+      },
+      "activated_at": "2013-04-23T13:48:33+01:00"
+    },
+    {
+      "name": "fox primary school",
+      "location": {
+        "city": null,
+        "lat": 51.5074986,
+        "lng": -0.1967018
+      },
+      "activated_at": "2013-04-23T16:59:50+01:00"
+    },
+    {
+      "name": "St John's Highbury Vale",
+      "location": {
+        "city": null,
+        "lat": 51.5582755,
+        "lng": -0.1001876
+      },
+      "activated_at": "2013-04-15T15:19:57+01:00"
+    },
+    {
+      "name": "Guildford Grove Primary School",
+      "location": {
+        "city": null,
+        "lat": 51.243979,
+        "lng": -0.6093359
+      },
+      "activated_at": "2013-04-15T16:26:19+01:00"
+    },
+    {
+      "name": "Netherfield Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9663264,
+        "lng": -1.0738963
+      },
+      "activated_at": "2013-04-26T14:20:18+01:00"
+    },
+    {
+      "name": "Trewirgie junior school ",
+      "location": {
+        "city": null,
+        "lat": 50.2301219,
+        "lng": -5.2278214
+      },
+      "activated_at": "2013-04-21T23:21:51+01:00"
+    },
+    {
+      "name": "Danesholme Junior School",
+      "location": {
+        "city": null,
+        "lat": 52.4718881,
+        "lng": -0.7332128
+      },
+      "activated_at": "2013-05-12T20:46:46+01:00"
+    },
+    {
+      "name": "The Vine Inter Church Primary School",
+      "location": {
+        "city": "",
+        "lat": 52.2148966,
+        "lng": -0.0661323
+      },
+      "activated_at": "2013-04-24T21:20:42+01:00"
+    },
+    {
+      "name": "Beecroft Garden Primary",
+      "location": {
+        "city": "London",
+        "lat": 51.4568732,
+        "lng": -0.0374002
+      },
+      "activated_at": "2013-04-17T16:42:25+01:00"
+    },
+    {
+      "name": "Nottingham Academy Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.9566685,
+        "lng": -1.1149472
+      },
+      "activated_at": "2013-04-22T20:52:18+01:00"
+    },
+    {
+      "name": "The Vine Inter Church Primary School",
+      "location": {
+        "city": "",
+        "lat": 52.2148966,
+        "lng": -0.0661323
+      },
+      "activated_at": "2013-04-18T20:19:58+01:00"
+    },
+    {
+      "name": "St Margaret Clitherow Catholic Primary School, Bracknell",
+      "location": {
+        "city": "Bracknell",
+        "lat": 51.3902519,
+        "lng": -0.7650378
+      },
+      "activated_at": "2013-04-18T11:08:10+01:00"
+    },
+    {
+      "name": "Fairlop Primary School",
+      "location": {
+        "city": "Ilford",
+        "lat": 51.5999481,
+        "lng": 0.0806506
+      },
+      "activated_at": "2013-04-18T11:23:41+01:00"
+    },
+    {
+      "name": "Moulsecoomb Primary School",
+      "location": {
+        "city": "Brighton",
+        "lat": 50.8494667,
+        "lng": -0.1107047
+      },
+      "activated_at": "2013-04-19T14:31:37+01:00"
+    },
+    {
+      "name": "Brandlehow Primary",
+      "location": {
+        "city": null,
+        "lat": 51.4613786,
+        "lng": -0.2074167
+      },
+      "activated_at": "2013-05-15T09:53:42+01:00"
+    },
+    {
+      "name": "Heaton Avenue Primary",
+      "location": {
+        "city": null,
+        "lat": 53.7245716,
+        "lng": -1.7251509
+      },
+      "activated_at": "2013-05-13T13:09:33+01:00"
+    },
+    {
+      "name": "Overbury CofE First School",
+      "location": {
+        "city": "Tewkesbury",
+        "lat": 52.0341343,
+        "lng": -2.0631315
+      },
+      "activated_at": "2013-04-22T20:01:56+01:00"
+    },
+    {
+      "name": "Chewton Mendip Church of England VA Primary School",
+      "location": {
+        "city": "Radstock",
+        "lat": 51.2751718,
+        "lng": -2.5790013
+      },
+      "activated_at": "2013-04-22T15:39:27+01:00"
+    },
+    {
+      "name": "Northfold Community Primary School",
+      "location": {
+        "city": "Thornton-Cleveleys",
+        "lat": 53.8854155,
+        "lng": -3.0352632
+      },
+      "activated_at": "2013-04-22T22:20:20+01:00"
+    },
+    {
+      "name": "Hadleigh Community Primary School",
+      "location": {
+        "city": "Hadleigh",
+        "lat": 52.0414776,
+        "lng": 0.9632023
+      },
+      "activated_at": "2013-05-03T15:26:19+01:00"
+    },
+    {
+      "name": "Sevenoaks Primary School",
+      "location": {
+        "city": "Sevenoaks",
+        "lat": 51.284599299999996,
+        "lng": 0.1861493
+      },
+      "activated_at": "2013-05-03T14:44:20+01:00"
+    },
+    {
+      "name": "Thaxted Primary School",
+      "location": {
+        "city": "Dunmow",
+        "lat": 51.9493287,
+        "lng": 0.369548
+      },
+      "activated_at": "2013-04-23T12:26:45+01:00"
+    },
+    {
+      "name": "Masefield Primary School",
+      "location": {
+        "city": "Bolton",
+        "lat": 53.5645122,
+        "lng": -2.3654937
+      },
+      "activated_at": "2013-04-23T08:25:11+01:00"
+    },
+    {
+      "name": "Harwood Meadows Primary School",
+      "location": {
+        "city": "Bolton",
+        "lat": 53.5967631,
+        "lng": -2.3811507
+      },
+      "activated_at": "2013-04-23T12:26:12+01:00"
+    },
+    {
+      "name": "Castlecombe Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.42475839999999,
+        "lng": 0.0457678
+      },
+      "activated_at": "2013-05-01T12:29:37+01:00"
+    },
+    {
+      "name": "Dovedale Primary School",
+      "location": {
+        "city": "Nottingham",
+        "lat": 52.8905178,
+        "lng": -1.2941255
+      },
+      "activated_at": "2013-04-24T15:21:52+01:00"
+    },
+    {
+      "name": "The Greetland Academy",
+      "location": {
+        "city": "Halifax",
+        "lat": 53.6898982,
+        "lng": -1.8709603
+      },
+      "activated_at": "2013-04-24T15:28:49+01:00"
+    },
+    {
+      "name": "Irchester Community Primary School",
+      "location": {
+        "city": "Wellingborough",
+        "lat": 52.2824095,
+        "lng": -0.6464733
+      },
+      "activated_at": "2013-04-25T18:39:30+01:00"
+    },
+    {
+      "name": "Court Lane Junior School",
+      "location": {
+        "city": "Portsmouth",
+        "lat": 50.8438471,
+        "lng": -1.0593707
+      },
+      "activated_at": "2013-04-24T16:05:53+01:00"
+    },
+    {
+      "name": "Rainbow Forge Primary School",
+      "location": {
+        "city": "Sheffield",
+        "lat": 53.344334,
+        "lng": -1.3691714
+      },
+      "activated_at": "2013-04-24T17:17:30+01:00"
+    },
+    {
+      "name": "Waterbeach School",
+      "location": {
+        "city": null,
+        "lat": 52.2694983,
+        "lng": 0.190448
+      },
+      "activated_at": "2013-04-25T10:54:09+01:00"
+    },
+    {
+      "name": "Hutton Rudby Primary School",
+      "location": {
+        "city": "Yarm",
+        "lat": 54.4484213,
+        "lng": -1.2820154
+      },
+      "activated_at": "2013-04-25T15:49:51+01:00"
+    },
+    {
+      "name": "harvey scratch",
+      "location": {
+        "city": null,
+        "lat": 52.924623,
+        "lng": -0.6402164
+      },
+      "activated_at": "2013-04-26T17:19:12+01:00"
+    },
+    {
+      "name": "The Leys ",
+      "location": {
+        "city": null,
+        "lat": 52.19701,
+        "lng": 0.1217942
+      },
+      "activated_at": "2013-04-27T19:50:53+01:00"
+    },
+    {
+      "name": "Dundee Contemporary Arts (actually not a school)",
+      "location": {
+        "city": null,
+        "lat": 56.4572565,
+        "lng": -2.9747291
+      },
+      "activated_at": "2013-05-02T15:51:02+01:00"
+    },
+    {
+      "name": "Kingsfleet Primary School",
+      "location": {
+        "city": "Felixstowe",
+        "lat": 51.9777967,
+        "lng": 1.3729813
+      },
+      "activated_at": "2013-04-28T16:37:30+01:00"
+    },
+    {
+      "name": "Hatch Ride Primary School",
+      "location": {
+        "city": "Crowthorne",
+        "lat": 51.3802976,
+        "lng": -0.7956460999999999
+      },
+      "activated_at": "2013-04-29T12:27:05+01:00"
+    },
+    {
+      "name": "St James' Primary School",
+      "location": {
+        "city": "Renfrew",
+        "lat": 55.873448,
+        "lng": -4.3961107
+      },
+      "activated_at": "2013-04-29T17:07:41+01:00"
+    },
+    {
+      "name": "Westfields Junior School",
+      "location": {
+        "city": "Yateley",
+        "lat": 51.33797269999999,
+        "lng": -0.8397494
+      },
+      "activated_at": "2013-05-01T12:05:23+01:00"
+    },
+    {
+      "name": "Longside School",
+      "location": {
+        "city": "Peterhead",
+        "lat": 57.51515509999999,
+        "lng": -1.9400264
+      },
+      "activated_at": "2013-05-02T09:41:06+01:00"
+    },
+    {
+      "name": "Cecil Jones College",
+      "location": {
+        "city": null,
+        "lat": 51.553248,
+        "lng": 0.7293234
+      },
+      "activated_at": "2013-05-02T10:11:13+01:00"
+    },
+    {
+      "name": "Sandringham Primary school",
+      "location": {
+        "city": null,
+        "lat": 51.546752,
+        "lng": 0.0346618
+      },
+      "activated_at": "2013-05-02T15:09:11+01:00"
+    },
+    {
+      "name": "ARK Oval Primary Academy",
+      "location": {
+        "city": "Croydon",
+        "lat": 51.3787392,
+        "lng": -0.0892499
+      },
+      "activated_at": "2013-05-17T15:41:54+01:00"
+    },
+    {
+      "name": "St Dominics School",
+      "location": {
+        "city": null,
+        "lat": 54.5928614,
+        "lng": -5.958648999999999
+      },
+      "activated_at": "2013-05-03T14:05:33+01:00"
+    },
+    {
+      "name": "Longside School",
+      "location": {
+        "city": "Peterhead",
+        "lat": 57.51515509999999,
+        "lng": -1.9400264
+      },
+      "activated_at": "2013-05-08T14:50:15+01:00"
+    },
+    {
+      "name": "Stoke Park Junior School",
+      "location": {
+        "city": "Eastleigh",
+        "lat": 50.9705126,
+        "lng": -1.3290619
+      },
+      "activated_at": "2013-05-07T10:54:13+01:00"
+    },
+    {
+      "name": "Raglan Primary School",
+      "location": {
+        "city": null,
+        "lat": null,
+        "lng": null
+      },
+      "activated_at": "2013-05-07T13:15:39+01:00"
+    },
+    {
+      "name": "Savile Park Primary School",
+      "location": {
+        "city": "Halifax",
+        "lat": 53.71401170000001,
+        "lng": -1.8760801
+      },
+      "activated_at": "2013-05-07T21:29:31+01:00"
+    },
+    {
+      "name": "St. John with St. Mark Primary School",
+      "location": {
+        "city": null,
+        "lat": 53.6033979,
+        "lng": -2.2948561
+      },
+      "activated_at": "2013-05-08T13:35:55+01:00"
+    },
+    {
+      "name": "St Johns Kearsley ",
+      "location": {
+        "city": null,
+        "lat": 53.54781639999999,
+        "lng": -2.388388
+      },
+      "activated_at": "2013-05-08T13:55:36+01:00"
+    },
+    {
+      "name": "Bousfield Primary school",
+      "location": {
+        "city": null,
+        "lat": 51.4902228,
+        "lng": -0.1861191
+      },
+      "activated_at": "2013-05-09T11:27:11+01:00"
+    },
+    {
+      "name": "The Hill Primary Academy",
+      "location": {
+        "city": "Rotherham",
+        "lat": 53.54688549999999,
+        "lng": -1.2991096
+      },
+      "activated_at": "2013-05-10T12:26:27+01:00"
+    },
+    {
+      "name": "Bellenden Primary School",
+      "location": {
+        "city": "London",
+        "lat": 51.4667275,
+        "lng": -0.0711174
+      },
+      "activated_at": "2013-05-10T12:40:23+01:00"
+    },
+    {
+      "name": "cwmclydach primary school",
+      "location": {
+        "city": null,
+        "lat": 51.6268953,
+        "lng": -3.4774422
+      },
+      "activated_at": "2013-05-12T08:24:17+01:00"
+    },
+    {
+      "name": "Bisham School",
+      "location": {
+        "city": null,
+        "lat": 51.5608414,
+        "lng": -0.7777413
+      },
+      "activated_at": "2013-05-13T08:27:06+01:00"
+    },
+    {
+      "name": "St Pius X RC Primary School",
+      "location": {
+        "city": "Middlesbrough",
+        "lat": 54.5538318,
+        "lng": -1.2043902
+      },
+      "activated_at": "2013-05-13T19:23:44+01:00"
+    },
+    {
+      "name": "Newton Primary School",
+      "location": {
+        "city": null,
+        "lat": 52.2194337,
+        "lng": -0.1385924
+      },
+      "activated_at": "2013-05-14T09:29:00+01:00"
+    },
+    {
+      "name": "The Hayes Primary School, Kenley",
+      "location": {
+        "city": null,
+        "lat": 51.317339,
+        "lng": -0.1087522
+      },
+      "activated_at": "2013-05-14T10:13:52+01:00"
+    },
+    {
+      "name": "St George and St Teresa Catholic Primary School",
+      "location": {
+        "city": "Solihull",
+        "lat": 52.3796137,
+        "lng": -1.7570532
+      },
+      "activated_at": "2013-05-15T15:31:54+01:00"
+    },
+    {
+      "name": "Hollesley Primary School",
+      "location": {
+        "city": "Woodbridge",
+        "lat": 52.0470926,
+        "lng": 1.4337778
+      },
+      "activated_at": "2013-05-15T20:18:57+01:00"
+    },
+    {
+      "name": "The Emmbrook School",
+      "location": {
+        "city": null,
+        "lat": 51.4237814,
+        "lng": -0.8639726999999999
+      },
+      "activated_at": "2013-05-15T21:57:57+01:00"
+    },
+    {
+      "name": "The Hawthorns School",
+      "location": {
+        "city": null,
+        "lat": 51.4171297,
+        "lng": -0.8651441999999999
+      },
+      "activated_at": "2013-05-16T13:29:17+01:00"
+    },
+    {
+      "name": "Whinstone primary",
+      "location": {
+        "city": null,
+        "lat": 54.5236628,
+        "lng": -1.3077825
+      },
+      "activated_at": "2013-05-16T18:36:40+01:00"
+    },
+    {
+      "name": "Linton Primary School",
+      "location": {
+        "city": "Swadlincote",
+        "lat": 52.7343448,
+        "lng": -1.5640525
+      },
+      "activated_at": "2013-05-16T19:51:53+01:00"
+    },
+    {
+      "name": "Kensington primary school",
+      "location": {
+        "city": null,
+        "lat": 51.5425634,
+        "lng": 0.0572323
+      },
+      "activated_at": "2013-05-16T22:30:53+01:00"
+    },
+    {
+      "name": "Tidbury Green School",
+      "location": {
+        "city": null,
+        "lat": 52.3806729,
+        "lng": -1.8511795
+      },
+      "activated_at": "2013-05-17T14:47:04+01:00"
+    },
+    {
+      "name": "Harris Academy Purley",
+      "location": {
+        "city": null,
+        "lat": 51.3531227,
+        "lng": -0.1082843
+      },
+      "activated_at": "2013-05-17T22:02:22+01:00"
+    },
+    {
+      "name": "Bridgewater Primary School",
+      "location": {
+        "city": null,
+        "lat": 52.2490382,
+        "lng": -0.8166342999999999
+      },
+      "activated_at": "2013-05-18T13:38:56+01:00"
+    },
+    {
+      "name": "Carr Head Primary School",
+      "location": {
+        "city": null,
+        "lat": 53.840943,
+        "lng": -2.9877121
+      },
+      "activated_at": "2013-05-19T21:12:52+01:00"
+    },
+    {
+      "name": "Tom Finnigan's Home",
+      "location": {
+        "city": "Cambridge",
+        "lat": 52.18539639999999,
+        "lng": 0.1739208
+      },
+      "activated_at": "2013-05-20T11:39:51+01:00"
+    }
+  ]
+}
