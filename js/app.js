@@ -87,6 +87,9 @@ CodeClubWorld.makeMap = function() {
 }
 
 CodeClubWorld.interceptForm = function() {
+
+  var required = $('.required input');
+
   $('form').on('submit', function(e) {
     e.preventDefault();
 
@@ -100,6 +103,7 @@ CodeClubWorld.register = function(data) {
     data.venue.name,
     data.venue.address_1,
     data.venue.address_2,
+    data.venue.region,
     data.venue.city,
     data.venue.postcode
   ].join(', ');
@@ -109,20 +113,57 @@ CodeClubWorld.register = function(data) {
 
   geocoder.geocode({ address: address, region: region }, function(results, status) {
     if (status == google.maps.GeocoderStatus.OK) {
-
       data.venue.latitude = results[0].geometry.location.lat();
       data.venue.longitude = results[0].geometry.location.lng();
-    } else {
-      console.log(status);
-    }
 
-    console.log(data);
+      CodeClubWorld.sendForm({ club: data });
+    } else {
+      // error
+    }
   });
 }
+
+CodeClubWorld.sendForm = function(data) {
+  var api = 'http://codeclubworld.apiary.io';
+
+  $.ajax({
+    type: "POST",
+    url: api + '/clubs',
+    data: JSON.stringify(data),
+    success: function(data) { $('#register').replaceWith('<div class="panel notice"><strong>Thanks for registering your club</strong></div>'); },
+    dataType: 'json',
+    contentType: 'application/json'
+  });
+
+  // var post = $.post(api + '/clubs', data, function(data) {
+  //   $('#register').replaceWith('<div class="panel notice"><strong>Thanks for registering your club</strong></div>');
+  // }, 'json').fail(function() {
+  //   $('#register').prepend('<div class="panel alert"><strong>Unable to register your club</strong></div>');
+  // })
+}
+
+CodeClubWorld.customPlaceholders = function() {
+  function hideLabel() {
+    $(this).closest('.custom-placeholder').find('label').hide();
+  }
+
+  function showIfEmpty() {
+    if ($(this).val()) return;
+    $(this).closest('.custom-placeholder').find('label').show();
+  }
+
+  var fields = $('.custom-placeholder');
+
+  fields
+    .find('input, textarea')
+      .on('keydown change', hideLabel)
+      .on('blur keyup', showIfEmpty)
+      .each(hideLabel).each(showIfEmpty);
+};
 
 
 $(function() {
   CodeClubWorld.makeMap();
   CodeClubWorld.interceptForm();
-  moment();
+  CodeClubWorld.customPlaceholders();
 });

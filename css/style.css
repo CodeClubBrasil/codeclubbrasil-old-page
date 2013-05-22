@@ -2,6 +2,20 @@ body {
   border-top-color: #c6e1ec;
 }
 
+a, h1, h2, h3, h4, h5, h6 {
+  color: #007cc9;
+}
+
+a:hover, a:focus { color: #006cb0; }
+
+.button.primary {
+  background: #007cc9;
+}
+
+.button.primary:hover, .button.primary:focus {
+  background: #006cb0;
+}
+
 #logo {
   display: block;
   margin: 0 auto;
@@ -60,4 +74,41 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #007cc9;
+}
+
+#register {
+  border-radius: 5px;
+}
+
+#register input {
+  max-width: 357px;
+  margin-bottom: 6px;
+}
+
+#register input[name="venue[postcode]"] {
+  width: 177px;
+}
+
+#register select[name="region[code]"] {
+  width: 199px;
+}
+
+#register h3 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #222;
+}
+
+#register select {
+  -webkit-font-smoothing: antialiased;
 }

@@ -46,14 +46,18 @@
           </div>
         </div>
 
-        <div class="panel">
+        <div class="panel" id="register">
 
           <form>
 
             <div class="row">
+              <div class="twelve columns">
+                <h3>Register your Code Club and join the movement!</h3>
+              </div>
+            </div>
 
+            <div class="row">
               <div class="nine columns">
-
                 <div class="row">
 
                   <div class="six columns">
@@ -63,35 +67,23 @@
                     </div>
 
                     <div class="custom-placeholder required">
-                      <label>Your name</label>
-                      <input class="medium input-text" type="text" name="contact[name]">
-                    </div>
-
-                    <div class="custom-placeholder required">
-                      <label>Your email address</label>
-                      <input class="medium input-text" type="email" name="contact[email]">
-                    </div>
-
-                    <div class="custom-placeholder required">
-                      <label>Skype name</label>
-                      <input class="medium input-text" type="text" name="contact[skype]">
-                    </div>
-                  </div>
-
-                  <div class="six columns">
-                    <div class="custom-placeholder required">
                       <label>Address 1</label>
-                      <input class="medium input-text" type="text" name="venue[address_1]">
+                      <input class="medium input-text" name="venue[address_1]" type="text">
                     </div>
 
-                    <div class="custom-placeholder required">
+                    <div class="custom-placeholder">
                       <label>Address 2</label>
-                      <input class="medium input-text" type="text" name="venue[address_2]">
+                      <input class="medium input-text" name="venue[address_2]" type="text">
+                    </div>
+
+                    <div class="custom-placeholder">
+                      <label>Region</label>
+                      <input class="medium input-text" name="venue[region]" type="text">
                     </div>
 
                     <div class="custom-placeholder required">
                       <label>City</label>
-                      <input class="medium input-text" type="text" name="venue[city]">
+                      <input class="medium input-text" name="venue[city]" type="text">
                     </div>
 
                     <div class="custom-placeholder required">
@@ -104,28 +96,41 @@
                       <option value="UK">UK</option>
                     </select>
                   </div>
-                </div>
-
-                <div class="row">
 
                   <div class="six columns">
+                    <div class="custom-placeholder required">
+                      <label>Your name</label>
+                      <input class="medium input-text" type="text" name="contact[name]">
+                    </div>
+
+                    <div class="custom-placeholder required">
+                      <label>Your email address</label>
+                      <input class="medium input-text" type="email" name="contact[email]">
+                    </div>
+
+                    <p>Your name and email address will not be displayed</p>
+
+                    <div class="custom-placeholder">
+                      <label>Club skype name</label>
+                      <input class="medium input-text" type="text" name="contact[skype]">
+                    </div>
+
+                    <p>Set up a club Skype name so you can chat to other clubs. It will be displayed on your map marker</p>
+
                     <label>
                       <input type="checkbox" name="contact[agreed]" value="1">
-                      I have read and agreed to the <a href="#">terms and conditions</a>
+                      <strong>I have read and agreed to the <a href="#">terms and conditions</a></strong>
                     </label>
-                  </div>
 
-                  <div class="six columns">
                     <button type="submit" class="button primary round">Create a club</button>
                   </div>
                 </div>
-
               </div>
 
               <div class="three columns">
+                <p><strong>Why register?</strong></p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed diam arcu. Integer condimentum lectus quis ipsum vulputate et lobortis diam fermentum. Ut adipiscing semper pulvinar.</p>
               </div>
-
             </div>
 
           </form>
