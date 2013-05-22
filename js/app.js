@@ -31,19 +31,22 @@ CodeClubWorld.makeMap = function() {
         content: document.getElementById('infobox'),
         disableAutoPan: false,
         maxWidth: 150,
-        pixelOffset: new google.maps.Size(-140, -150),
+        pixelOffset: new google.maps.Size(-140, -170),
         zIndex: null,
         boxStyle: {
           background: "#fff",
           width: "280px",
-          height: "100px",
-          padding: "10px"
+          height: "120px",
+          padding: "0 10px"
         },
         infoBoxClearance: new google.maps.Size(1, 1),
+        closeBoxURL: "../img/map/close.png",
+        closeBoxMargin: "10px 0 0 0"
       });
 
       google.maps.event.addListener(marker, 'click', function() { 
         infobox.open(map, marker);
+        infobox.setContent('<h5>'+club.name+'</h5>')
       });
 
     });
