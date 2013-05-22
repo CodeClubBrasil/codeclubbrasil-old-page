@@ -53,7 +53,42 @@ CodeClubWorld.makeMap = function() {
   });
 }
 
+CodeClubWorld.interceptForm = function() {
+  $('form').on('submit', function(e) {
+    e.preventDefault();
+
+    var data = $(this).serializeHash();
+    CodeClubWorld.register(data);
+  });
+}
+
+CodeClubWorld.register = function(data) {
+  var address = [
+    data.venue.name,
+    data.venue.address_1,
+    data.venue.address_2,
+    data.venue.city,
+    data.venue.postcode
+  ].join(', ');
+  
+  var region = data.region.code;
+  var geocoder = new google.maps.Geocoder();
+
+  geocoder.geocode({ address: address, region: region }, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+
+      data.venue.latitude = results[0].geometry.location.lat();
+      data.venue.longitude = results[0].geometry.location.lng();
+    } else {
+      console.log(status);
+    }
+
+    console.log(data);
+  });
+}
+
 
 $(function() {
   CodeClubWorld.makeMap();
+  CodeClubWorld.interceptForm();
 });
