@@ -8,7 +8,7 @@ CodeClubWorld.makeMap = function() {
     var image = '../img/map/marker-6c4ba1e0ffb35772220dc5917d98ec85.png';
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 7,
+      zoom: 5,
       center: center,
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -31,12 +31,12 @@ CodeClubWorld.makeMap = function() {
         content: document.getElementById('infobox'),
         disableAutoPan: false,
         maxWidth: 150,
-        pixelOffset: new google.maps.Size(-140, -170),
+        pixelOffset: new google.maps.Size(-140, -205),
         zIndex: null,
         boxStyle: {
           background: "#fff",
           width: "280px",
-          height: "120px",
+          // height: "140px",
           padding: "0 10px"
         },
         infoBoxClearance: new google.maps.Size(1, 1),
@@ -45,15 +45,45 @@ CodeClubWorld.makeMap = function() {
       });
 
       google.maps.event.addListener(marker, 'click', function() { 
+
+        var clubName        = ('<h5 class="name">'+club.name+'</h5>');
+        var clubCity        = ('<p class="city">'+club.location.city+'</p>');
+        var clubActivated   = ('<p class="date">Activated: '+moment(club.activated_at).format("Do MMMM YYYY")+'</p>');
+        var $clubContent = clubName+clubCity+clubActivated;
+
         infobox.open(map, marker);
-        infobox.setContent('<h5>'+club.name+'</h5>')
+        infobox.setContent($clubContent);
       });
 
     });
 
-    var markerCluster = new MarkerClusterer(map, markers);
+    var mcOptions = {styles: 
+      [
+        {
+          textColor: 'white',
+          url: '../img/map/small-cluster.png',
+          height: 40,
+          width: 40,
+        },
+       {
+          textColor: 'white',
+          url: '../img/map/medium-cluster.png',
+          height: 40,
+          width: 40
+        },
+       {
+          textColor: 'white',
+          url: '../img/map/large-cluster.png',
+          height: 40,
+          width: 40
+        }
+      ]
+    };
+
+    var markerCluster = new MarkerClusterer(map, markers, mcOptions);
     
   });
+
 }
 
 CodeClubWorld.interceptForm = function() {
@@ -94,4 +124,5 @@ CodeClubWorld.register = function(data) {
 $(function() {
   CodeClubWorld.makeMap();
   CodeClubWorld.interceptForm();
+  moment();
 });

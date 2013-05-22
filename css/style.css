@@ -15,39 +15,18 @@ body {
   width: 100%; height: 650px;
 }
 
-#map img { /* Stop Foundation breaking maps controls */
+#map img {
   max-width: none;
 }
 
-.infobox-wrapper {
-    display:none;
-}
-#infobox {
-    position: relative;
-    border:2px solid black;
-    margin-top: 8px;
-    background:#333;
-    color:#FFF;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:12px;
-    padding: .5em 1em;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    text-shadow:0 -1px #000000;
-    -webkit-box-shadow: 0 0  8px #000;
-    box-shadow: 0 0 8px #000;
-    
-}
 .infoBox {
+  min-height: 160px;
+  position: relative;
   border: 5px solid #c6e1ec;
   text-align: center;
-}
-.infoBox h5 {
-  margin-top: 30px;
-  font-size: 19px;
-  color: #017cc9;
-  text-transform: capitalize;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .infoBox:after {
   content: "";
@@ -60,4 +39,25 @@ body {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid #c6e1ec;
+}
+.infoBox .name {
+  /*min-height: 50px;*/
+  margin: 25px 0 5px 0;
+  font-size: 19px;
+  color: #017cc9;
+  text-transform: capitalize;
+  line-height: 1.3em;
+}
+.infoBox .date {
+  font-size: 11px;
+  font-style: italic;
+}
+.infoBox .city {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
