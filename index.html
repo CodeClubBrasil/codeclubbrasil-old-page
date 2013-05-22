@@ -44,67 +44,77 @@
 
             <div class="row">
 
-              <div class="five columns">
+              <div class="nine columns">
 
-                <div class="custom-placeholder required">
-                  <label>Venue name</label>
-                  <input class="medium input-text" name="venue[name]" type="text">
+                <div class="row">
+
+                  <div class="six columns">
+                    <div class="custom-placeholder required">
+                      <label>Venue name</label>
+                      <input class="medium input-text" name="venue[name]" type="text">
+                    </div>
+
+                    <div class="custom-placeholder required">
+                      <label>Your name</label>
+                      <input class="medium input-text" type="text" name="contact[name]">
+                    </div>
+
+                    <div class="custom-placeholder required">
+                      <label>Your email address</label>
+                      <input class="medium input-text" type="email" name="contact[email]">
+                    </div>
+
+                    <div class="custom-placeholder required">
+                      <label>Skype name</label>
+                      <input class="medium input-text" type="text" name="contact[skype]">
+                    </div>
+                  </div>
+
+                  <div class="six columns">
+                    <div class="custom-placeholder required">
+                      <label>Address 1</label>
+                      <input class="medium input-text" type="text" name="venue[address_1]">
+                    </div>
+
+                    <div class="custom-placeholder required">
+                      <label>Address 2</label>
+                      <input class="medium input-text" type="text" name="venue[address_2]">
+                    </div>
+
+                    <div class="custom-placeholder required">
+                      <label>City</label>
+                      <input class="medium input-text" type="text" name="venue[city]">
+                    </div>
+
+                    <div class="custom-placeholder required">
+                      <label>Postcode</label>
+                      <input class="medium input-text" type="text" name="venue[postcode]">
+                    </div>
+
+                    <select autocomplete="off" class="medium input-text" name="region[code]">
+                      <option disabled selected>Country</option> 
+                      <option value="UK">UK</option>
+                    </select>
+                  </div>
                 </div>
 
-                <div class="custom-placeholder required">
-                  <label>Your name</label>
-                  <input class="medium input-text" type="text" name="contact[name]">
-                </div>
+                <div class="row">
 
-                <div class="custom-placeholder required">
-                  <label>Your email address</label>
-                  <input class="medium input-text" type="email" name="contact[email]">
-                </div>
+                  <div class="six columns">
+                    <label>
+                      <input type="checkbox" name="contact[agreed]" value="1">
+                      I have read and agreed to the <a href="#">terms and conditions</a>
+                    </label>
+                  </div>
 
-                <div class="custom-placeholder required">
-                  <label>Skype name</label>
-                  <input class="medium input-text" type="text" name="contact[skype]">
+                  <div class="six columns">
+                    <button type="submit" class="button primary round">Create a club</button>
+                  </div>
                 </div>
-
-                <label>
-                  <input type="checkbox" name="contact[agreed]" value="1">
-                  I have read and agreed to the <a href="#">terms and conditions</a>
-                </label>
 
               </div>
 
-              <div class="five columns">
-
-                <div class="custom-placeholder required">
-                  <label>Address 1</label>
-                  <input class="medium input-text" type="text" name="venue[address_1]">
-                </div>
-
-                <div class="custom-placeholder required">
-                  <label>Address 2</label>
-                  <input class="medium input-text" type="text" name="venue[address_2]">
-                </div>
-
-                <div class="custom-placeholder required">
-                  <label>City</label>
-                  <input class="medium input-text" type="text" name="venue[city]">
-                </div>
-
-                <div class="custom-placeholder required">
-                  <label>Postcode</label>
-                  <input class="medium input-text" type="text" name="venue[postcode]">
-                </div>
-
-                <select autocomplete="off" class="medium input-text" name="region[code]">
-                  <option disabled selected>Country</option> 
-                  <option value="UK">UK</option>
-                </select>
-
-                <button type="submit" class="button primary round">Create a club</button>
-
-              </div>
-
-              <div class="two columns">
+              <div class="three columns">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed diam arcu. Integer condimentum lectus quis ipsum vulputate et lobortis diam fermentum. Ut adipiscing semper pulvinar.</p>
               </div>
 
