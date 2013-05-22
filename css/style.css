@@ -16,13 +16,25 @@ a:hover, a:focus { color: #006cb0; }
   background: #006cb0;
 }
 
+.header-robot-1, .header-robot-2 {
+  height: 234px;
+  display: block;
+}
+.header-robot-1 {
+  background: url('../img/robots/header-1.png') no-repeat left center;
+}
+.header-robot-2 {
+  background: url('../img/robots/header-2.png') no-repeat right center;
+}
+
 #logo {
   display: block;
-  margin: 0 auto;
+  margin: 25px auto 45px auto;
 }
 
 .strapline {
   text-align: center;
+  color: #ccc !important;
 }
 
 #map {
