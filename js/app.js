@@ -98,15 +98,14 @@ CodeClubWorld.startClubButton = function() {
 }
 
 CodeClubWorld.interceptForm = function() {
+  $('#register form')
+    .on('submit', function(e) {
+      e.preventDefault();
 
-  var required = $('.required input');
-
-  $('#register form').on('submit', function(e) {
-    e.preventDefault();
-
-    var data = $(this).serializeHash();
-    CodeClubWorld.register(data);
-  });
+      var data = $(this).serializeHash();
+      CodeClubWorld.register(data);
+    })
+    .parsley({ successClass: 'success', errorClass: 'error' })
 }
 
 CodeClubWorld.register = function(data) {
@@ -119,17 +118,20 @@ CodeClubWorld.register = function(data) {
     data.venue.postcode
   ].join(', ');
   
-  var region = data.region.code;
+  var region = data.country.code;
   var geocoder = new google.maps.Geocoder();
 
   geocoder.geocode({ address: address, region: region }, function(results, status) {
     if (status == google.maps.GeocoderStatus.OK) {
-      data.venue.latitude = results[0].geometry.location.lat();
-      data.venue.longitude = results[0].geometry.location.lng();
+      data.venue.location = {
+        lat: results[0].geometry.location.lat(),
+        lng: results[0].geometry.location.lng()
+      };
 
       CodeClubWorld.sendForm({ club: data });
     } else {
-      // error
+      $('#register').find('.panel').remove();
+      $('#register').prepend('<div class="panel alert"><strong>Unable to locate your club</strong></div>');
     }
   });
 }
@@ -137,20 +139,20 @@ CodeClubWorld.register = function(data) {
 CodeClubWorld.sendForm = function(data) {
   var api = 'http://codeclubworld.apiary.io';
 
-  $.ajax({
+  var post = $.ajax({
     type: "POST",
     url: api + '/clubs',
     data: JSON.stringify(data),
-    success: function(data) { $('#register').replaceWith('<div class="panel notice"><strong>Thanks for registering your club</strong></div>'); },
+    success: function(data) {
+      $('#register').replaceWith('<div class="panel notice"><strong>Thanks for registering your club</strong></div>');
+    },
     dataType: 'json',
     contentType: 'application/json'
+  }).fail(function() {
+    $('#register').find('.panel').remove();
+    $('#register').prepend('<div class="panel alert"><strong>Unable to register your club</strong></div>');
   });
 
-  // var post = $.post(api + '/clubs', data, function(data) {
-  //   $('#register').replaceWith('<div class="panel notice"><strong>Thanks for registering your club</strong></div>');
-  // }, 'json').fail(function() {
-  //   $('#register').prepend('<div class="panel alert"><strong>Unable to register your club</strong></div>');
-  // })
 }
 
 CodeClubWorld.customPlaceholders = function() {
@@ -176,6 +178,6 @@ CodeClubWorld.customPlaceholders = function() {
 $(function() {
   CodeClubWorld.makeMap();
   CodeClubWorld.startClubButton();
-  CodeClubWorld.interceptForm();
   CodeClubWorld.customPlaceholders();
+  CodeClubWorld.interceptForm();
 });

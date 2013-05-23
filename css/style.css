@@ -166,6 +166,11 @@ textarea:focus {
   -webkit-font-smoothing: antialiased;
 }
 
+.parsley-error-list {
+  margin: 0;
+  color: #C60F13;
+}
+
 .materials .wrap {
   min-height: 282px;
 }

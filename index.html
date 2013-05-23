@@ -125,12 +125,12 @@
                   <div class="six columns">
                     <div class="custom-placeholder required">
                       <label>Venue name</label>
-                      <input class="medium input-text" name="venue[name]" type="text">
+                      <input class="medium input-text" name="venue[name]" type="text" data-trigger="change" required>
                     </div>
 
                     <div class="custom-placeholder required">
                       <label>Address 1</label>
-                      <input class="medium input-text" name="venue[address_1]" type="text">
+                      <input class="medium input-text" name="venue[address_1]" type="text" data-trigger="change" required>
                     </div>
 
                     <div class="custom-placeholder">
@@ -143,17 +143,17 @@
                       <input class="medium input-text" name="venue[region]" type="text">
                     </div>
 
-                    <div class="custom-placeholder required">
+                    <div class="custom-placeholder">
                       <label>City</label>
                       <input class="medium input-text" name="venue[city]" type="text">
                     </div>
 
                     <div class="custom-placeholder required">
                       <label>Postcode</label>
-                      <input class="medium input-text" type="text" name="venue[postcode]">
+                      <input class="medium input-text" type="text" name="venue[postcode]" data-trigger="change" required>
                     </div>
 
-                    <select autocomplete="off" class="medium input-text" name="region[code]">
+                    <select autocomplete="off" class="medium input-text" name="country[code]" data-trigger="change" required>
                       <option disabled selected>Country</option> 
                       <option value="UK">UK</option>
                     </select>
@@ -162,12 +162,12 @@
                   <div class="six columns">
                     <div class="custom-placeholder required">
                       <label>Your name</label>
-                      <input class="medium input-text" type="text" name="contact[name]">
+                      <input class="medium input-text" type="text" name="contact[name]" data-trigger="change" required>
                     </div>
 
                     <div class="custom-placeholder required">
                       <label>Your email address</label>
-                      <input class="medium input-text" type="email" name="contact[email]">
+                      <input class="medium input-text" type="email" name="contact[email]" data-trigger="change" required>
                     </div>
 
                     <p>Your name and email address will not be displayed</p>
@@ -259,6 +259,7 @@
     <script src="/js/libs/marker-clusterer.js"></script>
     <script src="/js/libs/infobox.js"></script>
     <script src="/js/libs/moment.js"></script>
+    <script src="/js/libs/parsley.min.js"></script>
     <script src="/js/libs/jquery.serialize-hash.js"></script>
     <script src="/js/app.js"></script>
 
