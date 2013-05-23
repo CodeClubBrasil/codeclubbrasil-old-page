@@ -1,4 +1,5 @@
 body {
+  background: #f8fbf4;
   border-top-color: #c6e1ec;
 }
 
@@ -205,3 +206,50 @@ textarea:focus {
 .materials [class*="column"]+[class*="column"]:last-child {
   float: left;
 }
+
+@media only screen and (max-width: 1050px) {
+  
+  .logo-strapline {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header-robot-1 {
+    height: 0;
+    background: none;
+  }
+
+  .header-robot-2 {
+    height: 0;
+    background: none;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  
+  header .row {
+    padding: 0 20px;
+  }
+
+  .how-it-works .bit {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .how-it-works .bit:after {
+    display: block !important;
+    position: absolute !important;
+    top: 80% !important;
+    bottom: 0 !important;  
+    left: 0 !important;
+  }
+
+  .start-club {
+    margin: 20px 0;
+  }
+
+}
+
+
