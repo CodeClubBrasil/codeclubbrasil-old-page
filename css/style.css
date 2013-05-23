@@ -143,7 +143,7 @@ textarea:focus {
   border-radius: 5px;
 }
 
-#register input {
+#register input, #register select {
   max-width: 357px;
   margin-bottom: 6px;
 }
