@@ -208,6 +208,10 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 1050px) {
+
+  header .row {
+    background: url('../img/robots/responsive-robot-right.png') no-repeat right top, url('../img/robots/responsive-robot-left.png') no-repeat left top;
+  }
   
   .logo-strapline {
     width: 100%;
@@ -252,4 +256,17 @@ textarea:focus {
 
 }
 
+@media only screen and (max-width: 500px) {
 
+  header .row {
+    background: url('../img/robots/responsive-robot-right-small.png') no-repeat right top, url('../img/robots/responsive-robot-left-small.png') no-repeat left top;
+  }
+
+}
+
+.ie7 .bit {
+  width: 18%;
+}
+.ie7 .club-count {
+  width: 77%;
+}

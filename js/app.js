@@ -36,7 +36,6 @@ CodeClubWorld.makeMap = function() {
         boxStyle: {
           background: "#fff",
           width: "280px",
-          // height: "140px",
           padding: "0 10px"
         },
         infoBoxClearance: new google.maps.Size(1, 1),
@@ -66,7 +65,7 @@ CodeClubWorld.makeMap = function() {
           textColor: 'white',
           url: '../img/map/small-cluster.png',
           height: 40,
-          width: 40,
+          width: 40
         },
        {
           textColor: 'white',
