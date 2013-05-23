@@ -53,9 +53,12 @@ CodeClubWorld.makeMap = function() {
 
         infobox.open(map, marker);
         infobox.setContent($clubContent);
+
       });
 
     });
+
+    $('.counter').append(clubs.length);
 
     var mcOptions = {styles: 
       [
@@ -84,6 +87,14 @@ CodeClubWorld.makeMap = function() {
     
   });
 
+}
+
+CodeClubWorld.startClubButton = function() {
+  $(".start-club a").click(function() {
+     $('html, body').animate({
+         scrollTop: $("#register").offset().top
+     }, 700);
+  });
 }
 
 CodeClubWorld.interceptForm = function() {
@@ -164,6 +175,7 @@ CodeClubWorld.customPlaceholders = function() {
 
 $(function() {
   CodeClubWorld.makeMap();
+  CodeClubWorld.startClubButton();
   CodeClubWorld.interceptForm();
   CodeClubWorld.customPlaceholders();
 });

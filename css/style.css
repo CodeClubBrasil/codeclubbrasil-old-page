@@ -14,6 +14,12 @@ a:hover, a:focus { color: #006cb0; }
 .button.secondary { background: #cce4f4; color: #007cc9; }
 .button.secondary:hover, .button.secondary:focus { background: #b2d7ee; }
 
+header {
+  margin: 0 0 20px 0;
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #ccc;
+}
+
 .header-robot-1, .header-robot-2 {
   width: 145px !important;
   height: 234px;
@@ -46,6 +52,30 @@ a:hover, a:focus { color: #006cb0; }
   width: auto !important;
   margin: 0 !important;
   padding: 0 !important;
+}
+
+.club-count {
+  margin: 5px 0;
+}
+.club-count h2 {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-size: 34px;
+  color: #007cc9;
+}
+
+.start-club {
+  margin: 0;
+  text-align: right;
+}
+.start-club .button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 7px 0 0 0;
+}
+
+.map-wrapper {
+  border: 0;
 }
 
 #map {
