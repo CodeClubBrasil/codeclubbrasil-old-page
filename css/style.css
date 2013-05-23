@@ -14,12 +14,6 @@ a:hover, a:focus { color: #006cb0; }
 .button.secondary { background: #cce4f4; color: #007cc9; }
 .button.secondary:hover, .button.secondary:focus { background: #b2d7ee; }
 
-header {
-  margin: 0 0 20px 0;
-  padding: 0 0 30px 0;
-  border-bottom: 1px solid #ccc;
-}
-
 .header-robot-1, .header-robot-2 {
   width: 145px !important;
   height: 234px;
@@ -52,6 +46,21 @@ header {
   width: auto !important;
   margin: 0 !important;
   padding: 0 !important;
+}
+
+.how-it-works {
+  margin: 0 auto;
+}
+.how-it-works .bit {
+  text-align: center;
+  width: 20%;
+}
+.how-it-works .bit .image {
+  width: 150px; height: 150px;
+  margin: 0 auto;
+}
+.how-it-works .bit .image img {
+  max-width: 150px; max-height: 150px;
 }
 
 .club-count {

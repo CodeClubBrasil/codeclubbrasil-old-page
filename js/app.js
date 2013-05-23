@@ -92,7 +92,7 @@ CodeClubWorld.makeMap = function() {
 CodeClubWorld.startClubButton = function() {
   $(".start-club a").click(function() {
      $('html, body').animate({
-         scrollTop: $("#register").offset().top
+         scrollTop: $("#register").offset().top - 20
      }, 700);
   });
 }
