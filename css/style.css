@@ -8,13 +8,11 @@ a, h1, h2, h3, h4, h5, h6 {
 
 a:hover, a:focus { color: #006cb0; }
 
-.button.primary {
-  background: #007cc9;
-}
+.button.primary { background: #007cc9; }
+.button.primary:hover, .button.primary:focus { background: #006cb0; }
 
-.button.primary:hover, .button.primary:focus {
-  background: #006cb0;
-}
+.button.secondary { background: #cce4f4; color: #007cc9; }
+.button.secondary:hover, .button.secondary:focus { background: #b2d7ee; }
 
 .header-robot-1, .header-robot-2 {
   width: 145px !important;
@@ -136,4 +134,30 @@ textarea:focus {
 
 #register select {
   -webkit-font-smoothing: antialiased;
+}
+
+.materials .wrap {
+  min-height: 282px;
+}
+
+.materials p {
+  margin: 2em auto;
+}
+
+.materials h4 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.materials .links {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.materials .morepanel {
+  padding-bottom: 15px;
+}
+
+.materials [class*="column"]+[class*="column"]:last-child {
+  float: left;
 }

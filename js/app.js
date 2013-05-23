@@ -90,7 +90,7 @@ CodeClubWorld.interceptForm = function() {
 
   var required = $('.required input');
 
-  $('form').on('submit', function(e) {
+  $('#register form').on('submit', function(e) {
     e.preventDefault();
 
     var data = $(this).serializeHash();
