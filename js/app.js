@@ -1,13 +1,20 @@
 window.CodeClubWorld = {};
 
+CodeClubWorld.api = 'http://codeclubworld.apiary.io';
+
 CodeClubWorld.makeMap = function() {
-  $.getJSON('api/active-clubs.json').then(function(data) {
+
+  $.getJSON('/api' + '/clubs.json').then(function(data) {
     var clubs = data.clubs;
 
     var center = new google.maps.LatLng(54.559323, -4.174805);
     var image = '../img/map/marker-6c4ba1e0ffb35772220dc5917d98ec85.png';
 
-    var map = new google.maps.Map(document.getElementById('map'), {
+    var el = document.getElementById('map');
+
+    if (!el) return;
+
+    var map = new google.maps.Map(el, {
       zoom: 5,
       center: center,
       scrollwheel: false,
@@ -89,9 +96,9 @@ CodeClubWorld.makeMap = function() {
 }
 
 CodeClubWorld.startClubButton = function() {
-  $(".start-club a").click(function() {
+  $('.start-club a').click(function() {
      $('html, body').animate({
-         scrollTop: $("#register").offset().top - 20
+         scrollTop: $('#register').offset().top - 20
      }, 700);
   });
 }
@@ -136,11 +143,10 @@ CodeClubWorld.register = function(data) {
 }
 
 CodeClubWorld.sendForm = function(data) {
-  var api = 'http://codeclubworld.apiary.io';
 
   var post = $.ajax({
-    type: "POST",
-    url: api + '/clubs',
+    type: 'POST',
+    url: CodeClubWorld.api + '/clubs',
     data: JSON.stringify(data),
     success: function(data) {
       $('#register').replaceWith('<div class="panel notice"><strong>Thanks for registering your club</strong></div>');
