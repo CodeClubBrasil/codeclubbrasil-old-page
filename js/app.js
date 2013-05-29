@@ -55,7 +55,8 @@ CodeClubWorld.makeMap = function() {
         var clubName        = ('<h5 class="name">'+club.name+'</h5>');
         var clubCity        = ('<p class="city">'+club.location.city+'</p>');
         var clubActivated   = ('<p class="date">Activated: '+moment(club.activated_at).format("Do MMMM YYYY")+'</p>');
-        var $clubContent = clubName+clubCity+clubActivated;
+        var skype           = ('<a class="skype" href="skype:'+club.contact.skype+'">S</a>')
+        var $clubContent = clubName+clubCity+clubActivated+skype;
 
         infobox.open(map, marker);
         infobox.setContent($clubContent);
