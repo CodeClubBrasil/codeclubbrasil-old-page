@@ -3,34 +3,29 @@ window.CodeClubWorld = {};
 CodeClubWorld.api = 'http://codeclubworld.apiary.io';
 
 CodeClubWorld.makeMap = function() {
+  var el = document.getElementById('map');
+  if (!el) return;
 
-  $.getJSON('/api' + '/clubs.json').then(function(data) {
-    var clubs = data.clubs;
-
-    var center = new google.maps.LatLng(54.559323, -4.174805);
-    var image = '../img/map/marker-6c4ba1e0ffb35772220dc5917d98ec85.png';
-
-    var el = document.getElementById('map');
-
-    if (!el) return;
+  $.getJSON('/api/clubs.json').then(function(data) {
+    var clubs = data.clubs,
+        markers = [];
 
     var map = new google.maps.Map(el, {
-      zoom: 5,
-      center: center,
+      zoom: 2,
+      center: new google.maps.LatLng(40, 5),
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
-    var markers = [];
-
     $.each(clubs, function(i, club) {
+      var loc = club.venue.location;
+      if (loc.lat === null || loc.lng === null) return;
 
-      var loc = club.location;
-      var latLng = new google.maps.LatLng(loc.lat, loc.lng);
-      var marker = new google.maps.Marker({ 
-        position: latLng,
-        icon: image
-      });
+      var latLng = new google.maps.LatLng(loc.lat, loc.lng),
+          marker = new google.maps.Marker({
+            position: latLng,
+            icon: '/img/map/marker.png'
+          });
 
       markers.push(marker);
 
@@ -46,54 +41,43 @@ CodeClubWorld.makeMap = function() {
           padding: "0 10px"
         },
         infoBoxClearance: new google.maps.Size(1, 1),
-        closeBoxURL: "../img/map/close.png",
+        closeBoxURL: "/img/map/close.png",
         closeBoxMargin: "10px 0 0 0"
       });
 
-      google.maps.event.addListener(marker, 'click', function() { 
-
-        var clubName        = ('<h5 class="name">'+club.name+'</h5>');
-        var clubCity        = ('<p class="city">'+club.location.city+'</p>');
-        var clubActivated   = ('<p class="date">Activated: '+moment(club.activated_at).format("Do MMMM YYYY")+'</p>');
-        var skype           = ('<a class="skype" href="skype:'+club.contact.skype+'">S</a>')
-        var $clubContent = clubName+clubCity+clubActivated+skype;
-
+      google.maps.event.addListener(marker, 'click', function() {
         infobox.open(map, marker);
-        infobox.setContent($clubContent);
-
+        infobox.setContent(
+          '<h5 class="name">' + club.venue.name + '</h5>' +
+          '<p class="city">' + club.venue.city + '</p>' +
+          '<p class="date">Since ' + moment(club.activated_at).format('Do MMMM YYYY') + '</p>'
+        );
       });
-
     });
 
     $('.counter').append(clubs.length);
 
-    var mcOptions = {styles: 
-      [
-        {
-          textColor: 'white',
-          url: '../img/map/small-cluster.png',
-          height: 40,
-          width: 40
-        },
-       {
-          textColor: 'white',
-          url: '../img/map/medium-cluster.png',
-          height: 40,
-          width: 40
-        },
-       {
-          textColor: 'white',
-          url: '../img/map/large-cluster.png',
-          height: 40,
-          width: 40
-        }
-      ]
+    var mcOptions = {
+      styles: [{
+        textColor: 'white',
+        url: '/img/map/small-cluster.png',
+        height: 40,
+        width: 40
+      }, {
+        textColor: 'white',
+        url: '/img/map/medium-cluster.png',
+        height: 40,
+        width: 40
+      }, {
+        textColor: 'white',
+        url: '/img/map/large-cluster.png',
+        height: 40,
+        width: 40
+      }]
     };
 
     var markerCluster = new MarkerClusterer(map, markers, mcOptions);
-    
   });
-
 }
 
 CodeClubWorld.startClubButton = function() {
@@ -124,7 +108,7 @@ CodeClubWorld.register = function(data) {
     data.venue.city,
     data.venue.postcode
   ].join(', ');
-  
+
   var region = data.country.code;
   var geocoder = new google.maps.Geocoder();
 
