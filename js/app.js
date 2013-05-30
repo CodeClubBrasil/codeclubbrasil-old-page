@@ -46,12 +46,32 @@ CodeClubWorld.makeMap = function() {
       });
 
       google.maps.event.addListener(marker, 'click', function() {
-        infobox.open(map, marker);
-        infobox.setContent(
-          '<h5 class="name">' + club.venue.name + '</h5>' +
-          '<p class="city">' + club.venue.city + '</p>' +
-          '<p class="date">Since ' + moment(club.activated_at).format('Do MMMM YYYY') + '</p>'
+        var content = [];
+
+        content.push('<h5 class="name">' + club.venue.name  +'</h5>');
+
+        if (club.venue.city) {
+          content.push('<p class="city">' + club.venue.city + '</p>');
+        }
+
+        content.push(
+          '<p class="date">Since ' +
+            moment(club.activated_at).format("Do MMMM YYYY") +
+          '</p>'
         );
+
+        if (club.contact && club.contact.skype) {
+          content.push(
+            '<a class="skype" href="skype:' + club.contact.skype + '">' +
+              'Skype: ' + club.contact.skype +
+            '</a>'
+          );
+        }
+
+        content = content.join('');
+
+        infobox.open(map, marker);
+        infobox.setContent(content);
       });
     });
 

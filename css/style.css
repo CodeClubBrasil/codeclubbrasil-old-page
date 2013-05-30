@@ -168,23 +168,16 @@ a:hover, a:focus { color: #006cb0; }
 }
 
 .infoBox .city {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+  display: block;
+  margin: 0 0 0.5em 0;
 }
 .infoBox .skype {
-  display: block;
-  position: absolute;
-  bottom: -10px;
-  right: -10px;
-  padding: 5px 6px;
-  border-radius: 8px;
-  background: #c6e1ec;
-  color: #fff;
+  display: inline-block;
+  right: -10px; bottom: -10px;
+  padding: 5px 20px;
+  border-radius: 1em;
+  background: #017cc9;
+  color: white;
 }
 .infoBox .skype:hover {
   text-decoration: none;
