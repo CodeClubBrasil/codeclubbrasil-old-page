@@ -36,13 +36,13 @@ CodeClubWorld.makeMap = function() {
         pixelOffset: new google.maps.Size(-140, -205),
         zIndex: null,
         boxStyle: {
-          background: "#fff",
-          width: "280px",
-          padding: "0 10px"
+          background: '#fff',
+          width: '280px',
+          padding: '0 10px'
         },
         infoBoxClearance: new google.maps.Size(1, 1),
-        closeBoxURL: "/img/map/close.png",
-        closeBoxMargin: "10px 0 0 0"
+        closeBoxURL: '/img/map/close.png',
+        closeBoxMargin: '10px 0 0 0'
       });
 
       google.maps.event.addListener(marker, 'click', function() {
@@ -56,7 +56,7 @@ CodeClubWorld.makeMap = function() {
 
         content.push(
           '<p class="date">Since ' +
-            moment(club.activated_at).format("Do MMMM YYYY") +
+            moment(club.activated_at).format('Do MMMM YYYY') +
           '</p>'
         );
 
