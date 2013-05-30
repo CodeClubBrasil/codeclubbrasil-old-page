@@ -29,15 +29,15 @@ CodeClubWorld.makeMap = function() {
 
       markers.push(marker);
 
-      infobox = new InfoBox({
-        content: document.getElementById('infobox'),
+      var infobox = new InfoBox({
         disableAutoPan: false,
         maxWidth: 150,
-        pixelOffset: new google.maps.Size(-140, -205),
+        pixelOffset: new google.maps.Size(-140, -250),
         zIndex: null,
         boxStyle: {
           background: '#fff',
           width: '280px',
+          height: '200px',
           padding: '0 10px'
         },
         infoBoxClearance: new google.maps.Size(1, 1),
@@ -70,8 +70,8 @@ CodeClubWorld.makeMap = function() {
 
         content = content.join('');
 
-        infobox.open(map, marker);
         infobox.setContent(content);
+        infobox.open(map, marker);
       });
     });
 
