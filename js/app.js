@@ -134,7 +134,7 @@ CodeClubWorld.sendForm = function(data) {
     url: CodeClubWorld.api + '/clubs',
     data: JSON.stringify(data),
     success: function(data) {
-      $('#register').replaceWith('<div class="panel notice"><strong>Thanks for registering your club</strong></div>');
+      document.location.href = '/welcome';
     },
     dataType: 'json',
     contentType: 'application/json'
