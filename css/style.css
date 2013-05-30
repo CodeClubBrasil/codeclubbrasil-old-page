@@ -277,6 +277,52 @@ textarea:focus {
   margin-bottom: 15px;
 }
 
+#translate {
+  position: absolute;
+  top: -40px;
+  right: 0;
+
+  background: #c6e1ec;
+  padding: 50px 20px 15px;
+
+  font-size: 0;
+
+  border-radius: 30px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+#translate .goog-te-gadget {
+  font-size: 0;
+  clear: both;
+  overflow: hidden;
+}
+
+#translate .goog-logo-link {
+  display: block;
+  padding-top: 13px;
+  padding-right: 9px;
+}
+
+#translate .goog-te-gadget div {
+  float: right;
+}
+
+#translate .goog-te-gadget span {
+  display: block;
+  float: left;
+}
+
+#translate .goog-te-gadget a {
+  text-transform: lowercase;
+  font-weight: normal;
+  color: #999;
+}
+
+#translate select {
+  margin: 0;
+}
+
 @media only screen and (max-width: 1050px) {
   .home header.header {
     background:
