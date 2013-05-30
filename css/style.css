@@ -25,10 +25,6 @@ a:hover, a:focus { color: #006cb0; }
   width: auto; height: auto;
 }
 
-.home #nav {
-  display: none;
-}
-
 .not-home header.header hgroup {
   width: 106px;
 }
@@ -72,6 +68,14 @@ a:hover, a:focus { color: #006cb0; }
   margin: 25px auto 45px auto;
   width: auto;
   height: auto;
+}
+
+.home #logo {
+  width: 260px;
+}
+
+.home #nav {
+  padding-top: 10px;
 }
 
 .strapline {
