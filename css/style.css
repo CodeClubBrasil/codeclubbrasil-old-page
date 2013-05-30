@@ -224,6 +224,13 @@ textarea:focus {
   -webkit-font-smoothing: antialiased;
 }
 
+#terms-and-conditions {
+  margin-top: 25px;
+}
+#create-a-club {
+  margin-top: 9px;
+}
+
 .parsley-error-list {
   margin: 0;
   color: #C60F13;
