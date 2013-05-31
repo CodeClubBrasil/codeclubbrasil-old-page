@@ -14,6 +14,15 @@
 
     {% include open_graph_tags.html %}
 
+    <script>
+      document.write(
+        '<link rel="stylesheet" ' +
+        'href="//f.fontdeck.com/s/css/TFY2aUzEpRLcoEOhQR+42J6Ja8I/' +
+        location.hostname +
+        '/23203.css">'
+      );
+    </script>
+
     <link rel="stylesheet" href="http://www.codeclub.org.uk/assets/application.css">
     <link rel="stylesheet" href="/css/style.css">
 
@@ -84,21 +93,6 @@
 
       ga('create', 'UA-30750176-2', 'codeclubworld.org');
       ga('send', 'pageview');
-    </script>
-
-    <!-- Fontdeck -->
-    <script>
-      WebFontConfig = { fontdeck: { id: '23203' } };
-
-      (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-      })();
     </script>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
