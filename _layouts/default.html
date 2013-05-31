@@ -36,10 +36,18 @@
         <header class="row header" role="banner">
           <nav class="twelve columns navigation" role="navigation" id="nav">
             <ul class="main-menu">
-              <li><a href="/">Home</a></li>
-              <li><a href="/advice">Advice</a></li>
-              <li><a href="/faq">FAQ</a></li>
-              <li><a href="/support-us">Support Us</a></li>
+              <li {% if page.title == 'Home' %}class="active"{% endif %}>
+                <a href="/">Home</a>
+              </li>
+              <li {% if page.title == 'Advice' %}class="active"{% endif %}>
+                <a href="/advice">Advice</a>
+              </li>
+              <li {% if page.title == 'FAQ' %}class="active"{% endif %}>
+                <a href="/faq">FAQ</a>
+              </li>
+              <li {% if page.title == 'Support Us' %}class="active"{% endif %}>
+                <a href="/support-us">Support Us</a>
+              </li>
             </ul>
           </nav>
 
