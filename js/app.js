@@ -29,23 +29,11 @@ CodeClubWorld.makeMap = function() {
 
       markers.push(marker);
 
-      var infobox = new InfoBox({
-        disableAutoPan: false,
-        maxWidth: 150,
-        pixelOffset: new google.maps.Size(-140, -250),
-        zIndex: null,
-        boxStyle: {
-          background: '#fff',
-          width: '280px',
-          height: '200px',
-          padding: '0 10px'
-        },
-        infoBoxClearance: new google.maps.Size(1, 1),
-        closeBoxURL: '/img/map/close.png',
-        closeBoxMargin: '10px 0 0 0'
-      });
-
       google.maps.event.addListener(marker, 'click', function() {
+        var infobox = CodeClubWorld.infobox;
+
+        infobox.close();
+
         var content = [];
 
         content.push('<h5 class="name">' + club.venue.name  +'</h5>');
@@ -99,6 +87,22 @@ CodeClubWorld.makeMap = function() {
     var markerCluster = new MarkerClusterer(map, markers, mcOptions);
   });
 }
+
+CodeClubWorld.infobox = new InfoBox({
+  disableAutoPan: false,
+  maxWidth: 150,
+  pixelOffset: new google.maps.Size(-140, -250),
+  zIndex: null,
+  boxStyle: {
+    background: '#fff',
+    width: '280px',
+    height: '200px',
+    padding: '0 10px'
+  },
+  infoBoxClearance: new google.maps.Size(1, 1),
+  closeBoxURL: '/img/map/close.png',
+  closeBoxMargin: '10px 0 0 0'
+});
 
 CodeClubWorld.startClubButton = function() {
   $('.start-club a').click(function() {
