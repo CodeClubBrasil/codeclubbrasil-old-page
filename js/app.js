@@ -72,19 +72,19 @@ CodeClubWorld.makeMap = function() {
     var mcOptions = {
       styles: [{
         textColor: 'white',
-        url: '/img/map/small-cluster.png',
-        height: 40,
-        width: 40
+        url: '/img/map/cluster.png',
+        height: 42,
+        width: 42
       }, {
         textColor: 'white',
-        url: '/img/map/medium-cluster.png',
-        height: 40,
-        width: 40
+        url: '/img/map/cluster.png',
+        height: 42,
+        width: 42
       }, {
         textColor: 'white',
-        url: '/img/map/large-cluster.png',
-        height: 40,
-        width: 40
+        url: '/img/map/cluster.png',
+        height: 42,
+        width: 42
       }]
     };
 
