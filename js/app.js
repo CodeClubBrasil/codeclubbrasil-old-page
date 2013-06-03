@@ -122,6 +122,7 @@ CodeClubWorld.interceptForm = function() {
       e.preventDefault();
 
       var data = $(this).serializeHash();
+      delete data.contact.agreed;
       CodeClubWorld.register(data);
     })
     .parsley({ successClass: 'success', errorClass: 'error' })
