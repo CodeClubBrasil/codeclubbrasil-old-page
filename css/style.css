@@ -330,6 +330,9 @@ textarea:focus {
 }
 
 #translate .goog-te-gadget a {
+  display: block;
+  width: 100px;
+
   text-transform: lowercase;
   font-weight: normal;
   color: #999;
@@ -337,6 +340,15 @@ textarea:focus {
 
 #translate select {
   margin: 0;
+}
+
+#translate .goog-te-gadget .goog-te-combo {
+  width: 160px;
+}
+
+.ie8 #translate select, .ie7 #translate select {
+  padding-top: 0;
+  height: auto;
 }
 
 @media only screen and (max-width: 1050px) {
