@@ -118,14 +118,15 @@ CodeClubWorld.startClubButton = function() {
 
 CodeClubWorld.interceptForm = function() {
   $('#register form')
-    .on('submit', function(e) {
-      e.preventDefault();
-
+  .parsley({
+    successClass: 'success',
+    errorClass: 'error',
+    onFormSubmit: function(isFormValid, event, parsleyForm) {
       var data = $(this).serializeHash();
       delete data.contact.agreed;
       CodeClubWorld.register(data);
-    })
-    .parsley({ successClass: 'success', errorClass: 'error' })
+    }
+  });
 }
 
 CodeClubWorld.register = function(data) {
@@ -157,6 +158,7 @@ CodeClubWorld.register = function(data) {
 }
 
 CodeClubWorld.sendForm = function(data) {
+  alert('no!');
   $.ajax({
     type        : 'POST',
     url         : CodeClubWorld.api + '/clubs',
@@ -184,14 +186,14 @@ CodeClubWorld.customPlaceholders = function() {
   }
 
   function showIfEmpty() {
-    if ($(this).val()) return;
+    if ($(this).val() || $(this).find('option:selected').val()) return;
     $(this).closest('.custom-placeholder').find('label').show();
   }
 
   var fields = $('.custom-placeholder');
 
   fields
-    .find('input, textarea')
+    .find('input, textarea, select')
       .on('keydown change', hideLabel)
       .on('blur keyup', showIfEmpty)
       .each(hideLabel).each(showIfEmpty);
