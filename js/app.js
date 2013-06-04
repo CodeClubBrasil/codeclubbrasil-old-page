@@ -52,6 +52,14 @@ CodeClubWorld.makeMap = function() {
           '</p>'
         );
 
+        if (club.venue.website) {
+          content.push(
+            '<a class="wubsite" href="' + club.venue.website + '">' +
+              club.venue.website +
+            '</a>'
+          );
+        }
+
         if (club.contact && club.contact.skype) {
           content.push(
             '<a class="skype" href="skype:' + club.contact.skype + '">' +
