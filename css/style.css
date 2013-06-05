@@ -350,6 +350,42 @@ textarea:focus {
   height: auto;
 }
 
+footer h4 {
+  color: #666666;
+  font-family: sans-serif;
+}
+
+footer .wrap {
+  text-align: center;
+  background: #fcfcfa;
+
+  padding: 20px 10px;
+}
+
+.social-link {
+  display: block;
+  text-align: left;
+
+  margin-bottom: 10px;
+
+  line-height: 35px;
+  color: #666;
+}
+
+.social-link:hover {
+  text-decoration: none;
+}
+
+.social-link img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.social-link, .useful-links {
+  font-size: 14px;
+  text-align: left;
+}
+
 @media only screen and (max-width: 1050px) {
   .home header.header {
     background:
