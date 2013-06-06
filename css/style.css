@@ -277,6 +277,14 @@ textarea:focus {
   margin-top: 40px;
 }
 
+.faqs h2 {
+  margin: 0 0 40px;
+}
+
+.faqs hr {
+  margin: 15px 0 30px;
+}
+
 .indent {
   padding-left: 40px;
   padding-right: 40px;
