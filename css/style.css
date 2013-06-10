@@ -90,13 +90,39 @@ a:hover, a:focus { color: #006cb0; }
   padding: 0 !important;
 }
 
+.introduction p {
+  font-size: 17px;
+}
+
+.introduction h2, .how-it-works h2 {
+  font-size: 30px;
+}
+
 .how-it-works {
   margin: 0 auto;
+}
+
+.how-it-works h4 {
+  color: black;
 }
 
 .how-it-works .bit {
   text-align: center;
   width: 20%;
+}
+
+.community-steps .bit:after {
+  background: url(/img/community-steps/arrow.png) 0 0 no-repeat;
+  width: 27px; height: 36px;
+
+  margin-top: -40px;
+  left: 95%;
+
+  font-size: 0;
+}
+
+.community-steps .last .button {
+  margin-top: 36px;
 }
 
 .how-it-works .bit .image {
@@ -443,6 +469,10 @@ footer .wrap .button {
     top: 80% !important;
     bottom: 0 !important;  
     left: 0 !important;
+  }
+
+  .community-steps .bit:after {
+    display: none !important;
   }
 
   .start-club {
