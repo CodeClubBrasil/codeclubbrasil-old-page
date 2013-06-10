@@ -358,7 +358,7 @@ textarea:focus {
   width: 160px;
 }
 
-.ie8 #translate select, .ie7 #translate select {
+.lte-ie8 #translate select {
   padding-top: 0;
   height: auto;
 }
@@ -451,10 +451,6 @@ footer .wrap {
   }
 }
 
-.ie7 .bit {
-  width: 18%;
-}
-
-.ie7 .club-count {
-  width: 77%;
+.lte-ie8 * {
+  *behavior: url(/js/libs/boxsizing.htc);
 }
