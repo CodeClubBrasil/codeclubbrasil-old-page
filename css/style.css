@@ -70,6 +70,11 @@ a:hover, a:focus { color: #006cb0; }
   height: auto;
 }
 
+.not-home #logo img {
+  width: 106px;
+  height: 66px;
+}
+
 .home #logo {
   width: 260px;
 }
