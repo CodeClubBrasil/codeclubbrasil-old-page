@@ -454,8 +454,8 @@ footer .wrap .button {
   .home header.header {
     z-index: 10;
     background:
-      url(/img/robots/responsive-robot-right.png) no-repeat right 20px,
-      url(/img/robots/responsive-robot-left.png) no-repeat left 20px;
+      url(/img/robots/responsive-robot-right.png) no-repeat right 100px,
+      url(/img/robots/responsive-robot-left.png) no-repeat left 100px;
   }
 }
 
@@ -505,7 +505,7 @@ footer .wrap .button {
   .home header.header {
     background:
       url(/img/robots/responsive-robot-right-small.png) no-repeat right 100px,
-      url(/img/robots/responsive-robot-left-small.png) no-repeat left 20px;
+      url(/img/robots/responsive-robot-left-small.png) no-repeat left 100px;
   }
 }
 
