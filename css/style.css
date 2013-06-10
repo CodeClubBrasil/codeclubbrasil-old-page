@@ -438,6 +438,10 @@ footer .wrap .button {
   text-align: left;
 }
 
+.advice .wrap h3 {
+  color: black;
+}
+
 a.wrap {
   display: block;
   text-decoration: none;
