@@ -1,7 +1,7 @@
 window.CodeClubWorld = {};
 
 CodeClubWorld.api   = 'https://api.codeclubworld.org';
-CodeClubWorld.token = 'ZTA0YjgyMTZmODljODJhNzA4MzdlYWEyYTY2NGRkNTk = ';
+CodeClubWorld.token = 'ZTA0YjgyMTZmODljODJhNzA4MzdlYWEyYTY2NGRkNTk=';
 CodeClubWorld.limit = 2000;
 
 CodeClubWorld.makeMap = function() {
@@ -169,7 +169,6 @@ CodeClubWorld.register = function(data) {
 }
 
 CodeClubWorld.sendForm = function(data) {
-  alert('no!');
   $.ajax({
     type        : 'POST',
     url         : CodeClubWorld.api + '/clubs',
