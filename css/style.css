@@ -364,13 +364,19 @@ textarea:focus {
 footer h4 {
   color: #666666;
   font-family: sans-serif;
+  margin: 0;
 }
 
 footer .wrap {
   text-align: center;
   background: #fcfcfa;
 
-  padding: 20px 10px;
+  padding: 20px 20px;
+}
+
+footer .wrap .button {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .social-link {
