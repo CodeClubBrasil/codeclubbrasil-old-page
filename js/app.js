@@ -1,13 +1,16 @@
 window.CodeClubWorld = {};
 
-CodeClubWorld.api = 'https://api.codeclubworld.org';
-CodeClubWorld.token = 'ZTA0YjgyMTZmODljODJhNzA4MzdlYWEyYTY2NGRkNTk=';
+CodeClubWorld.api   = 'https://api.codeclubworld.org';
+CodeClubWorld.token = 'ZTA0YjgyMTZmODljODJhNzA4MzdlYWEyYTY2NGRkNTk = ';
+CodeClubWorld.limit = 2000;
 
 CodeClubWorld.makeMap = function() {
   var el = document.getElementById('map');
   if (!el) return;
 
-  $.getJSON(CodeClubWorld.api + '/clubs').then(function(data) {
+  var url = CodeClubWorld.api + '/clubs?limit=' + CodeClubWorld.limit;
+
+  $.getJSON(url).then(function(data) {
     var clubs = data.clubs,
         markers = [];
 
