@@ -132,10 +132,12 @@ CodeClubWorld.interceptForm = function() {
   .parsley({
     successClass: 'success',
     errorClass: 'error',
-    onFormSubmit: function(isFormValid, event, parsleyForm) {
-      var data = $(this).serializeHash();
-      delete data.contact.agreed;
-      CodeClubWorld.register(data);
+    onFormSubmit: function(formIsValid, event, parsleyForm) {
+      if (formIsValid) {
+        var data = $(this).serializeHash();
+        delete data.contact.agreed;
+        CodeClubWorld.register(data);
+      }
     }
   });
 }
