@@ -133,8 +133,6 @@ title: Home
                   <input class="medium input-text" name="venue[address_2]" id="venue[address_2]" type="text">
                 </div>
 
-                <p>The venue address will NOT be shown on the map marker and is just used to place the venue on the map.</p>
-
                 <div class="custom-placeholder">
                   <label for="venue[region]">Venue region</label>
                   <input class="medium input-text" name="venue[region]" id="venue[region]" type="text">
@@ -149,6 +147,8 @@ title: Home
                   <label for="venue[postcode]">Venue postcode</label>
                   <input class="medium input-text" type="text" name="venue[postcode]" id="venue[postcode]" data-trigger="change" required>
                 </div>
+
+                <p>The venue address will NOT be shown on the map marker and is just used to place the venue on the map.</p>
 
                 <br class="separator">
 
@@ -417,7 +417,7 @@ title: Home
 
                 <div class="custom-placeholder required">
                   <label for="contact[email]">Your email address</label>
-                  <input class="medium input-text" type="email" name="contact[email]" id="contact[email]" data-trigger="change" required>
+                  <input class="medium input-text input-email" type="email" name="contact[email]" id="contact[email]" data-trigger="change" required>
                 </div>
 
                 <p class="mini-notice">Your name and email address will not be displayed</p>

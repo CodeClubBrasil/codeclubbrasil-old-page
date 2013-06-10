@@ -307,58 +307,37 @@ textarea:focus {
 
 #translate {
   position: absolute;
-  top: -40px;
+
+  top: 0;
   right: 0;
 
-  background: #c6e1ec;
+  background: url(/img/translate-bubble.png) 0 0 no-repeat;
   padding: 50px 20px 15px;
+  width: 343px; height: 94px;
 
-  font-size: 0;
-
-  border-radius: 30px;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
-}
-
-#translate .goog-te-gadget {
-  font-size: 0;
-  clear: both;
-  overflow: hidden;
-}
-
-#translate .goog-logo-link {
-  display: block;
-  padding-top: 13px;
-  padding-right: 9px;
-}
-
-#translate .goog-te-gadget div {
-  float: right;
-}
-
-#translate .goog-te-gadget span {
-  display: block;
-  float: left;
+  text-indent: -999999px;
 }
 
 #translate .goog-te-gadget a {
-  display: block;
-  width: 100px;
-
-  text-transform: lowercase;
-  font-weight: normal;
-  color: #999;
+  display: none;
 }
 
 #translate select {
+  position: absolute;
+
+  top: 5px;
+  right: 20px;
+
+  z-index: 11;
   margin: 0;
 }
 
 #translate .goog-te-gadget .goog-te-combo {
-  width: 160px;
+  width: 200px;
 }
 
 .lte-ie8 #translate select {
+  margin-top: 10px;
   padding-top: 0;
   height: auto;
 }
@@ -401,6 +380,7 @@ footer .wrap {
 
 @media only screen and (max-width: 1050px) {
   .home header.header {
+    z-index: 10;
     background:
       url(/img/robots/responsive-robot-right.png) no-repeat right 20px,
       url(/img/robots/responsive-robot-left.png) no-repeat left 20px;
@@ -446,11 +426,15 @@ footer .wrap {
 @media only screen and (max-width: 500px) {
   .home header.header {
     background:
-      url(/img/robots/responsive-robot-right-small.png) no-repeat right 20px,
+      url(/img/robots/responsive-robot-right-small.png) no-repeat right 100px,
       url(/img/robots/responsive-robot-left-small.png) no-repeat left 20px;
   }
 }
 
 .lte-ie8 * {
   *behavior: url(/js/libs/boxsizing.htc);
+}
+
+.lte-ie8 #register .input-email {
+  *height: 22px !important;
 }
