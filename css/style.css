@@ -442,10 +442,8 @@ footer .wrap .button {
   color: black;
 }
 
-a.wrap {
-  display: block;
-  text-decoration: none;
-  color: #666;
+.wrap .button {
+  line-height: 1;
 }
 
 @media only screen and (max-width: 1050px) {
