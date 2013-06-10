@@ -102,6 +102,10 @@ a:hover, a:focus { color: #006cb0; }
   margin: 0 auto;
 }
 
+.how-it-works .button {
+  line-height: 1;
+}
+
 .how-it-works h4 {
   color: black;
 }
@@ -338,6 +342,11 @@ textarea:focus {
 .indent {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.advice-images img {
+  display: block;
+  margin-bottom: 10px;
 }
 
 .jumplinks {
