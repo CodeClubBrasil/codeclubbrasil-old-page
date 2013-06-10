@@ -205,7 +205,21 @@ textarea:focus {
 }
 
 #register {
+  position: relative;
   border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#register:after {
+  content: '';
+  display: block;
+
+  position: absolute;
+  bottom: -78px; right: 40px;
+  z-index: -1;
+
+  width: 491px; height: 82px;
+  background: url(/img/flags.png) 0 0 no-repeat;
 }
 
 #register input, #register select {
@@ -229,6 +243,11 @@ textarea:focus {
 
 #register select {
   -webkit-font-smoothing: antialiased;
+}
+
+.giddy {
+  display: block;
+  margin: 40px auto 0;
 }
 
 #create-a-club {
@@ -397,6 +416,8 @@ footer .wrap {
     margin-left: -53px;
     width: 106px !important;
   }
+
+  #register:after { display: none; }
 }
 
 @media only screen and (max-width: 767px) {
