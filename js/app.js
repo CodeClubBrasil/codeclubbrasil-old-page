@@ -2,7 +2,7 @@ window.CodeClubWorld = {};
 
 CodeClubWorld.api   = 'https://api.codeclubworld.org';
 CodeClubWorld.token = 'ZTA0YjgyMTZmODljODJhNzA4MzdlYWEyYTY2NGRkNTk=';
-CodeClubWorld.limit = 2000;
+CodeClubWorld.limit = 10000;
 
 CodeClubWorld.makeMap = function() {
   var el = document.getElementById('map');
@@ -141,15 +141,19 @@ CodeClubWorld.interceptForm = function() {
 
       if (formIsValid) {
         var data = form.serializeHash();
-        CodeClubWorld.register(data);
+        delete data.contact.agreed;
+
+        if (data.country.code === 'GB') {
+          CodeClubWorld.registerWithUK(data);
+        } else {
+          CodeClubWorld.registerWithAPI(data);
+        }
       }
     }
   });
 }
 
-CodeClubWorld.register = function(data) {
-  delete data.contact.agreed;
-
+CodeClubWorld.registerWithAPI = function(data) {
   var address = [
     data.venue.name,
     data.venue.address_1,
@@ -175,6 +179,11 @@ CodeClubWorld.register = function(data) {
       $('#register').prepend('<div class="panel alert"><strong>Unable to locate your club</strong></div>');
     }
   });
+}
+
+CodeClubWorld.registerWithUK = function(data) {
+  var params = $.param(data);
+  window.open('http://codeclub.org.uk/quick-registrations/new?' + params);
 }
 
 CodeClubWorld.sendForm = function(data) {
