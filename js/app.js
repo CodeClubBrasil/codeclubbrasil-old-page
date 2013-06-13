@@ -128,14 +128,19 @@ CodeClubWorld.startClubButton = function() {
 }
 
 CodeClubWorld.interceptForm = function() {
-  $('#register form')
-  .parsley({
+  var form = $('#register form');
+
+  form.parsley({
     successClass: 'success',
     errorClass: 'error',
+  })
+
+  form.parsley('addListener', {
     onFormSubmit: function(formIsValid, event, parsleyForm) {
+      event.preventDefault();
+
       if (formIsValid) {
-        var data = $(this).serializeHash();
-        delete data.contact.agreed;
+        var data = form.serializeHash();
         CodeClubWorld.register(data);
       }
     }
@@ -143,6 +148,8 @@ CodeClubWorld.interceptForm = function() {
 }
 
 CodeClubWorld.register = function(data) {
+  delete data.contact.agreed;
+
   var address = [
     data.venue.name,
     data.venue.address_1,
