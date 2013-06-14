@@ -52,7 +52,7 @@ function codeClubHeaders(){
              $("h3::contains('Test')").each(function(){
              	            $(this).addClass('test_h3');
              					var oldContent= $(this).html();
-             					$(this).html('<img class="test_flag" src="../scratchblocks2/block_images/flag.png"></img>'+oldContent);
+             					$(this).html('<img class="test_flag" src="../../../../js/libs/scratchblocks2/block_images/flag.png"></img>'+oldContent);
              	
              		       }
              
