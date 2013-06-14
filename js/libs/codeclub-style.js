@@ -81,7 +81,7 @@ function codeClubHeaders(){
                   );
                  $('.save_project').append('<div class="check"></div>');
                   
-                 $('.autoImage').error(function() {
+                 $('img').error(function() {
 							$(this).remove();
 							});
 						$("h2:first").before('<center><img src="'+$.trim($("h1").html())+'.png"/> </center>');
