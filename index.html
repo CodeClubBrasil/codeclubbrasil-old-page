@@ -1,1 +1,343 @@
-test
+---
+layout: default
+title: Home
+---
+
+<div class="row">
+  <div class="twelve columns"><hr></div>
+</div>
+
+<div class="row introduction">
+  <div class="seven columns">
+    <h2>Our mission</h2>
+
+    <p><b>The mission of CodeClubWorld.org</b> is to give every child in the world the chance to learn to code by providing project materials and a volunteering framework that supports the running of after-school coding clubs.</p>
+  </div>
+
+  <div class="five columns">
+    <h2>Support us</h2>
+    <p>We need your support to help grow Code Club World.</p>
+    <p><a href="/support-us" class="button primary round">Support us</a></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns"><hr></div>
+</div>
+
+<div class="row how-it-works">
+  <div class="twelve columns">
+
+    <div class="row">
+      <div class="ten columns">
+        <h2>How to create a club</h2>
+        <p>We create projects for our volunteers to teach at after school coding clubs. The projects we make teach children how to program by showing them how to make computer games, animations and websites. Volunteers go to their local junior school or other venue, such as a library, for an hour a week and teach one project a week. Check out the languages below and register your club.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="bit">
+        <div class="image">
+          <img src="/img/club-steps/1.png">
+        </div>
+        <h4>Volunteer</h4>
+      </div>
+      <div class="bit">
+        <div class="image">
+          <img src="/img/club-steps/2.png">
+        </div>
+        <h4>Projects</h4>
+      </div>
+      <div class="bit">
+        <div class="image">
+          <img src="/img/club-steps/3.png">
+        </div>
+        <h4>Venue</h4>
+      </div>
+      <div class="bit">
+        <div class="image">
+          <img src="/img/club-steps/4.png">
+        </div>
+        <h4>Children</h4>
+      </div>
+      <div class="bit">
+        <img src="/img/logo-150x150.png">
+        <p><a href="/advice/creating-a-club.html" class="button secondary round">Find out more</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns"><hr></div>
+</div>
+
+<div class="row how-it-works community-steps">
+  <div class="twelve columns">
+
+    <div class="row">
+      <div class="ten columns">
+        <h2>How to create a community in your country</h2>
+        <p>Code Club World is community led and supported. This means that the projects will need to be translated by each country and the volunteers need to be supported by a central team in each country. This sounds like a big task but we&#8217;ll help you with is as much as we can. Find out more about how to set up a successful community.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="bit">
+        <div class="image">
+          <img src="/img/community-steps/1.png">
+        </div>
+        <h4>Take our projects</h4>
+      </div>
+      <div class="bit">
+        <div class="image">
+          <img src="/img/community-steps/2.png">
+        </div>
+        <h4>translate them into your language.</h4>
+      </div>
+      <div class="bit">
+        <div class="image">
+          <img src="/img/community-steps/3.png">
+        </div>
+        <h4>Support your volunteers</h4>
+      </div>
+      <div class="bit">
+        <div class="image">
+          <img src="/img/community-steps/4.png">
+        </div>
+        <h4>by using social media and holding meet ups</h4>
+      </div>
+      <div class="bit last">
+        <a href="/advice/creating-a-community.html" class="button secondary round">Get started now</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns"><hr></div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+
+    <div class="white panel map-wrapper">
+      <div class="row">
+        <div class="ten columns club-count">
+          <h2><span class="counter"></span> <span class="counter-after">Code Club's worldwide!</span></h2>
+        </div>
+        <div class="two columns start-club">
+          <a class="button primary round">Start Club</a>
+        </div>
+      </div>
+      <div id="map"></div>
+    </div>
+
+    <div class="panel" id="register">
+
+      <form novalidate>
+
+        <div class="row">
+          <div class="twelve columns">
+            <h3>Register your Code Club and join the movement!</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="nine columns">
+            <div class="row">
+
+              <div class="six columns">
+                <div class="custom-placeholder required">
+                  <label for="venue[name]">Venue name</label>
+                  <input class="medium input-text" name="venue[name]" id="venue[name]" type="text" data-trigger="change" required="required">
+                </div>
+
+                <div class="custom-placeholder">
+                  <label>Venue website</label>
+                  <input class="medium input-text" type="text" name="venue[website]" data-trigger="change">
+                </div>
+
+                <p>The venue website will be shown on the map marker</p>
+
+                <br class="separator">
+
+                <div class="custom-placeholder required">
+                  <label for="venue[address_1]">Venue address 1</label>
+                  <input class="medium input-text" name="venue[address_1]" id="venue[address_1]" type="text" data-trigger="change" required="required">
+                </div>
+
+                <div class="custom-placeholder">
+                  <label for="venue[address_2]">Venue address 2</label>
+                  <input class="medium input-text" name="venue[address_2]" id="venue[address_2]" type="text">
+                </div>
+
+                <div class="custom-placeholder">
+                  <label for="venue[region]">Venue region</label>
+                  <input class="medium input-text" name="venue[region]" id="venue[region]" type="text">
+                </div>
+
+                <div class="custom-placeholder">
+                  <label for="venue[city]">Venue city</label>
+                  <input class="medium input-text" name="venue[city]" id="venue[city]" type="text">
+                </div>
+
+                <div class="custom-placeholder required">
+                  <label for="venue[postcode]">Venue postcode</label>
+                  <input class="medium input-text" type="text" name="venue[postcode]" id="venue[postcode]" data-trigger="change" required="required">
+                </div>
+
+                <p>The venue address will NOT be shown on the map marker and is just used to place the venue on the map.</p>
+
+                <br class="separator">
+
+                <div class="custom-placeholder required">
+                  <label>Country</label>
+                  {% include country_select.html %}
+                </div>
+              </div>
+
+              <div class="six columns">
+                <div class="custom-placeholder required">
+                  <label for="contact[name]">Your name</label>
+                  <input class="medium input-text" type="text" name="contact[name]" id="contact[name]" data-trigger="change" required="required">
+                </div>
+
+                <div class="custom-placeholder required">
+                  <label for="contact[email]">Your email address</label>
+                  <input class="medium input-text input-email" type="email" name="contact[email]" id="contact[email]" data-trigger="change" required="required">
+                </div>
+
+                <p class="mini-notice">Your name and email address will not be displayed</p>
+
+                <div class="custom-placeholder">
+                  <label for="contact[skype]">Club skype name</label>
+                  <input class="medium input-text" type="text" name="contact[skype]" id="contact[skype]">
+                </div>
+
+                <p>Set up a club Skype name so you can chat to other clubs. It will be displayed on your map marker</p>
+
+                <label id="terms-and-conditions">
+                  <input type="checkbox" name="contact[agreed]" value="1" required="required" data-error-message="You must agree to the terms and conditions to continue.">
+                  <strong>I have read and agreed to the <a href="http://codeclub-assets.s3.amazonaws.com/public/CodeClubWorld-Terms-of-Service-v1-clean.pdf">terms and conditions</a></strong>
+                </label>
+
+                <button type="submit" class="button primary round" id="create-a-club">Create a club</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="three columns">
+            <p><strong>Why register?</strong></p>
+            <p>When you register your club you can download the certificates, door sign and badge templates to make your club complete.</p>
+
+            <img src="/img/robots/giddy.png" class="giddy" />
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="seven columns">
+    <h2>Teaching materials</h2>
+
+    <p>We write a new set of projects every school term. Each term the students will progress and learn more whilst at the same time using their imaginations and making creative projects. Terms 1 & 2 will use Scratch to teach the basics of programming. Term 3 will teach the basics of web development using HTML and CSS. Term 4 will teach Python and so on. We'll put these materials on GitHub for you to translate and share.</p>
+    <br>
+    <p>Code Club World will provide all of the Code Club materials in plaintext form - and we need you to use Github and translate them into your own language. Work together on this and it will be done in no time at all. You'll notice that the materials have not been designed, they are just in markdown. If you want your country's materials designed you'll need to find a designer to do this for you.</p>
+  </div>
+</div>
+
+<div class="boxes row materials">
+
+  <div class="three columns morepanel">
+    <div class="wrap">
+      <h4>Brazilian Portuguese</h4>
+
+      <a class="button secondary round" href="http://codeclub-resources.s3.amazonaws.com/codeclub-term-1-scratch-pt-BR.zip">Materials in Brazilian Portuguese</a>
+      <p class="links">
+        <b>Brazilian Code Club Websites</b><br>
+        No websites have been made yet
+      </p>
+    </div>
+  </div>
+
+  <div class="three columns morepanel">
+    <div class="wrap">
+      <h4>Dutch</h4>
+
+      <a class="button secondary round" href="http://codeclub-resources.s3.amazonaws.com/codeclub-term-1-scratch-nl-NL.zip">Materials in Dutch</a>
+      <p class="links">
+        <b>Dutch Code Club Websites</b><br>
+        No websites have been made yet
+      </p>
+    </div>
+  </div>
+
+  <div class="three columns morepanel">
+    <div class="wrap">
+      <h4>English</h4>
+
+      <a class="button secondary round" href="http://codeclub-resources.s3.amazonaws.com/codeclub-term-1-scratch-en-GB.zip">Materials in English</a>
+      <p class="links">
+        <b>English Code Club Websites</b><br>
+        <a href="http://www.codeclub.org.uk">Code Club in the UK</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="three columns morepanel">
+    <div class="wrap">
+      <h4>German</h4>
+
+      <a class="button secondary round" href="http://codeclub-resources.s3.amazonaws.com/codeclub-term-1-scratch-de-DE.zip">Materials in German</a>
+      <p class="links">
+        <b>German Code Club Websites</b><br>
+        No websites have been made yet
+      </p>
+    </div>
+  </div>
+
+  <div class="three columns morepanel">
+    <div class="wrap">
+      <h4>Norwegian</h4>
+
+      <a class="button secondary round" href="http://codeclub-resources.s3.amazonaws.com/codeclub-term-1-scratch-bn-NO.zip">Materials in Norwegian</a>
+      <p class="links">
+        <b>Norwegian Code Club Websites</b><br>
+        No websites have been made yet
+      </p>
+    </div>
+  </div>
+
+  <div class="three columns morepanel">
+    <div class="wrap">
+      <h4>Ukranian</h4>
+
+      <a class="button secondary round" href="http://codeclub-resources.s3.amazonaws.com/codeclub-term-1-scratch-uk-UA.zip">Materials in Ukranian</a>
+      <p class="links">
+        <b>Ukranian Code Club Websites</b><br>
+        No websites have been made yet
+      </p>
+    </div>
+  </div>
+
+  <div class="three columns morepanel">
+    <div class="wrap">
+      <h4>Missing projects in your language?</h4>
+
+      <div class="links">
+        <p>If you can't see projects translated into your language then that means they still need to be done.</p>
+        <p>Can you translate from English to your language?</p>
+      </div>
+
+      <a class="button secondary round" href="https://github.com/CodeClub/scratch-curriculum/blob/master/CONTRIBUTING.md">Get started now</a>
+    </div>
+  </div>
+
+</div>

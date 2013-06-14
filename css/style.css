@@ -1,0 +1,518 @@
+body {
+  background: #f8fbf4;
+  border-top-color: #c6e1ec;
+}
+
+a, h1, h2, h3, h4, h5, h6 {
+  color: #007cc9;
+}
+
+a:hover, a:focus { color: #006cb0; }
+
+.button.primary { background: #007cc9; }
+.button.primary:hover, .button.primary:focus { background: #006cb0; }
+
+.button.secondary { background: #cce4f4; color: #007cc9; }
+.button.secondary:hover, .button.secondary:focus { background: #b2d7ee; }
+
+.home header.header {
+  background:
+    url('/img/robots/header-1.png') 5% bottom no-repeat,
+    url('/img/robots/header-2.png') 95% bottom no-repeat;
+}
+
+.home header.header h1 a {
+  width: auto; height: auto;
+}
+
+.not-home header.header hgroup {
+  width: 106px;
+}
+
+.not-home #nav {
+  padding-left: 136px;
+}
+
+.not-home #nav {
+  margin-bottom: 40px;
+}
+
+.navigation .main-menu a:hover {
+  background: #cce4f4;
+}
+
+.header-robot-1, .header-robot-2 {
+  width: 145px !important;
+  height: 234px;
+  display: block;
+  padding: 0 !important;
+}
+
+.header-robot-1 {
+  margin: 60px 0 0 30px !important;
+  background: url('../img/robots/header-1.png') no-repeat left bottom;
+}
+
+.header-robot-2 {
+  margin: 60px 30px 0 0 !important;
+  background: url('../img/robots/header-2.png') no-repeat right bottom;
+}
+
+.logo-strapline {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  display: block;
+  margin: 25px auto 45px auto;
+  width: auto;
+  height: auto;
+}
+
+.not-home #logo img {
+  width: 106px;
+  height: 66px;
+}
+
+.home #logo {
+  width: 260px;
+}
+
+.home #nav {
+  padding-top: 10px;
+}
+
+.strapline {
+  text-align: center;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.introduction p {
+  font-size: 17px;
+}
+
+.introduction h2, .how-it-works h2 {
+  font-size: 30px;
+}
+
+.how-it-works {
+  margin: 0 auto;
+}
+
+.how-it-works .button {
+  line-height: 1;
+}
+
+.how-it-works h4 {
+  color: black;
+}
+
+.how-it-works .bit {
+  height: 240px;
+  text-align: center;
+  width: 20%;
+}
+
+.community-steps .bit:after {
+  background: url(/img/community-steps/arrow.png) 0 0 no-repeat;
+  width: 27px; height: 36px;
+
+  margin-top: -40px;
+  left: 95%;
+
+  font-size: 0;
+}
+
+.community-steps .last .button {
+  margin-top: 36px;
+}
+
+.how-it-works .bit .image {
+  width: 150px; height: 150px;
+  margin: 0 auto;
+}
+
+.how-it-works .bit .image img {
+  max-width: 150px; max-height: 150px;
+}
+
+.club-count {
+  margin: 5px 0;
+}
+.club-count h2 {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-size: 34px;
+  color: #007cc9;
+}
+
+.start-club {
+  margin: 0;
+  text-align: right;
+}
+.start-club .button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 7px 0 0 0;
+}
+
+.map-wrapper {
+  border: 0;
+}
+
+#map {
+  display: block;
+  position: relative;
+  width: 100%; height: 650px;
+}
+
+#map img {
+  max-width: none;
+}
+
+.infoBox {
+  min-height: 160px;
+  position: relative;
+  border: 5px solid #c6e1ec;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.infoBox:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -10px;
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #c6e1ec;
+}
+
+.infoBox .name {
+  margin: 25px 0 5px 0;
+  font-size: 19px;
+  color: #017cc9;
+  text-transform: capitalize;
+  line-height: 1.3em;
+}
+
+.infoBox .date {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.infoBox .city {
+  display: block;
+  margin: 0 0 0.5em 0;
+}
+.infoBox .skype {
+  display: inline-block;
+  right: -10px; bottom: -10px;
+  padding: 5px 20px;
+  border-radius: 1em;
+  background: #017cc9;
+  color: white;
+}
+.infoBox .skype:hover {
+  text-decoration: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #007cc9;
+}
+
+#register {
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#register:after {
+  content: '';
+  display: block;
+
+  position: absolute;
+  bottom: -78px; right: 40px;
+  z-index: -1;
+
+  width: 491px; height: 82px;
+  background: url(/img/flags.png) 0 0 no-repeat;
+}
+
+#register input, #register select {
+  max-width: 357px;
+  margin-bottom: 6px;
+}
+
+#register input[name="venue[postcode]"] {
+  width: 177px;
+}
+
+#register select[name="region[code]"] {
+  width: 199px;
+}
+
+#register h3 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #222;
+}
+
+#register select {
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.giddy {
+  display: block;
+  margin: 40px auto 0;
+}
+
+#create-a-club {
+  margin-top: 2em;
+}
+
+.parsley-error-list {
+  margin: 0;
+  color: #C60F13;
+}
+
+.materials .wrap {
+  min-height: 282px;
+}
+
+.materials p {
+  margin: 2em auto;
+}
+
+.materials h4 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.materials .links {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.materials .morepanel {
+  padding-bottom: 20px;
+}
+
+.materials .morepanel p {
+  line-height: 1.4;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.materials .morepanel .button {
+  margin: 20px auto;
+}
+
+.materials [class*="column"]+[class*="column"]:last-child {
+  float: left;
+}
+
+.faqs {
+  margin-top: 40px;
+}
+
+.faqs h2 {
+  margin: 0 0 40px;
+}
+
+.faqs hr {
+  margin: 15px 0 30px;
+}
+
+.indent {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.advice-images img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.jumplinks {
+  line-height: 1;
+}
+
+.jumplinks .button { margin-bottom: 10px; }
+
+.donate strong {
+  margin-bottom: 15px;
+}
+
+#translate {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  background: url(/img/translate-bubble.png) 0 0 no-repeat;
+  padding: 50px 20px 15px;
+  width: 343px; height: 94px;
+
+  text-indent: -999999px;
+}
+
+#translate .goog-te-gadget a {
+  display: none;
+}
+
+#translate select {
+  position: absolute;
+
+  top: 5px;
+  right: 20px;
+
+  z-index: 11;
+  margin: 0;
+}
+
+#translate .goog-te-gadget .goog-te-combo {
+  width: 200px;
+}
+
+.lte-ie8 #translate select {
+  margin-top: 10px;
+  padding-top: 0;
+  height: auto;
+}
+
+footer h4 {
+  color: #666666;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+footer .wrap {
+  text-align: center;
+  background: #fcfcfa;
+
+  padding: 20px 20px;
+}
+
+footer .wrap .button {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social-link {
+  display: block;
+  text-align: left;
+
+  margin-bottom: 10px;
+
+  line-height: 35px;
+  color: #666;
+}
+
+.social-link:hover {
+  text-decoration: none;
+}
+
+.social-link img {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.social-link, .useful-links {
+  font-size: 14px;
+  text-align: left;
+}
+
+.advice .wrap h3 {
+  color: black;
+}
+
+.wrap .button {
+  line-height: 1;
+}
+
+@media only screen and (max-width: 1050px) {
+  .home header.header {
+    z-index: 10;
+    background:
+      url(/img/robots/responsive-robot-right.png) no-repeat right 100px,
+      url(/img/robots/responsive-robot-left.png) no-repeat left 100px;
+  }
+}
+
+@media only screen and (max-width: 995px) {
+  .not-home #nav {
+    padding-top: 60px;
+    padding-left: 0;
+  }
+
+  .not-home header.header hgroup {
+    margin-left: -53px;
+    width: 106px !important;
+  }
+
+  #register:after { display: none; }
+}
+
+@media only screen and (max-width: 767px) {
+  .home header.header {
+    padding: 60px 20px 30px;
+  }
+
+  .how-it-works .bit {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .how-it-works .bit:after {
+    display: block !important;
+    position: absolute !important;
+    top: 80% !important;
+    bottom: 0 !important;  
+    left: 0 !important;
+  }
+
+  .community-steps .bit:after {
+    display: none !important;
+  }
+
+  .start-club {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home header.header {
+    background:
+      url(/img/robots/responsive-robot-right-small.png) no-repeat right 100px,
+      url(/img/robots/responsive-robot-left-small.png) no-repeat left 100px;
+  }
+}
+
+.lte-ie8 * {
+  *behavior: url(/js/libs/boxsizing.htc);
+}
+
+.lte-ie8 #register .input-email {
+  *height: 22px !important;
+}
