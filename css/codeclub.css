@@ -84,7 +84,7 @@ padding-right: 30px;
 }
 .save_project
 {
-	background-image: url('save.svg');
+	background-image: url('../img/save.svg');
 	background-repeat: no-repeat;
 	background-size:700px auto;
 	width: 700px; 
