@@ -1,0 +1,669 @@
+/*
+ * scratchblocks2
+ * http://github.com/blob8108/scratchblocks2
+ *
+ * Copyright 2013, Tim Radvan
+ * MIT Licensed
+ * http://opensource.org/licenses/MIT
+ *
+ * *****************************************************************************
+ *
+ * Requires the files:
+ *
+ *   - arrows.png
+ *   - flag.png
+ *
+ * in the block_images/ directory, in the same folder as this file.
+ *
+ */
+
+
+// Category colours
+@control_bg: #e1a91a;
+@control_btop: #e5b53a;
+@control_bbot: #a07812;
+@control_itop: #7e5e0e;
+@control_ibot: #d4a631;
+@control_inset: #cf9b17;
+@control_arrow: #533e09;
+
+@custom_bg: #632d99;
+@custom_btop: #794aa7;
+@custom_bbot: #46206d;
+@custom_itop: #431e67;
+@custom_ibot: #70449a;
+@custom_inset: #5b298c;
+@custom_arrow: #1e0a38; // TODO
+
+@custom-arg_bg: #5947b1;
+@custom-arg_btop: #6857b8; // or #6850b2
+@custom-arg_bbot: #423584;
+@custom-arg_itop: none;
+@custom-arg_ibot: none;
+@custom-arg_inset: none;
+@custom-arg_arrow: none;
+
+@events_bg: #c88330;
+@events_btop: #cf944d;
+@events_bbot: #8e5d22;
+@events_itop: #70491a;
+@events_ibot: #c59254;
+@events_inset: #b8782c;
+@events_arrow: #4a3011;
+
+@list_bg: #cc5b22;
+@list_btop: #d26f3d;
+@list_bbot: #a74a1b;
+@list_itop: #7e3814;
+@list_ibot: #c86e3f;
+@list_inset: #bb531f;
+@list_arrow: #4b210c;
+
+@looks_bg: #8a55d7;
+@looks_btop: #9a6ddc;
+@looks_bbot: #623c99;
+@looks_itop: #4c2f78; 
+@looks_ibot: #9670d0;
+@looks_inset: #7e4ec5;
+@looks_arrow: #1e0a38;
+
+@motion_bg: #4a6cd4;
+@motion_btop: #6380da;
+@motion_bbot: #344d97;
+@motion_itop: #293c76;
+@motion_ibot: #6781ce;
+@motion_inset: #4463c3;
+@motion_arrow: #1b274e;
+
+@operators_bg: #5cb712;
+@operators_btop: #a7ce87;
+@operators_bbot: #488f0e;
+@operators_itop: #336609;
+@operators_ibot: #74b83d;
+@operators_inset: #54a810;
+@operators_arrow: #214306;
+
+@obsolete_bg: #d42828;
+@obsolete_btop: #da4646;
+@obsolete_bbot: #971c1c;
+@obsolete_ibot: #ec2e34;  // guessed
+@obsolete_itop: #96191c;  // guessed
+@obsolete_inset: #c32525; // guessed
+@obsolete_arrow: #5c0b0d; // guessed
+
+@pen_bg: #0e9a6c;
+@pen_btop: #30a880;
+@pen_bbot: #0a6e4d;
+@pen_itop: #395b3f; // TODO
+@pen_ibot: #62785b; // TODO
+@pen_inset: none;   // TODO
+@pen_arrow: none;   // TODO
+
+@purple_bg: #672d79;
+@purple_btop: #7c4a8b;
+@purple_bbot: #492056;
+@purple_itop: #391843;
+@purple_ibot: #7d528a;
+@purple_inset: #5e296f;
+@purple_arrow: #25102c;
+
+@sensing_bg: #2ca5e2;
+@sensing_btop: #49b1e6;
+@sensing_bbot: #1f75a1;
+@sensing_itop: #185c7e;
+@sensing_ibot: #51abd8;
+@sensing_inset: #2897cf;
+@sensing_arrow: #103c53;
+
+@sound_bg: #bb42c3;
+@sound_btop: #c45ccb;
+@sound_bbot: #852f8b;
+@sound_itop: #68246d;
+@sound_ibot: #bc61c1;
+@sound_inset: #ac3cb3;
+@sound_arrow: #451848;
+
+@variables_bg: #ee7d16;
+@variables_btop: #f08d33;
+@variables_bbot: #c36612; // or #934d0d ?
+@variables_itop: #934d0d;
+@variables_ibot: #e48836;
+@variables_inset: #da7214;
+@variables_arrow: #572d08;
+
+
+// Misc
+@custom_outline: #8257ad;
+@custom_definition_top: #8e2ec2;
+@number_dropdown_arrow: #666;
+@background: #fff;
+
+
+// Comments
+@comment_bg: #ffffd2;
+@comment_bg_hover: rgba(255, 255, 210, 0.6); // #ffffd2
+@comment_border: #d0d1d2;
+@comment_join: #ffff80;
+@comment_text: #505050;
+
+
+// Z-indexes //
+@z_container: 100;
+@z_bottom_stub: 101;
+@z_cmouth: 102;
+@z_comment: 103;
+
+
+
+.border-radius(@radius) {
+    border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+}
+
+.box-sizing_border-box {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.stack-color(@category) {
+    background-color: ~"@{@{category}_bg}";
+    border-color: ~"@{@{category}_btop}" ~"@{@{category}_bbot}"
+                  ~"@{@{category}_bbot}" ~"@{@{category}_btop}";
+}
+
+
+// See http://stackoverflow.com/questions/11198221/defining-variable-variables-using-less-css
+.category-color(@category) {
+    (~".@{category}") {
+        &.stack, &.cap {
+            &:before {
+                border-color: ~"@{@{category}_bbot}" ~"@{@{category}_btop}"
+                              ~"@{@{category}_btop}" ~"@{@{category}_bbot}";
+            }
+        }
+
+        &.hat, &.hat:before, &.custom-definition, &.stack, &.boolean, &.reporter,
+        &.embedded, &.variable-reporter, &.custom-arg {
+            .stack-color(@category);
+        }
+
+        > .dropdown, > .boolean.empty, > .color {
+            background: ~"@{@{category}_inset}";
+            border-color: ~"@{@{category}_itop}" ~"@{@{category}_ibot}"
+                          ~"@{@{category}_ibot}" ~"@{@{category}_itop}";
+
+            &:after {
+                color: ~"@{@{category}_arrow}";
+            }
+        }
+        
+        > .cmouth {
+            &:before {
+                background-color: ~"@{@{category}_bg}";
+                border-left-color: ~"@{@{category}_btop}";
+                border-right-color: ~"@{@{category}_bbot}";
+            }
+        }
+
+        &.hat:before {
+            border-right-color: ~"@{@{category}_btop}";
+        }
+    }
+}
+
+.scratchblocks2-container {
+    font-family: "Lucida Grande", Verdana, Arial, "DejaVu Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    line-height: 10px;
+    margin: 10px 0;
+
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    
+    display: block;
+
+    z-index: @z_container;
+
+
+
+    // Colors //
+    .category-color("obsolete");
+    .category-color("control");
+    .category-color("custom");
+    .category-color("events");
+    .category-color("list");
+    .category-color("looks");
+    .category-color("motion");
+    .category-color("operators");
+    .category-color("pen");
+    .category-color("sensing");
+    .category-color("sound");
+    .category-color("variables");
+    .category-color("custom-arg");
+    .category-color("purple");
+
+
+    // Scripts are stacks of blocks //
+    .script {
+        margin-top: 15px;
+        &:first-child {
+            margin-top: 0;
+        }
+
+        display: block;
+        float: none;
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    }
+
+
+    // Elements //
+    div {
+        display: inline-block;
+    }
+
+    .hat, .custom-definition, .stack, .boolean, .reporter,
+        .variable-reporter, .custom-arg, .dropdown {
+        border: 2px solid;
+    }
+
+    .stack {
+        min-width: 36px;
+    }
+
+    .stack, .cwrap, .cmouth {
+        border-top-width: 1px;
+
+        float: left;
+        clear: both;
+    }
+
+    .stack, .hat, .custom-definition {
+        padding: 2px 4px;
+
+        // vertically centred min height
+        min-height: 16px;
+        line-height: 16px;
+        & > * {
+            line-height: 10px;
+        }
+    } 
+    
+    .stack, .outline {
+        .border-radius(5px);
+    }
+
+
+    // Puzzle pieces //
+    .stack, .hat, .cap, .custom-definition {
+        position: relative;
+        .box-sizing_border-box;
+    }
+
+    .stack, .cap {
+        &:before {
+            content: "";
+            .box-sizing_border-box;
+            position: absolute;
+            left: 11px;
+            width: 15px;
+            height: 4px;
+            border: inherit;
+            border-top: none;
+            border-width: 1px;
+            background: @background;
+            .border-radius(0 0 5px 5px);
+
+            top: -1px;
+        }
+    }
+
+    .stack, .hat, .custom-definition {
+        &:after {
+            content: "";
+            .box-sizing_border-box;
+            position: absolute;
+            left: 12px;
+            width: 13px;
+            height: 5px;
+            border: inherit;
+            border-top: none;
+            background: inherit;
+            .border-radius(0 0 3px 3px);
+
+            bottom: -5px;
+            z-index: @z_bottom_stub;
+        }
+    }
+
+    .cap:after {
+        content: none;
+    }
+
+    .cwrap {
+        .cend.capend:before {
+            content: none;
+        }
+
+        &.cap > .cend:after {
+            content: none;
+        }
+        
+        .cstart, .celse {
+            &:after {
+                left: 26px;
+            }
+        }
+
+        .cend, .celse {
+            &:before {
+                left: 25px;
+            }
+        }
+    }
+
+
+    // Hat block shapes //
+    .hat, .custom-definition {
+        position: relative;
+        float: left;
+
+        padding: 4px;
+
+        .border-radius(0 5px 5px 5px);
+        
+        margin-top: 15px;
+
+        min-width: 100px;
+
+        &:before {
+            content: "";
+            .box-sizing_border-box;
+            position: absolute;
+            height: 13px;
+            width: 80px;
+            top: -13px;
+            left: -2px;
+            background: inherit;
+            border-width: inherit;
+            border-style: inherit;
+            border-bottom: none;
+            .border-radius(40px 40px 0 0 e('/') 13px 13px 0 0);
+            border-top-width: 2px;
+        }
+    }
+
+
+    // Custom block definition //
+    @custom_definition_height: 16px;
+
+    .custom-definition {
+        .border-radius(0 0 5px 5px);
+
+        &:before {
+            border-color: @custom_definition_top;
+            border-top-width: 4px;
+            height: @custom_definition_height;
+            margin-top: -(@custom_definition_height - 3px);
+            top: -3px;
+            width: auto;
+            left: -4px;
+            right: -4px;
+            .border-radius(50% 50% 3px 3px e('/') (@custom_definition_height -
+            2px) (@custom_definition_height - 2px) 3px 3px);
+        }
+        margin-top: @custom_definition_height;
+        padding-top: 0;
+        padding-bottom: 1px;
+    }
+    .custom-arg {
+        line-height: 10px;
+    }
+    .outline {
+        padding: 2px 4px 2px 4px;
+        min-width: 29px; // total 37px
+        line-height: 16px;
+        border: 2px solid @custom_outline;
+        margin-left: 5px;
+        margin: 4px 0 4px 5px;
+        position: relative;
+        background: inherit;
+
+        &:before {
+            top: -2px;
+        }
+
+        &:after {
+            bottom: -5px;
+        }
+
+        &:before, &:after {
+            content: "";
+            position: absolute;
+            left: 11px;
+            width: 13px;
+            height: 3px;
+            border: inherit;
+            border-top: none;
+            background: inherit;
+            .border-radius(0 0 4px 4px);
+        }
+    }
+
+
+    // C Blocks //
+    @cleft_padding: 14px;
+    .cwrap { 
+        display: block;
+
+        .cstart {
+            .box-sizing_border-box;
+            .border-radius(4px 4px 4px 0);
+            min-width: 60px;
+        }
+
+        .cmouth {
+            .box-sizing_border-box;
+            display: block;
+            position: relative;
+
+            &:empty {
+                content: " ";
+                min-height: 12px;
+            }
+
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                border-style: solid;
+                border-width: 0 2px 0 2px;
+                width: @cleft_padding - 4px;
+                height: 100%;
+                margin: -2px 0 0;
+                padding: 2px 0 1px;
+                z-index: @z_cmouth;
+            }
+
+            > div {
+                margin-left: @cleft_padding;
+            }
+        }
+
+        .celse {
+            .box-sizing_border-box;
+            min-width: 60px;
+            position: relative;
+            .border-radius(0 4px 4px 0);
+        }
+
+        .cend {
+            .box-sizing_border-box;
+            height: 8px;
+            min-width: 60px;
+            span {
+                display: none;
+            }
+            .border-radius(0 4px 4px 4px);
+        }
+    }
+
+
+    // Block inserts //
+    .color {
+        border: 1px solid;
+        width: 11px;
+        height: 11px;
+        padding: 0;
+    }
+
+    .number, .number-dropdown, .string, .dropdown {
+        font-weight: normal;
+    }
+
+    .number, .number-dropdown, .string {
+        background: #fff;
+        color: #000;
+        border: 1px solid #a59e97;
+        border-color: #777 #fff #fff #777;
+        // box-shadow: 1px 1px 1px #8f958a inset;
+        padding: 1px 4px;
+    }
+
+    .string {
+        padding: 2px;
+    }
+
+    .number, .number-dropdown {
+        border-radius: 10px;
+    }
+
+    .dropdown, .string {
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    .dropdown {
+        padding: 1px 2px;
+    }
+    
+    .dropdown, .number-dropdown {
+        &:after {
+            content: "▼";
+            font-size: 8px;
+            padding: 0 0 0 4px;
+            .border-radius(2px);
+        }
+    }
+
+    .number-dropdown:after {
+        color: @number_dropdown_arrow;
+        padding-left: 2px;
+    }
+   
+    .embedded, .boolean {
+        border: 2px solid;
+        padding: 2px 4px;
+    }
+
+    .reporter, .custom-arg {
+        padding: 3px 6px;
+        border-width: 2px;
+    }
+
+    // Rounded shapes //
+    .reporter, .custom-arg, .embedded, .boolean {
+        .border-radius(2000px);
+    }
+    
+    
+    // Images //
+    .arrow-cw, .arrow-ccw {
+        display: inline-block;
+        padding: 0;
+        vertical-align: middle;
+        width: 16px;
+        height: 13px;
+        background: url(block_images/arrows.png) 0 0 no-repeat;
+    }
+    .arrow-ccw {
+        background-position: 0 -13px;
+    }
+
+    .green-flag {
+        display: inline-block;
+        padding: 0;
+        vertical-align: bottom;
+        margin: 0 2px;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        background: url(block_images/flag.png) 0 0 no-repeat;
+        background-size: contain;
+    }
+
+
+    // Comments //
+    .comment {
+        float: left;
+
+        div {
+            margin: 4px 0 1px 1px;
+            background: @comment_bg;
+            border: 1px solid @comment_border;
+            color: @comment_text;
+            line-height: 1.25em;
+            padding: 4px;
+            .border-radius(4px);
+            z-index: @z_comment;
+        }
+
+        &.attached {
+            position: relative;
+            margin-left: 0 !important;
+
+            &.to-hat {
+                margin-top: 16px;
+            }
+            &.to-custom-definition {
+                margin-top: 26px;
+            }
+            &.to-reporter {
+                float: none;
+                top: -2px;
+            }
+
+            div {
+                position: absolute;
+                margin: 0;
+
+                &:hover {
+                    background: @comment_bg_hover;
+                }
+            }
+
+            &:before {
+                content: "";
+                display: block;
+                float: left;
+                margin-top: 10px;
+                height: 2px;
+                width: 32px;
+                background: @comment_join;
+            }
+        }
+    }
+}
