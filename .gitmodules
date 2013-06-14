@@ -1,0 +1,3 @@
+[submodule "scratch-curriculum"]
+	path = scratch-curriculum
+	url = https://github.com/CodeClubBrasil/scratch-curriculum.git
