@@ -158,9 +158,8 @@ CodeClubWorld.registerWithAPI = function(data) {
     data.venue.name,
     data.venue.address_1,
     data.venue.address_2,
-    data.venue.region,
     data.venue.city,
-    data.venue.postcode
+    data.venue.region
   ].join(', ');
 
   var region = data.country.code;
