@@ -44,7 +44,7 @@ function codeClubHeaders(){
             		var str1 = levelContent.substring(0, lastIndex );
             		var str2 = levelContent.substring( lastIndex,levelContent.length );
             		$("#header").append('<div id="level" ><div id="level_text" >'+str1+'</div><div id="level_value" >'+str2+'</div></div>');
-             		$("#header p").html("");
+             		$("#header p").html('<img width="110px" src="../../../../img/logo-br.svg" id="logo"></img>');
               }
               
              $("ol li").append('<div class="check"></div>')
