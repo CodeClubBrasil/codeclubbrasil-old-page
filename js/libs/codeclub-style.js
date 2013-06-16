@@ -1,11 +1,14 @@
 
 
 
-
+var codeClubApplyImagesCalled=0
 function codeClubApplyImages()
 {
+            if(codeClubApplyImagesCalled==1)
+            return;
+		 codeClubApplyImagesCalled=1;
 	 $("em").each(function(){
-             	            $(this).after('<img height="30px" class="autoImage" src="images/'+$(this).html().toLowerCase()+'.png"></img>');
+             	            $(this).after('<img height="30px" class="autoImage" src="../img/'+$(this).html().toLowerCase()+'.png"></img>');
              	
              		       }
              
@@ -14,22 +17,29 @@ function codeClubApplyImages()
    function(){
              	            $(this).before(' ');
              	         }
+             	         
    
-   );     
+   );
+      $('img').error(function() {
+							
+												$(this).css({display:'none'});
+							
+							});
+				     $('img').each(function() { this.src = this.src; });
             	
 }
 
 function applyCodeClubStyle()
 {
 	codeClubHeaders();	
-	//codeClubApplyImages();
-	
+	codeClubApplyImages();
+       	
 }
 
 var called=0;
 function codeClubHeaders(){
             if(called==1)
-            return;
+            return;	
             called=1;
             	scratchblocks2.parse("code");
              $('body').wrapInner('<div id="page_wrapper" ></div>');
@@ -81,9 +91,6 @@ function codeClubHeaders(){
                   );
                  $('.save_project').append('<div class="check"></div>');
                   
-                 $('img').error(function() {
-							$(this).remove();
-							});
-						$("h2:first").before('<center><img src="'+$.trim($("h1").html())+'.png"/> </center>');
+              		$("h2:first").before('<center><img src="'+$.trim($("h1").html())+'.png"/> </center>');
                   
          }         
