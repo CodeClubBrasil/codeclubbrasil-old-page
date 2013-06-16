@@ -189,7 +189,7 @@ title: Home
 
           <div class="three columns">
             <p><strong>Por que se inscrever?</strong></p>
-            <p>Ao inscrever seu clube você terá acesso a sertificados, pôsters e modelos de crachás, para completar o material do seu clube.</p>
+            <p>Ao inscrever seu clube você terá acesso a certificados, pôsters e modelos de crachás, para completar o material do seu clube.</p>
 
             <img src="/img/robots/giddy.png" class="giddy" />
           </div>
@@ -206,10 +206,21 @@ title: Home
     <h2>Materiais de ensino</h2>
 
     <p>Para cada ano escolar nós fornecemos novos materiais. Durante cada curso os alunos irão progredir e aprender em um ritmo uniforme usando a imaginação e realizandos projetos criativos.
-    Os cursos 1 e 2 utilisam a ferramenta Scratch para o ensinar as bases sobre programação de computadores. 
+    Os cursos 1 e 2 utilizam a ferramenta Scratch para o ensinar as bases sobre programação de computadores. 
     O curso 3 ensina as bases para o desenvolvimento web usando HTML e CSS. No curso 4 nós ensinaremos Python e assim por diante. 
     </p>
     <br>
   
   </div>
 </div>
+<ul>
+  {% for p in site.pages %}
+	{% if p.term == 1%}
+      <li>
+        <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+          {{ p.title }}
+        </a>
+      </li>
+	{%endif %}
+  {% endfor %}
+</ul>
