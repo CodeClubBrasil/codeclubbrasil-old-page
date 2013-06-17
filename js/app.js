@@ -163,6 +163,10 @@ CodeClubWorld.registerWithAPI = function(data) {
     data.venue.postcode
   ].join(', ');
 
+  if (data.venue && CodeClubWorld.isBlank(data.venue.website)) {
+    delete data.venue.website;
+  }
+
   var region = data.country.code;
   var geocoder = new google.maps.Geocoder();
 
@@ -227,6 +231,9 @@ CodeClubWorld.customPlaceholders = function() {
       .each(hideLabel).each(showIfEmpty);
 };
 
+CodeClubWorld.isBlank = function(object) {
+  return object == null || !!(object.match && object.match(/^\s*$/));
+}
 
 $(function() {
   CodeClubWorld.makeMap();
