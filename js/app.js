@@ -1,3 +1,5 @@
+(function() {
+
 window.CodeClubWorld = {};
 
 CodeClubWorld.api   = 'https://api.codeclubworld.org';
@@ -154,23 +156,14 @@ CodeClubWorld.interceptForm = function() {
 }
 
 CodeClubWorld.registerWithAPI = function(data) {
-  var address = [
-    data.venue.name,
-    data.venue.address_1,
-    data.venue.address_2,
-    data.venue.region,
-    data.venue.city,
-    data.venue.postcode
-  ].join(', ');
-
-  if (data.venue && CodeClubWorld.isBlank(data.venue.website)) {
-    delete data.venue.website;
-  }
-
   var region = data.country.code;
-  var geocoder = new google.maps.Geocoder();
 
-  geocoder.geocode({ address: address, region: region }, function(results, status) {
+  if (region === 'IE') delete data.venue.postcode;
+
+  var geocoder = new google.maps.Geocoder(),
+      addressString = addressToString(data.venue);
+
+  geocoder.geocode({ address: addressString, region: region }, function(results, status) {
     if (status == google.maps.GeocoderStatus.OK) {
       data.venue.location = {
         lat: results[0].geometry.location.lat(),
@@ -191,6 +184,8 @@ CodeClubWorld.registerWithUK = function(data) {
 }
 
 CodeClubWorld.sendForm = function(data) {
+  var data = sanitizeDataForAPI(data);
+
   $.ajax({
     type        : 'POST',
     url         : CodeClubWorld.api + '/clubs',
@@ -231,8 +226,53 @@ CodeClubWorld.customPlaceholders = function() {
       .each(hideLabel).each(showIfEmpty);
 };
 
-CodeClubWorld.isBlank = function(object) {
+function addressToString(data) {
+  return unique(removeBlanks([
+    data.name,
+    data.address_1,
+    data.address_2,
+    data.region,
+    data.city,
+    data.postcode
+  ])).join(', ');
+}
+
+function isBlank(object) {
   return object == null || !!(object.match && object.match(/^\s*$/));
+}
+
+function removeBlanks(array) {
+  var result = [];
+  for (var i in array) {
+    var item = array[i];
+    if (!isBlank(item)) result.push(item);
+  }
+  return result;
+}
+
+function unique(array) {
+  var result = [];
+  for (var i in array) {
+    var item = array[i];
+    if (result.indexOf(item) === -1) result.push(item);
+  }
+  return result;
+}
+
+function ensureHTTP(str) {
+  return str.match(/^https?:\/\//) ? str : 'http://' + str;
+}
+
+function sanitizeDataForAPI(input) {
+  var output = $.extend(true, {}, input);
+
+  if (isBlank(output.venue.website)) {
+    delete output.venue.website;
+  } else {
+    output.venue.website = ensureHTTP(output.venue.website);
+  }
+
+  return output;
 }
 
 $(function() {
@@ -241,3 +281,5 @@ $(function() {
   CodeClubWorld.customPlaceholders();
   CodeClubWorld.interceptForm();
 });
+
+})();
