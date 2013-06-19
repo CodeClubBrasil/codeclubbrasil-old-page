@@ -16,7 +16,7 @@ CodeClubWorld.makeMap = function() {
 
     var map = new google.maps.Map(el, {
       zoom: 4,
-      center: new google.maps.LatLng(-8.7, -52),
+      center: new google.maps.LatLng(-8.7, -47),
       scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });
