@@ -21,7 +21,7 @@ To contribute:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 ## Share your experiences
-Ask questions and share your experiences with other Code Clube World local teams at: https://www.facebook.com/groups/577733755583449/
+Ask questions and share your experiences with other Code Clube World local teams at: 
 
 ## Generating the language packs
 
