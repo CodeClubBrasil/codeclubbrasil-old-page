@@ -1,0 +1,58 @@
+
+.boxes .button{
+color: white !important;	
+	
+	}	
+#register
+{
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+-webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
+#register.open
+{ 	
+	height: auto;
+	overflow: none;
+	padding: 20px;
+}
+#lessons img
+{
+width: 300px;
+border-style: solid;
+border-width: 2px;
+border-radius: 36px;
+border-color: #006cb0;
+height: auto;
+float: left;	
+	}
+	#lessons .description
+	{
+		
+		display: inline-block;
+		width: 50%;
+		
+		height: 50%;
+		top:25%;
+		vertical-align:middle
+		float: left;
+		position: absolute;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #006cb0;
+		padding: 5px;
+		margin-left: 5%;
+		padding-left: 30px;
+		border-radius: 36px;
+				
+		}
+#lessons .lesson
+{
+	position: relative;
+   overflow: hidden;
+	background-color: white;
+	width: 66%;
+	margin:15px;x	
+	}
