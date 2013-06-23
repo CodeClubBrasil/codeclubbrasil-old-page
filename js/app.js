@@ -124,6 +124,7 @@ CodeClubWorld.startClubButton = function() {
      $('html, body').animate({
          scrollTop: $('#register').offset().top - 20
      }, 700);
+     $('#register').addClass("open");
   });
 }
 
