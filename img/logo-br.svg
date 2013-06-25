@@ -135,13 +135,15 @@
    inkscape:window-height="721"
    id="namedview9"
    showgrid="false"
-   inkscape:zoom="0.4796748"
-   inkscape:cx="-495.65678"
-   inkscape:cy="322.09322"
+   inkscape:zoom="3.8373984"
+   inkscape:cx="-12.139563"
+   inkscape:cy="125.05188"
    inkscape:window-x="-3"
    inkscape:window-y="-3"
    inkscape:window-maximized="1"
-   inkscape:current-layer="g3053" />
+   inkscape:current-layer="g4457"><inkscape:grid
+     type="xygrid"
+     id="grid3051" /></sodipodi:namedview>
 
 
 
@@ -164,18 +166,11 @@
          style="fill:#fedf00"
          inkscape:connector-curvature="0"
          d="m 6.3822,127.4553 182.8,116.72805 182.8,-116.72805 -182.8,-116.727666 z"
-         id="path4176" /></g><circle
-       id="circle4178"
-       r="735"
-       transform="matrix(0.10487694,0,0,0.10487694,43.1822,131.4553)"
-       cx="0"
-       cy="0"
-       sodipodi:cx="0"
-       sodipodi:cy="0"
-       sodipodi:rx="735"
-       sodipodi:ry="735"
+         id="path4176" /></g><path
        style="fill:#002776"
-       d="M 735,0 C 735,405.92929 405.92929,735 0,735 -405.92929,735 -735,405.92929 -735,0 c 0,-405.92929 329.07071,-735 735,-735 405.92929,0 735,329.07071 735,735 z" /></g></g><g
+       d="m 43.448092,50.375 c -42.57262078,0 -77.09375,34.521128 -77.09375,77.09375 0,42.57262 34.52112922,77.0625 77.09375,77.0625 42.572622,0 77.093748,-34.48988 77.093748,-77.0625 0,-42.572622 -34.521126,-77.09375 -77.093748,-77.09375 z"
+       id="circle4178"
+       inkscape:connector-curvature="0" /></g></g><g
    inkscape:groupmode="layer"
    id="layer2"
    inkscape:label="cc"
@@ -191,22 +186,23 @@
    inkscape:label="cc text"
    style="display:none"
    sodipodi:insensitive="true"><text
-     xml:space="preserve"
-     style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+   xml:space="preserve"
+   style="font-size:72px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+   x="205.49579"
+   y="105.80998"
+   id="text4487-6"
+   sodipodi:linespacing="125%"><tspan
+     sodipodi:role="line"
+     id="tspan4489-6"
      x="205.49579"
      y="105.80998"
-     id="text4487-6"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan4489-6"
-       x="205.49579"
-       y="105.80998"
-       style="font-size:48px;text-align:center;text-anchor:middle;fill:#ffffff">codeclub</tspan><tspan
-       sodipodi:role="line"
-       x="205.49579"
-       y="165.80998"
-       id="tspan4491-6"
-       style="font-size:48px;text-align:center;text-anchor:middle;fill:#ffffff">brasil.org</tspan></text>
+     style="font-size:48px;text-align:center;text-anchor:middle;fill:#ffffff">codeclub</tspan><tspan
+     sodipodi:role="line"
+     x="205.49579"
+     y="165.80998"
+     id="tspan4491-6"
+     style="font-size:48px;text-align:center;text-anchor:middle;fill:#ffffff">brasil.org</tspan></text>
+
 </g><g
    style="display:inline"
    inkscape:label="cc path"
