@@ -3,6 +3,16 @@
 color: white !important;	
 	
 	}	
+	
+.text_two_column
+{
+-webkit-columns: 2;
+-moz-columns: 2;
+-ms-columns: 2;
+-o-columns: 2;
+columns: 2;
+
+}
 #register
 {
 	height: 0;
