@@ -11,7 +11,7 @@ color: white !important;
 -ms-columns: 2;
 -o-columns: 2;
 columns: 2;
-
+min-height: 0 !important;
 }
 #register
 {
