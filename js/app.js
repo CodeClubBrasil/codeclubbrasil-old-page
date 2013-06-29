@@ -156,34 +156,6 @@ CodeClubWorld.interceptForm = function() {
 }
 
 CodeClubWorld.registerWithAPI = function(data) {
-  var region = data.country.code;
-
-  if (region === 'IE') delete data.venue.postcode;
-
-  var geocoder = new google.maps.Geocoder(),
-      addressString = addressToString(data.venue);
-
-  geocoder.geocode({ address: addressString, region: region }, function(results, status) {
-    if (status == google.maps.GeocoderStatus.OK) {
-      data.venue.location = {
-        lat: results[0].geometry.location.lat(),
-        lng: results[0].geometry.location.lng()
-      };
-
-      CodeClubWorld.sendForm(data);
-    } else {
-      $('#register').find('.panel').remove();
-      $('#register').prepend('<div class="panel alert"><strong>Unable to locate your club</strong></div>');
-    }
-  });
-}
-
-CodeClubWorld.registerWithUK = function(data) {
-  var params = $.param(data);
-  window.open('http://codeclub.org.uk/quick-registrations/new?' + params);
-}
-
-CodeClubWorld.sendForm = function(data) {
   var data = sanitizeDataForAPI(data);
 
   $.ajax({
@@ -194,17 +166,35 @@ CodeClubWorld.sendForm = function(data) {
     contentType : 'application/json',
     headers     : { 'Authorization': 'Bearer ' + CodeClubWorld.token }
   })
-  .done(function() {
-    location.href = '/welcome';
-  })
-  .fail(function() {
-    $('#register').find('.panel').remove();
-    $('#register').prepend(
-      '<div class="panel alert">' +
-        '<strong>Unable to register your club</strong>' +
-      '</div>'
+  .done(CodeClubWorld.apiDone)
+  .fail(CodeClubWorld.apiFail);
+}
+
+CodeClubWorld.apiDone = function() {
+  location.href = '/welcome';
+}
+
+CodeClubWorld.apiFail = function(response, status, error) {
+  var errors = response.responseJSON.errors;
+
+  $('#register').find('.alert, .api-error').remove();
+
+  $('#register').prepend(
+    '<div class="panel alert">' +
+      '<strong>Unable to register your club</strong>' +
+    '</div>'
+  );
+
+  if (errors['venue.__all__'] === 'Could not geolocate venue') {
+    $('[name="venue[address_1]"]').before(
+      '<p class="api-error">Could not locate venue, please double-check address:</p>'
     );
-  });
+  }
+}
+
+CodeClubWorld.registerWithUK = function(data) {
+  var params = $.param(data);
+  window.open('http://codeclub.org.uk/quick-registrations/new?' + params);
 }
 
 CodeClubWorld.customPlaceholders = function() {
@@ -271,6 +261,8 @@ function sanitizeDataForAPI(input) {
   } else {
     output.venue.website = ensureHTTP(output.venue.website);
   }
+
+  output.venue.country = output.country.code;
 
   return output;
 }
