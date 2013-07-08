@@ -24,8 +24,11 @@ CodeClubWorld.makeMap = function() {
     });
 
     $.each(clubs, function(i, club) {
-      var loc = club.venue.location,
-          lat = loc.lat,
+      var loc = club.venue.location;
+
+      if (!loc) return;
+
+      var lat = loc.lat,
           lng = loc.lng;
 
       if (lat === null || lng === null) return;
