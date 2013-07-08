@@ -450,6 +450,12 @@ footer .wrap .button {
   line-height: 1;
 }
 
+.api-error {
+  color: #d90102;
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
+}
+
 @media only screen and (max-width: 1050px) {
   .home header.header {
     z-index: 10;
