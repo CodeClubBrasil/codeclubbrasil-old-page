@@ -1,3 +1,5 @@
+(function() {
+
 window.CodeClubWorld = {};
 
 CodeClubWorld.api   = 'https://api.codeclubworld.org';
@@ -22,8 +24,11 @@ CodeClubWorld.makeMap = function() {
     });
 
     $.each(clubs, function(i, club) {
-      var loc = club.venue.location,
-          lat = loc.lat,
+      var loc = club.venue.location;
+
+      if (!loc) return;
+
+      var lat = loc.lat,
           lng = loc.lng;
 
       if (lat === null || lng === null) return;
@@ -155,38 +160,9 @@ CodeClubWorld.interceptForm = function() {
 }
 
 CodeClubWorld.registerWithAPI = function(data) {
-  var address = [
-    
-    data.venue.address_1,
-    data.venue.city,
-    data.venue.region
-  ].join(', ');
-
-  var region = data.country.code;
+  var data = sanitizeDataForAPI(data);
   
-  var geocoder = new google.maps.Geocoder();
 
-  geocoder.geocode({ address: address, region: region }, function(results, status) {
-    if (status == google.maps.GeocoderStatus.OK) {
-      data.venue.location = {
-        lat: results[0].geometry.location.lat(),
-        lng: results[0].geometry.location.lng()
-      };
-
-      CodeClubWorld.sendForm(data);
-    } else {
-      $('#register').find('.panel').remove();
-      $('#register').prepend('<div class="panel alert"><strong>Unable to locate your club</strong></div>');
-    }
-  });
-}
-
-CodeClubWorld.registerWithUK = function(data) {
-  var params = $.param(data);
-  window.open('http://codeclub.org.uk/quick-registrations/new?' + params);
-}
-
-CodeClubWorld.sendForm = function(data) {
   $.ajax({
     type        : 'POST',
     url         : CodeClubWorld.api + '/clubs',
@@ -195,17 +171,35 @@ CodeClubWorld.sendForm = function(data) {
     contentType : 'application/json',
     headers     : { 'Authorization': 'Bearer ' + CodeClubWorld.token }
   })
-  .done(function() {
-    location.href = '/welcome';
-  })
-  .fail(function() {
-    $('#register').find('.panel').remove();
-    $('#register').prepend(
-      '<div class="panel alert">' +
-        '<strong>Unable to register your club</strong>' +
-      '</div>'
+  .done(CodeClubWorld.apiDone)
+  .fail(CodeClubWorld.apiFail);
+}
+
+CodeClubWorld.apiDone = function() {
+  location.href = '/welcome';
+}
+
+CodeClubWorld.apiFail = function(response, status, error) {
+  var errors = response.responseJSON.errors;
+
+  $('#register').find('.alert, .api-error').remove();
+
+  $('#register').prepend(
+    '<div class="panel alert">' +
+      '<strong>Unable to register your club</strong>' +
+    '</div>'
+  );
+
+  if (errors['venue.__all__'] === 'Could not geolocate venue') {
+    $('[name="venue[address_1]"]').before(
+      '<p class="api-error">Could not locate venue, please double-check address:</p>'
     );
-  });
+  }
+}
+
+CodeClubWorld.registerWithUK = function(data) {
+  var params = $.param(data);
+  window.open('http://codeclub.org.uk/quick-registrations/new?' + params);
 }
 
 CodeClubWorld.customPlaceholders = function() {
@@ -227,6 +221,56 @@ CodeClubWorld.customPlaceholders = function() {
       .each(hideLabel).each(showIfEmpty);
 };
 
+function addressToString(data) {
+  return unique(removeBlanks([
+    data.name,
+    data.address_1,
+    data.address_2,
+    data.region,
+    data.city,
+    data.postcode
+  ])).join(', ');
+}
+
+function isBlank(object) {
+  return object == null || !!(object.match && object.match(/^\s*$/));
+}
+
+function removeBlanks(array) {
+  var result = [];
+  for (var i in array) {
+    var item = array[i];
+    if (!isBlank(item)) result.push(item);
+  }
+  return result;
+}
+
+function unique(array) {
+  var result = [];
+  for (var i in array) {
+    var item = array[i];
+    if (result.indexOf(item) === -1) result.push(item);
+  }
+  return result;
+}
+
+function ensureHTTP(str) {
+  return str.match(/^https?:\/\//) ? str : 'http://' + str;
+}
+
+function sanitizeDataForAPI(input) {
+  var output = $.extend(true, {}, input);
+
+  if (isBlank(output.venue.website)) {
+    delete output.venue.website;
+  } else {
+    output.venue.website = ensureHTTP(output.venue.website);
+  }
+
+  output.venue.country = output.country.code;
+
+  return output;
+}
 
 $(function() {
   CodeClubWorld.makeMap();
@@ -234,3 +278,5 @@ $(function() {
   CodeClubWorld.customPlaceholders();
   CodeClubWorld.interceptForm();
 });
+
+})();
