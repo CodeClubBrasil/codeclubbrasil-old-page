@@ -1600,6 +1600,7 @@ desapareça   \
 \
 mude para o traje [costume1 v]   \
 próximo traje   \
+próxima fantasia   \
 mude para o fundo de tela [backdrop1 v]   \
 \
 soma ao efeito [color v] (25)   \
@@ -1609,7 +1610,7 @@ mude o efeito [color v] por (0)   \
 apague os efeitos gráficos   \
 limpe os efeitos gráficos   \
 \
-some (10) ao tamanho   \
+adicione (10) ao tamanho   \
 mude o tamanho para(100)%   \
 mude o tamanho por(10)   \
 \
@@ -1619,6 +1620,7 @@ desça (1) camadas   \
 \
 (traje #)   \
 (traje n°)   \
+(n° da fantasia)   \
 (nome do fundo de tela)   \
 (tamanho)   \
 \
@@ -1722,6 +1724,9 @@ quando [loudness v] > (10) ## hat   \
 quando eu ouvir [message1 v] ## hat    \
 anuncie [message1 v] para todos   \
 anuncie [message1 v] para todos e espere   \
+quando receber [message1 v] ## hat    \
+envie [message1 v] a todos   \
+envie [message1 v] a todos e espere   \
 \
 \
 \
@@ -1835,9 +1840,12 @@ quando a inclinação for= (1) ## hat   \
 \
 ## Looks ##   \
 mude para o traje [costume1 v]   \
+mude para a fantasia [costume1 v]   \
 \
 mude para o fundo de tela [background1 v]   \
+mude para o pano de fundo [background1 v]   \
 próximo fundo de tela   \
+próximo pano de fundo   \
 (fundo de tela #)   \
 \
 \

@@ -119,10 +119,12 @@ position: absolute;
 top: 0px;
 	
 }
-.scratchblocks2-container div
+.scratchblocks2-container>div
 {
  display: inline-block !important;
+margin-left:20px; 
 }
+
 .scratchblocks2-container {
  display: inline-block !important;
 }
