@@ -1,12 +1,12 @@
 ---
 layout: scratchProject
-title: Crie seu próprio jogo
+title: Crie o seu próprio jogo
 term: 1
 no_sb: 1
 ---
 Nível 3
 
-# Crie seu próprio jogo
+#Crie o seu próprio jogo
 
 __Introdução:__
 Neste projeto você vai planejar e criar um jogo para você e seus amigos jogarem! 

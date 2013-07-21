@@ -1,13 +1,13 @@
 ---
 layout: scratchProject
-title: Caça às bruxas
-term: 1
+title: Caça às bruxas
+term: 1_2.0
 
 ---
 
 Nível 1
 
-#Caça às bruxas
+#Caça às bruxas
 
 __Introdução:__
 Neste jogo você deve caçar as bruxas que aparecem na tela, cada vez que acertar uma delas você ganha pontos. 
@@ -16,8 +16,8 @@ O objetivo é ganhar o máximo de pontos em 30 segundos!
 ##PASSO 1: Crie uma bruxa voadora
 
 1. Crie um novo projeto Scratch.
-2. Apague o personagem do gato e substitua a imagem de fundo pela imagem nature/woods.
-3. Use o botão _escolha um sprite do arquivo_ para adicionar um novo personagem bruxa ao projeto (selecione fantasy/witch1). 
+2. Apague o personagem do gato e substitua a imagem de fundo pela imagem Natureza/woods.
+3. Use o botão _Importar ator da biblioteca_ para adicionar um novo personagem bruxa ao projeto (selecione Imaginários/witch1). 
 
 Agora queremos que a nossa bruxa se mova
 

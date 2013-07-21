@@ -5,7 +5,7 @@ term: 1
 ---
 Nível 3
 
-#Adivinhe o que é!
+#Adivinhe o que é
 
 __Introdução:__
 Um objeto aleatório é mostrado na tela, completamente distorcido. Você tem que adivinhar qual é o objeto e  clicar na imagem correspondente. 

@@ -6,7 +6,7 @@ term: 1
 ---
 Nível 2 
 
-#Jogo das Frutas (Máquina caça-niqueis)
+#Jogo das Frutas
 
 __Introdução:__
 Este é um jogo que tem três objetos que mudam de imagem. 
