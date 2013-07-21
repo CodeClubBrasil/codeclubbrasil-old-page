@@ -47,6 +47,7 @@ h2{
  color:white;
  padding: 15px;
  min-height: 30px;	
+page-break-before: always; 
 }
 #level
 {
