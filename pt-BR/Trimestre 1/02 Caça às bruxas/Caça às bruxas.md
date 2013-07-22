@@ -1,13 +1,12 @@
 ---
 layout: scratchProject
-title: Caça às bruxas
+title: Ca&ccedil;a &agrave;s bruxas
 term: 1
-
 ---
 
 Nível 1
 
-#Caça às bruxas
+#Ca&ccedil;a &agrave;s bruxas
 
 __Introdução:__
 Neste jogo você deve caçar as bruxas que aparecem na tela, cada vez que acertar uma delas você ganha pontos. 
