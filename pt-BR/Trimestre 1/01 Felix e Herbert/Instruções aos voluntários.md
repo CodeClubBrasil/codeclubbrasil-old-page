@@ -2,7 +2,9 @@
 # # (Félix e Herbert)
 
 __Introdução:__
-Vamos fazer um jogo de pega-pega com Félix o gato e Herbert o rato. Você controla Herbert com o mouse e tenta fugir do Félix. Quanto mais tempo você conseguir fugir, mais pontos você marca. Mas não seja pego, porque assim você vai perder pontos! Este é um projeto simples para introduzir os conceitos básicos do Scratch.
+ Este é um projeto simples para introduzir os conceitos básicos do Scratch. Aproveite para explicar a analogia do scratch usando o
+ documento seguinte: http://codeclubbrasil.org/material/scratch.html
+
 
 Competências
 Este projeto abrange:
@@ -22,3 +24,7 @@ Passo 2: Félix persegue o Herbert
 Passo 3: Félix diz quando ele pegar o Herbert
 Passo 4: Herbert vira fantasma quando pego 
 Passo 5: Conte os pontos
+
+### Erros Comuns
+1. Apesar dos vários "ATENÇÃO" muitas vezes os alunos inserem os blocos no ator errado
+2. Alguns alunos confundem o aponte para, e o vá para, com isso o gato fica sempre grudado ao mouse.
