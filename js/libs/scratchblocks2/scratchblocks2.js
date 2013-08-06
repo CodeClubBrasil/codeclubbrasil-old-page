@@ -1575,8 +1575,8 @@ deslize em (1) segundos para x: (0) y: (0)   \
 mude x por (10)   \
 mude x para (0)   \
 mude y por (10)   \
-soma (10) a y   \
-soma (10) a x   \
+adicione (10) a y   \
+adicione (10) a x   \
 mude y para (0)   \
 \
 se tocar na borda, volta   \
@@ -1603,7 +1603,7 @@ próximo traje   \
 próxima fantasia   \
 mude para o fundo de tela [backdrop1 v]   \
 \
-soma ao efeito [color v] (25)   \
+adicione ao efeito [color v] (25)   \
 \
 mude o efeito [color v] para (0)   \
 mude o efeito [color v] por (0)   \
@@ -1647,12 +1647,12 @@ toque a nota (60 v) por (0.5) batidas   \
 use o instrumento (1 v)   \
 mude o instrumento para (1 v)   \
 \
-soma (-10) ao volume   \
+adicione (-10) ao volume   \
 mude o volume por (-10)    \
 mude o volume para (100)%   \
 (volume)   \
 \
-soma (20) ao ritmo   \
+adicione (20) ao ritmo   \
 mude o ritmo por (20)   \
 mude o ritmo para (60) bpm   \
 (ritmo)   \
@@ -1670,15 +1670,15 @@ levante a caneta   \
 \
 mude a cor da caneta para [#f0f]   \
 mude a cor da caneta por (10)   \
-soma (10) à cor da caneta   \
+adicione (10) à cor da caneta   \
 mude a cor da caneta para (0)   \
 \
-soma (10) ao tom da caneta    \
-soma (10) à intensidade da caneta    \
+adicione (10) ao tom da caneta    \
+adicione (10) à intensidade da caneta    \
 mude a intensidade da caneta para (50)   \
 mude o tom da caneta para (50)   \
 \
-soma (1) ao tamanho da caneta   \
+adicione (1) ao tamanho da caneta   \
 mude o tamanho da caneta para (1)   \
 mude o tamanho da caneta por (1)   \
 \
@@ -1687,7 +1687,7 @@ mude o tamanho da caneta por (1)   \
 ## Variables ##   \
 mude [var v] para [0]   \
 mude [var v] por(1)   \
-soma a [var v] (1)   \
+adicione a [var v], (1)   \
 mostra variável [var v]   \
 esconde variável [var v]   \
 \
