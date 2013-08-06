@@ -1,5 +1,8 @@
+---
+layout: instructions
+---
 # Instruções aos monitores
-# # (Félix e Herbert)
+## (Félix e Herbert)
 
 __Introdução:__
  Este é um projeto simples para introduzir os conceitos básicos do Scratch. Aproveite para explicar a analogia do scratch usando o
