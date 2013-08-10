@@ -1580,6 +1580,7 @@ adicione (10) a x   \
 mude y para (0)   \
 \
 se tocar na borda, volta   \
+se tocar na borda, volte   \
 \
 mude o estilo de rotação para [left-right v]   \
 \
@@ -1597,6 +1598,8 @@ pense [Hmm...]   \
 \
 apareça   \
 desapareça   \
+mostrar   \
+esconder   \
 \
 mude para o traje [costume1 v]   \
 próximo traje   \
@@ -1637,6 +1640,7 @@ próximo fundo de tela   \
 ## Sound ##   \
 toque o som [pop v]   \
 toque o som [pop v] até terminar   \
+toque o som [pop v] até o fim   \
 pare todos os sons   \
 \
 toque o tambor (1 v) por (0.2) batidas   \
@@ -1794,6 +1798,7 @@ zere o temporizador   \
 (() / ())   \
 \
 (sorteie número entre (1) e (10))   \
+(escolha número entre (1) e (10))   \
 \
 <[] < []>   \
 <[] = []>   \
