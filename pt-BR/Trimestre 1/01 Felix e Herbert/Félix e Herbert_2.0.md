@@ -32,7 +32,7 @@ Acompanhe o seu progresso marcando os quadros abaixo.
 4. Mude o nome do ator para Félix.
 5. Certifique-se que o __estilo de rotação__ do Félix é _esquerda-direita_.
 <img src="img/info_felix.png">
-6. Arraste e encaixe estes comandos para a área de roteiros na direita da tela:
+6. Arraste e encaixe estes blocos para a área de roteiros na direita da tela:
 
 
 		quando clicar em BANDEIRA
@@ -68,8 +68,8 @@ __Agora vamos fazer com que o Félix persiga o Herbert ao invés de perseguir o 
 <img src="img/nome_herbert.png">
 3. Certifique-se de que o estilo de rotação do Herbert é _esquerda-direita_.
 4. Clique no botão _reduzir_ que fica junto com as _ferramentas na parte de cima da tela_. 
-5. Arraste e encaixe os comandos seguintes para o Herbert 
-__(ATENÇÃO: Certifique-se de que os comandos são criados para o Herbert, clicando 2x sobre ele antes de começar a encaixar)__: 
+5. Arraste e encaixe os blocos seguintes para o Herbert 
+__(ATENÇÃO: Certifique-se de que os blocos são criados para o Herbert, clicando 2x sobre ele antes de começar a encaixar)__: 
 
 		quando clicar em BANDEIRA
 		sempre
@@ -93,7 +93,7 @@ __Vamos fazer com que o Félix diga quando ele pegou o Herbert__
 
 1. Modifique o roteiro do Félix para que ele fiquem assim (Não apague os blocos existentes, apenas encaixe os blocos que estão faltando): 
 
-__ATENÇÃO: Certifique-se de que os comandos são criados para o Félix, clicando 2x sobre ele antes de começar a encaixar__
+__ATENÇÃO: Certifique-se de que os blocos são criados para o Félix, clicando 2x sobre ele antes de começar a encaixar__
 
 
 		quando clicar em BANDEIRA
@@ -118,7 +118,7 @@ Salve o projeto.
 
 __Ao invés de o Félix dizer algo, nós vamos fazer com que o Herbert vire um fantasma quando for pego.__
 
-1. Modifique os comandos do Félix para enviar uma mensagem quando pegar o Herbert.
+1. Modifique os blocos do Félix para enviar uma mensagem quando pegar o Herbert.
 
 		quando clicar em BANDEIRA
 		sempre
@@ -137,11 +137,11 @@ __Ao invés de o Félix dizer algo, nós vamos fazer com que o Herbert vire um f
 2. Clique sobre o Herbert, vá até a aba fantasias, clique em _importar fantasia da biblioteca_ e escolha a fantasia Imaginários/ghost2-b.
 3. Clique no botão _reduzir_ para diminuir o tamanho da fantasia.
 4. Mude o nome das fantasias do Herbert, de maneira que o rato (mouse1) se chame 'vivo' e o fantasma (ghost2-b) se chame 'morto'.
-5. Crie um novo conjunto de comandos para o Herbert, que irá fazer ele virar fantasma. 
+5. Crie um novo conjunto de blocos para o Herbert, que irá fazer ele virar fantasma. 
 
-Estes comandos ficarão ao lado dos comandos já existentes para o Herbert (não apague o que já existe!).
+Estes blocos ficarão ao lado dos blocos já existentes para o Herbert (não apague o que já existe!).
 
-__ATENÇÃO: Certifique-se de que os comandos são criados para o Herbert, clicando 2x sobre ele antes de começar a encaixar__
+__ATENÇÃO: Certifique-se de que os blocos são criados para o Herbert, clicando 2x sobre ele antes de começar a encaixar__
 
 		quando receber [pego v]
 		mude para a fantasia[morto v]
@@ -166,8 +166,8 @@ Quando o Félix pegar o Herbert, o jogador perderá cem pontos.__
 
 1. Clique em __Variáveis__ e _crie uma variável_ chamada placar.  
 Mantenha selecionada a opção "para todos os projetos".
-2. Clique no palco e crie estes dois conjuntos de comandos.
-__ATENÇÃO: Certifique-se de que os comandos são criados para o palco, clicando sobre ele no canto esquerdo da tela antes de começar a encaixar__
+2. Clique no palco e crie estes dois conjuntos de blocos.
+__ATENÇÃO: Certifique-se de que os blocos são criados para o palco, clicando sobre ele no canto esquerdo da tela antes de começar a encaixar__
 		
 		quando clicar em BANDEIRA
 		mude [placar v] para (0)

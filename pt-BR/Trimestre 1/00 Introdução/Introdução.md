@@ -15,7 +15,9 @@ __Programar é como criar uma peça de teatro.__
 
 Você vai precisa de __atores__ para interpretá-la.
 
-Você também pode criar __fantasias__ para eles. Um __ator__ pode interpretar diferentes papéis: um personagem, um animal, uma árvore, uma mesa, etc.
+Você também pode criar __fantasias__ para eles. 
+
+Um __ator__ pode interpretar diferentes papéis: um personagem, um animal, uma árvore, uma mesa, etc.
 
 Como a apresentação da peça de teatro é feita em um __palco__, você pode usar __panos de fundo__ para decorar o seu palco com o tema da sua peça.
 
@@ -68,16 +70,19 @@ Quando tudo estiver estiver no ponto, você pode compartilhar o seu trabalho com
 
 ##Criando meu primeiro jogo
 
+<center> <img  src="img/intro_jogo.png"></img></center>
+
+
 Vamos criar um jogo com 3 personagens.
 
 - __Cão:__ O cão fica no canto esquerdo da tela. Espera 5 segundos e começa a latir.
 
 - __Papagaio:__ O papagaio é posicionado em qualquer lugar da tela. Ele espera 5 segundos e começa a voar com medo do cão. O papagaio segue o movimento do ponteiro do mouse.
 
-- __Menino:__ O menino fica no canto direito da tela, e explica o funcionamento do jogo.
+- __Menino:__ O menino fica no canto direito da tela e explica o funcionamento do jogo.
 
 ##PASSO 1: Faça o cão latir
-Abra o endereço seguinte para termos a cena inicial.
+Abra o endereço seguinte para carregarmos a cena inicial.
 
 <a target="_blank" href="http://tinyurl.com/clubintro">http://tinyurl.com/clubintro
 </a>
@@ -94,6 +99,11 @@ Clique no cão na área de atores (em baixo, no canto esquerdo), e em seguida ar
 				toque o som [dog1 v] até o fim
 			
 
+###Teste o projeto
+
+
+
+Salve o projeto
  
 ##PASSO 2: Faça o papagaio voar
 
@@ -109,10 +119,17 @@ Clique no papagaio na área de atores (em baixo, no canto esquerdo), e em seguid
 		
 A animação do papagaio batendo asas é feita intercalando diferentes fantasias, da mesma maneira que se faz com desenhos animados. Para ver as duas fantasias do papagaio, clique na aba "Fantasias" na parte superior da tela, entre "Roteiros" e "Sons".
 
-##PASSO 2: Faça o papagaio seguir o ponteiro do mouse
-Por enquanto, o papagaio apenas bate as asas, mas nós queremos que ele siga o ponteiro do mouse. Para isso devemos encaixar dois novos blocos. um para ele apontar na direção do mouse, e outro para ele andar 10 passos para frente.
 
-Modifique o roteiro do papagaio para que ele fico assim:
+###Teste o projeto
+
+
+
+Salve o projeto
+
+##PASSO 2: Faça o papagaio seguir o ponteiro do mouse
+Por enquanto, o papagaio apenas bate as asas, mas nós queremos que ele siga o ponteiro do mouse. Para isso devemos encaixar dois novos blocos. Um para ele apontar na direção do mouse e outro para ele andar 10 passos para frente.
+
+Modifique o roteiro do papagaio para que ele fique assim:
 			
 			quando clicar em BANDEIRA
 			espere (5) segundos
@@ -121,9 +138,26 @@ Modifique o roteiro do papagaio para que ele fico assim:
 				aponte para [ponteiro do mouse v]
 				mova (10) passos
 			fim
+			
+			
+			
+###Teste o projeto
+
+
+
+Salve o projeto
 ##PASSO 3: Faça o menino dizer algo
-Nossa animação esta quase pronta. A única coisa que falta é o menino explicar como o jogo funciona. Por exemplo ele pode dizer algo como "Olá, quando o cachorro latir, ajude o papagaio a voar!"
+Nosso jogo está quase pronto. A única coisa que falta é o menino explicar como o jogo funciona. Por exemplo ele pode dizer algo como "Olá, quando o cão latir, ajude o papagaio a voar!"
 		
 			
 			quando clicar em BANDEIRA
-			diga [Olá, quando o cachorro latir, ajude o papagaio a voar! ] por (5) segundos
+			diga [Olá, quando o cão latir, ajude o papagaio a voar! ] por (5) segundos
+			
+###Teste o projeto
+
+
+
+Salve o projeto
+
+__Parabéns, você acaba de criar o seu primeiro jogo!__
+Não esqueça que voce pode compartilhar seu jogo com todos os seus amigos e família clicando em __Compartilhar__ na barra de menu!
