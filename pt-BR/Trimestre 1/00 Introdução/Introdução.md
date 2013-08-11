@@ -14,32 +14,34 @@ __Programar é como criar uma peça de teatro.__
 ##Em uma peça de teatro...
 
 Você vai precisa de __atores__ para interpretá-la.
-
 Você também pode criar __fantasias__ para eles. 
 
 Um __ator__ pode interpretar diferentes papéis: um personagem, um animal, uma árvore, uma mesa, etc.
 
 Como a apresentação da peça de teatro é feita em um __palco__, você pode usar __panos de fundo__ para decorar o seu palco com o tema da sua peça.
 
-<img src="img/teatro.jpg">
-</img>
-
+<center> <img width="60%" src="img/teatro.jpg"></img>
+</center> 
 Além disso você deverá criar um __roteiro__ para cada __ator__, com instruções sobre o que eles devem fazer. 
 As vezes até o __palco__ necessita de um roteiro, para mudar de __pano de fundo__ ou modificar o cenário.	
 
-<center> <img src="img/roteiro.png"></img>
+<center> <img width="60%" src="img/roteiro.png"></img>
 </center> 
 
 
 Depois de ensaiar bastante você pode apresentar a sua peça na escola ou aos amigos.
 
+<div class="page_break">
+</div>
+
 ##No Scratch..
 Para programar nós vamos utilizar o Scratch (www.scratch.mit.edu).
 
 No Scratch nós também temos um __palco__.
-  
-<img src="img/palco_scratch.png">
-</img>
+
+<center> <img src="img/palco_scratch.png"></img>
+</center>
+
 E podemos escolher diferentes __panos de fundo__ .
 
 
@@ -55,6 +57,12 @@ Podemos inserir __atores__, e escolher diferentes __fantasias__.
 </img>
 <img width="49%" src="img/fantasia.png">
 </img>
+
+<div class="page_break">
+</div>
+
+##No Scratch..
+
 Cada __ator__ tem o seu __roteiro__.
 
 <center> <img  src="img/roteiro_scratch.png"></img></center>
@@ -67,6 +75,9 @@ Como em uma peça de teatro, é normal que no começo algumas coisas saiam errad
 Programar é como ensaiar uma peça de teatro, é preciso passar um pouco de tempo corrigindo os erros.
 
 Quando tudo estiver estiver no ponto, você pode compartilhar o seu trabalho com seus amigos ou familiares.
+
+<div class="page_break">
+</div>
 
 ##Criando meu primeiro jogo
 
@@ -104,6 +115,9 @@ Clique no cão na área de atores (em baixo, no canto esquerdo), e em seguida ar
 
 
 Salve o projeto
+
+<div class="page_break">
+</div> 
  
 ##PASSO 2: Faça o papagaio voar
 
@@ -146,6 +160,10 @@ Modifique o roteiro do papagaio para que ele fique assim:
 
 
 Salve o projeto
+
+<div class="page_break">
+</div>
+
 ##PASSO 3: Faça o menino dizer algo
 Nosso jogo está quase pronto. A única coisa que falta é o menino explicar como o jogo funciona. Por exemplo ele pode dizer algo como "Olá, quando o cão latir, ajude o papagaio a voar!"
 		

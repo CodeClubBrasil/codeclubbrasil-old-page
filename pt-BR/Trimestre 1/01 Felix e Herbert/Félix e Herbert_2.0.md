@@ -20,7 +20,11 @@ Cuidado, se for pego, perderá pontos!
 Se não for o caso clique no _globo_,  em cima, no canto esquerdo da tela e escolha __Português (Brasil)__.
 
 
+<center><img src="sample.png"> 
+</center>
 
+<div class="page_break">
+</div>
 
 ##PASSO 1: Félix persegue o ponteiro do mouse
 Acompanhe o seu progresso marcando os quadros abaixo.
@@ -59,6 +63,11 @@ A velocidade que ele se move é correta?
 
 Salve o projeto
 
+
+<div class="page_break">
+</div>
+
+
 ##PASSO 2: Félix persegue o Herbert
 
 __Agora vamos fazer com que o Félix persiga o Herbert ao invés de perseguir o mouse.__
@@ -85,6 +94,9 @@ O Herbert se move com o ponteiro do mouse?
 O Félix está perseguindo o Herbert?
 
 Salve o projeto
+
+<div class="page_break">
+</div>
 
 ##PASSO 3: Diga "Te peguei!"
 
@@ -113,6 +125,9 @@ __Clique na bandeira verde.__
 O Félix diz algo quando pega o Herbert?
 
 Salve o projeto.
+
+<div class="page_break">
+</div>
 
 ##PASSO 4: Virando fantasma
 
@@ -158,6 +173,9 @@ O Herbert  vira fantasma quando pego?
 O Félix toca o som certo no momento certo?
 
 O Félix fica parado tempo suficiente para o Herbert fugir?
+
+<div class="page_break">
+</div>
 
 ##PASSO 5: Conte os pontos
 
