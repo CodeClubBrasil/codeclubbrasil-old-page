@@ -91,6 +91,6 @@ function codeClubHeaders(){
                   );
                  $('.save_project').append('<div class="check"></div>');
                   
-              		$("h2:first").before('<center><img src="sample.png"/> </center>');
+              	//	$("h2:first").before('<center><img src="sample.png"/> </center>');
                   
          }         

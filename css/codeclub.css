@@ -35,6 +35,10 @@ right: 20px;
 
 	
 	}
+p{
+margin-top:0.3em;
+margin-bottom:0.4em;
+}
 #level_value
 {
 font-size: 60px;
@@ -47,6 +51,8 @@ h2{
  color:white;
  padding: 15px;
  min-height: 30px;	
+}
+.page_break{
 page-break-before: always; 
 }
 #level
