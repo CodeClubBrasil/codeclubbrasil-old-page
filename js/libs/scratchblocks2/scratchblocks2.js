@@ -1571,6 +1571,7 @@ aponte para [ v]   \
 vá para x: (0) y: (0)   \
 vá para [mouse-pointer v]   \
 deslize em (1) segundos para x: (0) y: (0)   \
+deslize em (1) segundos até x: (0) y: (0)   \
 \
 mude x por (10)   \
 mude x para (0)   \
