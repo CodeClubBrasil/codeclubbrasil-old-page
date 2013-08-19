@@ -98,6 +98,10 @@ Abra o endereço seguinte para carregarmos a cena inicial.
 <a target="_blank" href="http://tinyurl.com/clubintro">http://tinyurl.com/clubintro
 </a>
 
+Mas antes de começar certifique-se que o Scratch esteja em __Português__. 
+Se não for o caso clique no _globo_,  em cima, no canto esquerdo da tela e escolha __Português (Brasil)__.
+
+
 Como foi dito anteriormente, o cão espera por 5 segundos, e começa a latir.
 
 Clique no cão na área de atores (em baixo, no canto esquerdo), e em seguida arraste e encaixe os seguintes blocos na parte direita da tela:

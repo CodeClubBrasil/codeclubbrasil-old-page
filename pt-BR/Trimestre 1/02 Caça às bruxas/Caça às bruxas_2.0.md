@@ -13,6 +13,10 @@ __Introdução:__
 Este é um jogo de caça às bruxas. Você deve clicar nas bruxas que aparecem na tela, cada vez que acertar uma delas você ganha pontos. 
 O objetivo é ganhar o máximo de pontos em 30 segundos!
 
+<center><img src="sample.png"> 
+</center>
+
+
 ##PASSO 1: Crie uma bruxa voadora
 
 1. Crie um novo projeto Scratch ( __Arquivo__ -> __Novo__ ).
@@ -63,7 +67,7 @@ __Clique na bandeira verde.__
 
 A bruxa se move de um lado par a outro atravessando a tela?
 
-Salve o projeto
+
 
 ###Sugestões
 
@@ -72,8 +76,11 @@ __Tente mudar o valor da variável velocidade para a bruxa voar mais rápido ou 
 __Como você faria a bruxa acelerar com o passar do tempo?__
 (Esta é uma pergunta difícil, mas não se preocupe se você não sabe como fazer. Você terá mais dicas enquanto você trabalha neste projeto.)
 
-##PASSO 2: Faça a bruxa aparecer e desaparecer de maneira aleatória
+<div class="page_break">
+</div>
 
+
+##PASSO 2: Faça a bruxa aparecer e desaparecer de maneira aleatória
 Para tornar o jogo mais divertido, vamos fazer a bruxa aparecer e desaparecer aleatoriamente. 
 Faremos isso com um outro conjunto de comandos que é executado ao mesmo tempo que os comandos que fazem a bruxa se mexer.
 Estes novos comandos vão esconder a bruxa por um tempo aleatório e em seguida a bruxa vai aparecer, também por um tempo aleatório. 
@@ -95,15 +102,12 @@ __Clique na bandeira verde.__
 
 A bruxa se mexe de um lado para o outro atravessando a tela, desaparecendo e aparecendo aleatoriamente?
 
-Salve o projeto
-
-###Sugestões
-
 __Tente mudar os valores entre os quais os números são sorteados. 
 O que acontece se você escolher números muito grandes ou muito pequenos?__
 
 __Este passo lhe dá pistas sobre onde aumentar a velocidade da bruxa cada vez que ela aparece novamente?__
 Tente modificar o roteiro da bruxa para que ela aumente de velocidade cadavez que reaparecer.
+
 
 ##PASSO 3: Faça a bruxa desaparecer ao ser clicada
 
@@ -123,7 +127,8 @@ __Clique na bandeira verde.__
 
 A bruxa desaparece e toca um som quando clicada?
 
-Salve o projeto
+<div class="page_break">
+</div>
 
 ##Passo 4: Adicione um placar e uma contagem regressiva
 
@@ -166,7 +171,7 @@ __ATENÇÃO:__ Certifique-se de que os blocos são criados para o __Palco__, cli
 
 __Clique na bandeira verde.__
 
-Salve o seu projeto
+
 
 
 ###Sugestões
@@ -174,6 +179,9 @@ __Como você faria para acelerar a bruxa durante a partida?__
 
 
 __Parabéns, você terminou o jogo básico. Existem mais coisas que você pode fazer. Tente este desafio!__
+
+<div class="page_break">
+</div>
 
 ##Desafio: Adicione mais bruxas
 
@@ -195,7 +203,7 @@ __Clique na bandeira verde.__
 Você vê três bruxas que se movem de um lado a outro da tela, 
 que aparecem e desaparecem aleatoriamente, e que desaparecem quando você clica nelas?
 
-Salve o seu projeto
+
 
 
 ###Sugestões:
