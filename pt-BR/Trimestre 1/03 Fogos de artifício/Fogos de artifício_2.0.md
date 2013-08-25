@@ -1,7 +1,7 @@
 ---
 layout: scratchProject
 title: Fogos de artifício
-term: 1
+term: 1_2.0
 resources: 1
 ---
 
