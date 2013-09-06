@@ -1771,6 +1771,8 @@ pergunte %s e espere   \
 <mouse pressionado?>   \
 (mouse x)   \
 (mouse y)   \
+(posição x do mouse)   \
+(posição y do mouse)   \
 \
 (volume do som)   \
 \
