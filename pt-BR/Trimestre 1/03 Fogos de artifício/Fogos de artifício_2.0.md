@@ -34,7 +34,7 @@ Adicione um comando _quando a tecla espaço for pressionada_, faça o foguete ap
 
 	    quando a tecla [espaço v] for pressionada
 	    mostrar
-	    deslize em (1) segundos até x: (mouse x) y: (mouse y) 
+	    deslize em (1) segundos até x: (posição x do mouse) y: (posição y do mouse) 
 
 ###Teste o projeto
 __Clique na bandeira verde, posicione o mouse sobre o palco e pressione a barra de espaço.__
@@ -52,9 +52,9 @@ as que mantenha a sua posição horizontal (x) do mouse.
 	    esconder
 
  		 quando a tecla [espaço v] for pressionada
- 		 vá para x: (mouse x) y: (-200)
+ 		 vá para x: (posição x do mouse) y: (-200)
 	    mostrar
-	    deslize em (1) segundos até x: (mouse x) y: (mouse y) 
+	    deslize em (1) segundos até x: (posição x do mouse) y: (posição y do mouse) 
 	    
 	 
 
@@ -78,9 +78,9 @@ e por último fazer com que o foguete não fique aparecendo no início.
 	    esconder 
 	    sempre 
 	    se <mouse pressionado?>
-	      vá para x: (mouse x) y: (-200)
+	      vá para x: (posição x do mouse) y: (-200)
 	      mostrar
-	      deslize em (1) segundos para x: (mouse x) y: (mouse y) 
+	      deslize em (1) segundos para x: (posição x do mouse) y: (posição y do mouse) 
 	    fim
 
 ###Teste o projeto
@@ -105,10 +105,10 @@ Salve o projeto.
 		esconder
 		 sempre 
 	    se <mouse pressionado?>
-		    va para x: (mouse x) y: (-200)
+		    va para x: (posição x do mouse) y: (-200)
 		    toque o som [bang v]
 		    mostrar
-		    deslize em (1) segundos para x: (mouse x) y: (mouse y)
+		    deslize em (1) segundos para x: (posição x do mouse) y: (posição y do mouse)
 		    esconder
 		fim
 
@@ -120,10 +120,10 @@ Salve o projeto.
 		esconder
 		 sempre 
 	    se <mouse pressionado?>
-	      va para x: (mouse x) y: (-200)
+	      va para x: (posição x do mouse) y: (-200)
 	      toque o som [bang v]
 	      mostrar
-	      deslize em (1) segundos para x: (mouse x) y: (mouse y)
+	      deslize em (1) segundos para x: (posição x do mouse) y: (posição y do mouse)
 	      esconder
 	      envie [explodir v] a todos
 	    fim
@@ -238,10 +238,10 @@ Desta forma, o ciclo não se repetirá até que a foguete termine de explodir.
 	    quando BANDEIRA clicado 
 	    esconder 
 	    sempre se <mouse pressionado?> 
-	    vá para x: (mouse x) y: (-200) 
+	    vá para x: (posição x do mouse) y: (-200) 
 	    toque o som [bang] 
 		mostrar 
-		deslize em (1) segundos para x: (mouse x) y: (mouse y) 
+		deslize em (1) segundos para x: (posição x do mouse) y: (posição y do mouse) 
 		esconder 
 		envie [explodir v] a todos e espere 
 	    fim
