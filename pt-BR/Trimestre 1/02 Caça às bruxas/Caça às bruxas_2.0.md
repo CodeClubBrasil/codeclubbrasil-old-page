@@ -147,23 +147,23 @@ e modifique os comandos da bruxa para __adicionar 1__ a esta variável cada vez 
 		adicione a [placar v] , (1)
 
 	
-2. Clique no __palco__ e crie uma nova variável chamada _temporizador_.
+2. Clique no __palco__ e crie uma nova variável chamada _contagem regressiva_.
  
 Vamos adicionar novos blocos que serão executado quando a bandeira verde for clicada. 
-Eles servem para mudar o temporizador para 30 e zerar o placar. 
-Em seguida use um bloco __repita até que__ para esperar um segundo e diminuir o temporizador de um. 
-Isso deve ser repetido até que o temporizador chegue a 0. 
+Eles servem para mudar a contagem regressiva para 30 e zerar o placar. 
+Em seguida use um bloco __repita até que__ para esperar um segundo e diminuir a contagem regressiva de um. 
+Isso deve ser repetido até que a contagem regressiva chegue a 0. 
 
-Quando o temporizador chegar a zero, devemos usar um bloco __pare todos__ para interromper a partida.
+Quando a contagem regressiva chegar a zero, devemos usar um bloco __pare todos__ para interromper a partida.
 
 __ATENÇÃO:__ Certifique-se de que os blocos são criados para o __Palco__, clicando sobre ele antes de começar a encaixar
 
 		quando clicar em BANDEIRA
-		mude [tempo v] para (30)
+		mude [contagem regressiva v] para (30)
 		mude [placar v] para (0)
-		repita até que<(temporizador) = [0]>
+		repita até que<(contagem regressiva) = [0]>
 			espere (1) segundos
-			adicione a (temporizador), (-1)
+			adicione a (contagem regressiva), (-1)
 		fim
 		pare [todos v]
 
