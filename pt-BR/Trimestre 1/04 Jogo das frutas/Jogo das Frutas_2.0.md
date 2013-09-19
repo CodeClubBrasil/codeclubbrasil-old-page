@@ -91,7 +91,7 @@ O resultado ficará assim:
 
 
 
-4. Finalmente, encaixe um bloco __mude parado para nao__ logo abaixo de __quando clicar em BANDEIRA__.
+4. Finalmente, encaixe um bloco `mude [parado v] para [não]` logo abaixo de `quando clicar em BANDEIRA`.
 
 ### Teste o projeto
 
@@ -146,7 +146,7 @@ Algumas idéias que você pode experimentar:
 3. Faça com que o intervalo entre as mudanças de fantasias seja diferente.
 4. Faça com que cada ator mude para uma fantasia aleatória e não para a próxima fantasia. 
 
-__Divirta-se com as suas próprias idias!__
+__Divirta-se com as suas próprias ideias!__
 
 Toda vez que você faz uma alteração, pense se o o jogo ficou mais fácil ou mais difícil. 
 O jogo é muito fácil ou muito difícil? 
@@ -158,7 +158,7 @@ Como você pode ajustar a dificuldade para que fique melhor?
 Nem todas as pessoas tem a mesma habilidade para jogar. __Como você poderia fazer o jogo ajustar sua dificuldade, dependendo do jogador?__
 
 Uma maneira é __ajustar a velocidade da mudança de fantasia__. 
-Você pode criar uma variável chamada __intervalo__, para representar a duração do bloco __espere__ de cada objeto. 
+Você pode criar uma variável chamada `intervalo`, para representar a duração do bloco `espere ()` de cada objeto. 
 Se o jogador ganha a rodada, a variável intervalo pode ser reduzida um pouco (para tornar o jogo mais difícil). 
 Se o jogador perde a rodada, o intervalo pode ser aumentado um pouco (para tornar o jogo mais fácil).
 
@@ -173,15 +173,15 @@ Cada vez que alguém clica em um dos atores, o palco deve verificar se todos os 
 Modifique os blocos dentro do `quando este ator for clicado` de cada ator para que ele envie uma nova mensagem a todos, chamada por exemplo __verifica fim__.
 
 O palco pode usar um bloco esta mensagem e verificar se as variáveis __parado__ dos três atores valem "sim" para saber se o jogo acabou. 
-Para isso, encaixe um bloco `[parado v] de`. Para obter este bloco, vá até a aba de __sensores__ e utilize um bloco __[coordenada x da posição v] de__ e mude "coordenada x da posição" para "parado". 
+Para isso, encaixe um bloco `[parado v] de`. Para obter este bloco, vá até a aba de __sensores__ e utilize um bloco `[coordenada x da posição v] de` e mude "coordenada x da posição" para "parado". 
 Se a variável __parado__ dos três tem valor de "sim", sabemos que o jogo acabou e nós podemos verificar se o jogador ganhou.
 
-Para fazer isso, podemos usar a mesma tipo de bloco __coordenada x da posição de__, mas em vez de olhar a variável __parado__, 
-iremos olhar a variável __n° da fantasia___ e assim podemos comparar se Atoir1 tem a mesma fantasia que Ator2, e se Ator2 tem a mesma fantasia
- que Ator3.
+Para fazer isso, podemos usar a mesma tipo de bloco `[coordenada x da posição v] de`, mas em vez de olhar a variável __parado__, 
+iremos olhar a variável __n° da fantasia__ e assim podemos comparar se Ator 1 tem a mesma fantasia que Ator 2, e se Ator 2 tem a mesma fantasia
+ que Ator 3.
 
-Para fazer isso, você precisa de um bloco __se__ para verificar cada variável,
- e dentro dele um bloco __se ... senão__ para ver se o jogador ganhou ou perdeu, comparando cada 
+Para fazer isso, você precisa de um bloco `se <> então` para verificar cada variável,
+ e dentro dele um bloco __se entao... senão__ para ver se o jogador ganhou ou perdeu, comparando cada 
 fantasia.
 
 Deste ponto em diante, você pode anunciar o resultado do jogo usando um bloco __envie a todos__ e receber esta mensagem em um outro ator. 
