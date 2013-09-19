@@ -77,7 +77,7 @@ e por último fazer com que o foguete não fique aparecendo no início.
 	    quando clicar em BANDEIRA
 	    esconder 
 	    sempre 
-	    se <mouse pressionado?>
+	    se <mouse pressionado?> então
 	      vá para x: (posição x do mouse) y: (-200)
 	      mostrar
 	      deslize em (1) segundos para x: (posição x do mouse) y: (posição y do mouse) 
@@ -104,12 +104,13 @@ Salve o projeto.
 		quando clicar em BANDEIRA
 		esconder
 		 sempre 
-	    se <mouse pressionado?>
+	    se <mouse pressionado?>  então
 		    va para x: (posição x do mouse) y: (-200)
 		    toque o som [bang v]
 		    mostrar
 		    deslize em (1) segundos para x: (posição x do mouse) y: (posição y do mouse)
 		    esconder
+		  fim
 		fim
 
 2. Em seguida, faça o foguete mandar uma mensagem a todos uma nova mensagem quando ele explodir. Esta mensagem será ouvida mais tarde.
@@ -119,7 +120,7 @@ Salve o projeto.
 	    quando clicar em BANDEIRA
 		esconder
 		 sempre 
-	    se <mouse pressionado?>
+	    se <mouse pressionado?>  então
 	      va para x: (posição x do mouse) y: (-200)
 	      toque o som [bang v]
 	      mostrar
@@ -237,7 +238,8 @@ Desta forma, o ciclo não se repetirá até que a foguete termine de explodir.
 
 	    quando BANDEIRA clicado 
 	    esconder 
-	    sempre se <mouse pressionado?> 
+	    sempre
+	     se <mouse pressionado?>  então 
 	    vá para x: (posição x do mouse) y: (-200) 
 	    toque o som [bang] 
 		mostrar 
