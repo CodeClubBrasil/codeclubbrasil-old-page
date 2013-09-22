@@ -1,7 +1,7 @@
 ---
 layout: scratchProject
 title: Introdução à Programação
-term: 1
+term: 1_2.0
 online: 11795093
 ---
 
