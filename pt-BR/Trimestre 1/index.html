@@ -26,17 +26,19 @@ title: Curso 1
 <div class="eight columns">
 
 <div class="lesson">
-	<img  src="{{p.url|replace: '.html','' }}/../sample.png" alt="" >
+	<!--<img  src="{{p.url|replace: '.html','' }}/../sample.png" alt="" >-->
+	<iframe allowtransparency="true" width="300" height="300" src="http://scratch.mit.edu/projects/embed/{{ p.online }}/" frameborder="0" allowfullscreen></iframe>
 <div class="description">   
 <h4>     {{ count }} - {{ p.title  }} </h4>    
-	{% if count == "1" %}
-        <a class="project_link" href="{{ p.url }}">
+	{% if count == "1" or count == "2" %}
+       
+       <!-- <a class="project_link" href="{{ p.url }}">
          Ver lição
-        </a>
+        </a>-->
         <br>
         <a class="project_link" href="{{ p.url }}">
         <a class="resources" href="{{p.url|replace: '.html','' }}_2.0.html">
-         Ver lição (Scratch 2.0)
+         Ver lição
         </a>
         <br>
 	{% if p.resources == 1%}
@@ -47,7 +49,7 @@ title: Curso 1
 	<br>
 {% if p.no_sb ==1	%}
 {%else %}
-   <a class="resources" href="{{p.url|replace: '.html','' }}.sb">Baixar o jogo pronto</a>
+  <!-- <a class="resources" href="{{p.url|replace: '.html','' }}.sb">Baixar o jogo pronto</a> -->
    
 {%endif %}
 {%else %}
