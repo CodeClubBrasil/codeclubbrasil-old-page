@@ -132,7 +132,7 @@ Use o bloco __tocando__ para ver se ela está tocando o peixe.
 			mova (2) passos 
 			gire cw (sorteie número entre (-20) e (20) ) graus
 			se tocar na borda, volta
-			se <tocando em [peixe faminto v] então
+			se <tocando em [peixe faminto v] > então
 				esconder
 				espere (3) segundos
 				mostrar
