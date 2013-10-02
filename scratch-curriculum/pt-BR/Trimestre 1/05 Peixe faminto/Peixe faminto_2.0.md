@@ -25,7 +25,7 @@ __Vamos fazer o peixe faminto nadar no mar!__
 
 
 
-		quando clicar em BANDEIRA
+		quando clcar em BANDEIRA
 		sempre	
 			aponte para [ponteiro do mouse v]
 			mova (3) passos
