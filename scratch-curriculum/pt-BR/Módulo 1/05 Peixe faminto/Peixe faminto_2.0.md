@@ -19,7 +19,7 @@ __Vamos fazer o peixe faminto nadar no mar!__
 1. Crie um novo projeto Scratch.
 2. Clique no Palco e abra  a aba Panos de fundo. Em seguida clique em _importar fundo da biblioteca_ e escolha Natureza/underwater.
 3. Apague o gato (clique direito sobre o gato). 
-4. Crie um __Novo ator__ clicando em  _carregar ator a partir de arquivo_ e escolha o arquivo Recursos/peixe faminto.png.  
+4. Crie um __Novo ator__ clicando em  _carregar ator a partir de arquivo_ e escolha o arquivo Recursos/peixe faminto.png. ATENÇÃO: você deve usar o botão que está na parte _Novo ator_, não confunda com o botão igual que está na parte _Novo fundo_.
 5. Clique no _i azul_ e certifique se que o ator só pode virar no sentido _esquerda-direita_.
 6. Agora crie o roteiro para que o Peixe Faminto siga o mouse pelo mar:
 
