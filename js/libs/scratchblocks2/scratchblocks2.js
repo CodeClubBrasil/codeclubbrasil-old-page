@@ -1564,6 +1564,10 @@ vire cw (15) graus ## -turn-arrow   \
 vire right (15) graus ## -turn-arrow   \
 vire ccw (15) graus ## -turn-arrow   \
 vire left (15) graus ## -turn-arrow   \
+gire cw (15) graus ## -turn-arrow   \
+gire right (15) graus ## -turn-arrow   \
+gire ccw (15) graus ## -turn-arrow   \
+gire left (15) graus ## -turn-arrow   \
 \
 aponte para a direção (90 v)   \
 aponte para [ v]   \
