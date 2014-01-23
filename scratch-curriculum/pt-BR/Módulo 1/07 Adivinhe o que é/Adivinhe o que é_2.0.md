@@ -17,7 +17,7 @@ Quanto mais rápido você adivinhar, maior será a sua pontuação!
 Vamos fazer algumas imagens diferentes aparecerem na tela.
 
 1. Inicie um novo projeto Scratch e apague o gato.
-2. Clique Palco e, em seguida, na aba Fundos de Tela. Importe o fundo de tela __indoors/chalkboard__.
+2. Clique Palco e, em seguida, na aba Panos de Fundo. Importe o pano de fundo __interior/chalkboard__.
 3. Importe um novo objeto e escolha o traje que você quiser. Você pode escolher alguns da pasta __things__ (coisas).
 4. Posicione o novo objeto no meio da tela. Se necessário mude o seu tamanho.
 5. Clique na aba Trajes e importe mais quatro imagens. Escolha o que você quiser!

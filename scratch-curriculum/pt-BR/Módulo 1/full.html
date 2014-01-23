@@ -18,7 +18,7 @@ title: Curso 1
 
 {% assign sorted_pages = site.pages  | sort: "url" %}
   {% for p in sorted_pages %}
-	{% if p.term == 1%}
+	{% if p.term == 1 or p.term==1.1%}
 	{% capture count %}{{ count | plus: '1' }}{% endcapture %}
 
 <div class="row">
