@@ -13,6 +13,9 @@ __Introdução:__
 Este jogo é para dois jogadores. Você corre com um papagaio e um leão através do deserto. 
 Cada jogador tem que pressionar uma tecla o mais rápido que puder para mover seu animal. Ganha quem chegar primeiro à borda da tela	.
 
+<center><img src="sample.png">
+</center>
+
 
 ## PASSO 1: Criando a cena e adicionando personagens
 

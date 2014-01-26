@@ -9,17 +9,23 @@ Nível 2
 
 #Peixe faminto
 
+
 __Introdução:__
 
 Neste jogo você deve orientar o grande peixe faminto e tentar comer todas as presas que estão nadando pelo mar.
+
+
+<center><img src="sample.png">
+</center>
+
 
 ## PASSO 1: Criando o peixe faminto
 __Vamos fazer o peixe faminto nadar no mar!__
 
 1. Crie um novo projeto Scratch.
-2. Clique no Palco e abra  a aba Panos de fundo. Em seguida clique em _importar fundo da biblioteca_ e escolha Natureza/underwater.
-3. Apague o gato (clique direito sobre o gato). 
-4. Crie um __Novo ator__ clicando em  _carregar ator a partir de arquivo_ e escolha o arquivo Recursos/peixe faminto.png. ATENÇÃO: você deve usar o botão que está na parte _Novo ator_, não confunda com o botão igual que está na parte _Novo fundo_.
+2. Clique no Palco e abra  a aba Panos de fundo. Em seguida clique em _importar fundo da biblioteca_ e escolha Natureza/underwater3.
+3. Apague o gato (clique no gato com o botão direito). 
+4. Crie um __Novo ator__ clicando em  _carregar ator a partir de arquivo_ e escolha o arquivo Recursos/peixe faminto.png. ATENÇÃO: você deve usar o botão que está na parte _Novo ator_, não confunda com o botão igual que está na parte Novo fundo.
 5. Clique no _i azul_ e certifique se que o ator só pode virar no sentido _esquerda-direita_.
 6. Agora crie o roteiro para que o Peixe Faminto siga o mouse pelo mar:
 
@@ -79,7 +85,7 @@ Altere a quantidade de passos que o peixe se move: um grande número (por exempl
 2. Use o _botão encolher_  na barra de _ferramentas na parte de cima da tela_
 para fazer o peixe ficar menor.
 3. Arraste os blocos para fazer a presa nadar.
- Queremos que eles se movam aleatoriamente, então vamos fazê-lo avançar um pouco, em seguida, virar uma quantidade aleatória 
+ Queremos que ela se mova aleatoriamente, então vamos fazê-la avançar um pouco, em seguida, virar uma quantidade aleatória 
  para a esquerda ou para a direita, repetindo isso novamente
 
 
@@ -118,11 +124,11 @@ __Vamos fazer o Peixe Faminto comer as presas!__
 
 Uma vez que o Peixe Faminto tem uma presa em sua boca, duas coisas precisam acontecer:
 
-* O Peixe Faminto precisa fechar a boca e fazer um som de "engolindo".
+* O Peixe Faminto precisa fechar a boca e fazer um som de "mordendo".
 * A presa tem que desaparecer, e reaparecer um pouco mais tarde.
 
-1. Primeiro, vamos fazer a presa desaparecer se ela estiver tocando o peixe com fome, e reaparecer 3 segundos depois. 
-Use o bloco __tocando__ para ver se ela está tocando o peixe.
+1. Primeiro, vamos fazer a presa desaparecer se ela estiver tocando o grande peixe, e reaparecer 3 segundos depois. 
+Use o bloco __tocando__ para ver se ela está tocando o peixe faminto.
 
 
 
@@ -130,7 +136,7 @@ Use o bloco __tocando__ para ver se ela está tocando o peixe.
 		mostrar
 		sempre	
 			mova (2) passos 
-			gire cw (sorteie número entre (-20) e (20) ) graus
+			gire cw (escolha número entre (-20) e (20) ) graus
 			se tocar na borda, volta
 			se <tocando em [peixe faminto v] > então
 				esconder
@@ -159,12 +165,12 @@ dando valores aleatórios para x e y.
 		mostrar
 		sempre	
 			mova (2)  passos
-			gire cw (sorteie número entre (-20) e (20) ) graus
+			gire cw (escolha número entre (-20) e (20) ) graus
 			se tocar na borda, volta
 			se <tocando na cor [#003]?>
 				esconder
 				espere (3) segundos
-				vá para x: (sorteie número entre (-220) e (220)) y:(sorteie número entre (-170) e (170))
+				vá para x: (escolha número entre (-220) e (220)) y:(escolha número entre (-170) e (170))
 				mostrar
 			fim
 		fim
@@ -175,7 +181,7 @@ Experimente o jogo mais uma vez - a presa só desaparece quando toca na boca do 
 E ela volta a aparecer em um ponto aleatório da tela ao invés de onde foi comida?
 
 4. O peixe precisa saber quando ele comeu alguma coisa para que ele toque um som e mude de fantasia. 
-Para fazer isso, nós podemos fazer a presa anunciar o fato de que ela foi comida antes de desaparecer.
+Para fazer isso, nós podemos fazer a presa envie uma mensagem dizendo que ela foi comida antes de desaparecer.
 
 
 
@@ -183,28 +189,28 @@ Para fazer isso, nós podemos fazer a presa anunciar o fato de que ela foi comid
 		mostrar
 		sempre	
 			mova (2) passos
-			gire cw (sorteie número entre (-20) e (20) ) graus
+			gire cw (escolha número entre (-20) e (20) ) graus
 			se tocar na borda, volta
 			se <tocando na cor [#003]?>
 				envie [me pegou v] a todos
 				esconder
 				espere (3) segundos
-				vá para x: (sorteie número entre (-220) e (220)) y:(sorteie número entre (-170) e (170))
+				vá para x: (escolha número entre (-220) e (220)) y:(escolha número entre (-170) e (170))
 				mostrar
 			fim
 		fim
 
 __Agora vamos fazer o peixe grande receber esta mensagem fazendo um som de "engolindo" e fechando sua boca.__
 
-5. Carregue a fantasia __Recursos/boca fechada.png__ e o som Recursos/engolindo.wav para o ator Peixe Faminto.
+5. Carregue a fantasia __Recursos/boca fechada.png__ e o som Recursos/mordida.wav para o ator Peixe Faminto.
 6. Em seguida, adicione novos blocos para o Peixe Faminto para ouvir a mensagem transmitida pela presa. 
-Este roteiro deve fazer o peixe reproduzir o som "engolindo" e mudar para a fantasia __boca fechada__, esperar um pouco e depois voltar.
+Este roteiro deve fazer o peixe reproduzir o som "mordida" e mudar para a fantasia __boca fechada__, esperar um pouco e depois voltar.
 
 
 
 		quando receber [me pegou v]
-		toque o som [engolindo v]
-		repita (2)
+		toque o som [mordida v]
+		repita (2) vezes
 			mude para a fantasia [boca fechada v]
 			espere (0.5) segundos
 			mude para a fantasia [peixe faminto v]
@@ -254,7 +260,7 @@ Se você conseguiu fazer isso, __tente fazer uma presa se mover mais rápido que
 As presas ainda se movem de maneira correta? Estas mudanças melhoram o jogo?
 
 
-__Dica:__ Se a presa nada em círculos, verifique os valores do bloco __sorteie número__ dentro do bloco __gire__ .
+__Dica:__ Se a presa nada em círculos, verifique os valores do bloco __escolha número__ dentro do bloco __gire__ .
 
 Que tal você fazer cada um das presas se comportar de forma diferente, usando diferentes combinações dessas mudanças?
 

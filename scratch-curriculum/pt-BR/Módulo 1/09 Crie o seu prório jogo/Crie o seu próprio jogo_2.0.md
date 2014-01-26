@@ -14,6 +14,10 @@ Antes de começar a fazer, você deverá definir as diferentes partes do jogo e 
 Você pode usar como inspiração os projetos anteriores e os cartões Scratch.
 
 
+<center><img src="sample.png">
+</center>
+
+
 ##PASSO 1: Planejando o jogo
 
 Qual é o objetivo do jogo? (Por exemplo, o objetivo de Félix e Herbert era fugir do gato.) 

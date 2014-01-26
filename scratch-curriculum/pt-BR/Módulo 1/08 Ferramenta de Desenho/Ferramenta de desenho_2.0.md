@@ -13,6 +13,10 @@ __Introdução:__
 Neste projeto, vamos criar uma ferramenta de pintura para criar desenhos.
 Esta ferramenta permitirá escolher a cor do lápis, limpar a tela, usar carimbos e muito mais!
 
+<center><img src="sample.png">
+</center>
+
+
 ## PASSO 1: Arrastando e desenhando
 
 Vamos começar com um lápis que risca quando arrastado sobre a tela.

@@ -12,6 +12,10 @@ __Introdução:__
 Um objeto aleatório é mostrado na tela, completamente distorcido. Você tem que adivinhar qual é o objeto e  clicar na imagem correspondente. 
 Quanto mais rápido você adivinhar, maior será a sua pontuação!
 
+<center><img src="sample.png">
+</center>
+
+
 ##Passo 1: Crie objetos diferentes na tela
 
 Vamos fazer algumas imagens diferentes aparecerem na tela.
