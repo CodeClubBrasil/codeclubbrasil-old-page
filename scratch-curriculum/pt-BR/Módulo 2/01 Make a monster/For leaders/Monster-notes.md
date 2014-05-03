@@ -1,25 +1,25 @@
-#NOTES FOR CLUB LEADERS
-##Design & animate your own monster (level 4)
+#INFORMAÇÕES PARA LÍDERES DE CLUBES
+##Criar e animar seu monstro (nível 4)
 
-__Introduction:__
-In this project your students will design and animate their very own monster! They’ll need to plan what their monster looks like, how they move, where they live and if they make any sounds.
+__Introdução:__
+Neste projeto seus alunos irão criar e animar seus próprios monstros! Eles irão precisar pensar em como será o visual do monstro, como irão se mover, onde eles vivem e se ele farão algum tipo de som.
 
-##Project plan
-This project should take 3-4 weeks to complete
+##Planejamento
+Este projeto leva em média 3-4 semanas para terminar
 
-* __Week 1:__ Planning what the monster looks like. You’ll need plenty of plain paper, colouring pencils and felt tips etc so the students can design their monster.
-* __Week 2:__ Create the parts of the monster in Scratch using the paint tool 
-* __Week 3-4:__ Animate the parts of the monster using the cards provided. There are cards for each part of a monster but the children can make up anything they like.
+* __Semana 1:__ Planejando como será o visual do monstro. Vocês irão precisar de algumas folhas de papel, lápis de colorir e quaisquer coisas que a criatividade permitir. Então cada aluno criará seu monstro.
+* __Semana 2:__ Criar as partes do monstro no Scratch utilizando a ferramenta de pintar/desenhar 
+* __Semana 3-4:__ Animar as partes do monstro usuando os cartões recebidos nas aulas anteriores. Haverão cartões para cada parte do monstro, mas as crianças poderão fazer como quiserem.
 
-##Resources
-The children will be designing their own monster parts and can use sounds from the Scratch resources if no sound recording equipment is available at your school. Print one monster planning sheet per child and one set of monster parts cards can be shared between 2/3 children.
+##Recursos
+As crianças irão criar as partes do seu monstro e poderão utilizar os sons disponíveis no Scratch se não houver nenhum equipamento para gravar o som no colégio/clube. Imprima em folhas as partes dos monstro de cada criança e as distribua para grupos de 2 a 3 crianças.
 
-##Monster part cards to be printed:
+##Cartões e partes de monstros que devem ser impressas:
 
-* Legs
-* Jointed arm 
-* Mouths and talking 
-* Eyes
-* Wheels 
-* Movement 
-* Tentacles
+* Pernas
+* Braços
+* Boca
+* Olhos
+* Patas 
+* Movimentos 
+* Tentáculos
