@@ -1,9 +1,8 @@
-Code Club World
+Code Club Brasil
 ===============
 
-A worldwide network of coding clubs for children aged 9–11.
+Uma rede de clubes de código para crianças a partir de 9 anos.
 
-**The mission of CodeClubWorld.org** is to give every child in the
-world the chance to learn to code by providing project materials and
-a volunteering framework that supports the running of after-school
-coding clubs.
+**A missão do CodeClubBrasil.org** é fazer com que cada criança tenha a oportunidade de aprender a programar. Para isso, fornecemos material de ensino e uma estrutura de voluntariado que apoia a realização de atividades extra-curriculares ligadas à programação de computadores.
+
+O **CodeClubBrasil.org** é parte da organização sem fins lucrativos **CodeClubWorld.org**.
