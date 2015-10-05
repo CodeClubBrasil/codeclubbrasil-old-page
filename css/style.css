@@ -522,3 +522,8 @@ footer .wrap .button {
 .lte-ie8 #register .input-email {
   *height: 22px !important;
 }
+
+#campanha {
+  text-align:center;
+}
+
