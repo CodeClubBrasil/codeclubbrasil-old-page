@@ -1,0 +1,17 @@
+{
+  "name": "Code Club Brasil",
+  "homepage": "http://www.codeclubbrasil.org",
+  "authors": [
+    "Felipe Fernandes <ripcorp@gmail.com>"
+  ],
+  "description": "Institucional",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

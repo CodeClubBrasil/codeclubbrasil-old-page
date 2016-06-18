@@ -1,0 +1,30 @@
+{
+  "name": "codeclubbrasil-github-io",
+  "version": "1.0.0",
+  "description": "Website Code Club Brasil",
+  "main": "_site/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://felipefernandes@github.com/CodeClubBrasil/CodeClubBrasil.github.io.git"
+  },
+  "keywords": [
+    "code-club-brasil"
+  ],
+  "author": "Felipe Fernandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeClubBrasil/CodeClubBrasil.github.io/issues"
+  },
+  "homepage": "https://github.com/CodeClubBrasil/CodeClubBrasil.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^1.0.0"
+  }
+}
